@@ -1,0 +1,18 @@
+{
+  "proofs": [
+    {
+      "edition_id": "ED-PB-001",
+      "channel": "KDP",
+      "proof_required": true,
+      "proof_status": "planned",
+      "human_approved": false
+    },
+    {
+      "edition_id": "ED-PB-001",
+      "channel": "INGRAM",
+      "proof_required": true,
+      "proof_status": "planned",
+      "human_approved": false
+    }
+  ]
+}

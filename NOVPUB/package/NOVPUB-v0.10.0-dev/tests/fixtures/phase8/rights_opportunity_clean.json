@@ -1,0 +1,13 @@
+{
+  "opportunity_id": "RO1",
+  "type": "AUDIOBOOK",
+  "territory": "WORLD",
+  "language": "English",
+  "format": "Audiobook",
+  "rights_available": true,
+  "existing_exclusive_conflict": false,
+  "commercial_value": "TBD",
+  "required_partner": "Narrator/producer",
+  "risk": "medium",
+  "status": "ASSESS"
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Agent Parity",
+  "type": "object",
+  "properties": {
+    "fixture_id": {
+      "type": "string"
+    },
+    "codex_result": {},
+    "claude_result": {},
+    "deterministic": {
+      "type": "boolean"
+    },
+    "equivalent": {
+      "type": "boolean"
+    },
+    "material_difference": {
+      "type": "boolean"
+    },
+    "severity": {
+      "type": "string",
+      "enum": [
+        "CRITICAL",
+        "HIGH",
+        "MEDIUM",
+        "LOW",
+        "NONE"
+      ]
+    },
+    "resolution": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "fixture_id",
+    "deterministic",
+    "equivalent",
+    "material_difference"
+  ],
+  "additionalProperties": true
+}

@@ -1,0 +1,12 @@
+{
+  "edition_id": "ED-PB",
+  "returnability": "NON_RETURNABLE",
+  "change_date": "2026-10-01",
+  "tail_end_date": "2026-12-01",
+  "tail_days": 180,
+  "current_exposure": 50,
+  "expected_exposure": 100,
+  "worst_case_exposure": 500,
+  "tail_closed": false,
+  "human_approved": true
+}

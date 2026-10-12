@@ -1,0 +1,21 @@
+{
+  "asset_id": "A1",
+  "campaign": "launch",
+  "platform": "social",
+  "content_type": "announcement",
+  "text_version": "v1",
+  "source_claims": [
+    "C1"
+  ],
+  "manuscript_quotes": [
+    {
+      "quote": "Exact line",
+      "source_hash": "abc123",
+      "exact_match": true
+    }
+  ],
+  "spoiler_level": "LOW",
+  "publication_window": "launch",
+  "review_call_to_action": "Share your honest review if you have read the book.",
+  "approved": true
+}

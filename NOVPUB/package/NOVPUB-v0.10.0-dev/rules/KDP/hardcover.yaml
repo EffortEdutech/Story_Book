@@ -1,0 +1,10 @@
+rule_set: KDP_HARDCOVER
+verified_at: 2026-10-10
+source: https://kdp.amazon.com/en_US/help/topic/GAVW3FZZAKA2KY3B
+rules:
+  unique_isbn_required: true
+  page_count_min: 75
+  page_count_max: 550
+  trim_size_count: 5
+  kdp_japan_supported: false
+  refresh_before_live_use: true

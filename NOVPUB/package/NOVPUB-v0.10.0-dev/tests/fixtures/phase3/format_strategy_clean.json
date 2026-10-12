@@ -1,0 +1,15 @@
+{
+  "strategy_id": "FMT-001",
+  "approved": true,
+  "editions": [
+    {
+      "edition_id": "ED-PB-001",
+      "format": "paperback",
+      "production_required": true,
+      "channels": [
+        "KDP",
+        "INGRAM"
+      ]
+    }
+  ]
+}

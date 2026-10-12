@@ -1,0 +1,25 @@
+phase: 3
+name: Book Product Engineering
+entry_state: PUBLICATION_IDENTITY_APPROVED
+required_gates:
+  - GATE-03
+  - GATE-04
+skills:
+  - NPUB-19
+  - NPUB-20
+  - NPUB-21
+  - NPUB-22
+  - NPUB-23
+  - NPUB-24
+  - NPUB-25
+  - NPUB-26
+  - NPUB-27
+  - NPUB-28
+  - NPUB-29
+  - NPUB-30
+gates:
+  - GATE-05
+  - GATE-06
+exit_state: PRODUCTION_ASSETS_APPROVED
+notes:
+  - GATE-08 remains pending until actual physical proofs are received and inspected in channel execution.

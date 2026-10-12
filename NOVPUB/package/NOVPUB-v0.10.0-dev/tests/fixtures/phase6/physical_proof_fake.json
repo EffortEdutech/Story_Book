@@ -1,0 +1,12 @@
+{
+  "proof_id": "ING-PROOF-001",
+  "edition_id": "ED-PB",
+  "ordered": true,
+  "received": false,
+  "inspected": false,
+  "blocking_findings": [],
+  "findings": [],
+  "approval": "PASS",
+  "approved_by": "",
+  "approved_at": "2026-10-15T10:00:00+08:00"
+}

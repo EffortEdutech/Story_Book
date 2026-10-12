@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "title": "NOVPUB Proof and Launch Pilot",
+  "properties": {
+    "gate_08": {
+      "type": "object"
+    },
+    "gate_09": {
+      "type": "object"
+    },
+    "launch_dry_run": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "gate_08",
+    "gate_09",
+    "launch_dry_run"
+  ]
+}

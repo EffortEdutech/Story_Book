@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Wholesale Strategy",
+  "type": "object",
+  "properties": {
+    "editions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "edition_id": {
+            "type": "string"
+          },
+          "market": {
+            "type": "string"
+          },
+          "retail_price": {
+            "type": "number",
+            "minimum": 0
+          },
+          "wholesale_discount": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "publisher_compensation": {
+            "type": "number"
+          },
+          "bookstore_strategy": {
+            "type": "string"
+          },
+          "approved": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "edition_id",
+          "market",
+          "retail_price",
+          "wholesale_discount",
+          "publisher_compensation",
+          "approved"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 1
+    },
+    "approved": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "editions",
+    "approved"
+  ]
+}

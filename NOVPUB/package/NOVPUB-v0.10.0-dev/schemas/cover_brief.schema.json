@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cover Brief",
+  "type": "object",
+  "properties": {
+    "brief_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "genre": {
+      "type": "string"
+    },
+    "core_promise": {
+      "type": "string"
+    },
+    "visual_concepts": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "elements_to_avoid": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "approved": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "brief_id",
+    "title",
+    "author",
+    "genre",
+    "core_promise",
+    "approved"
+  ]
+}

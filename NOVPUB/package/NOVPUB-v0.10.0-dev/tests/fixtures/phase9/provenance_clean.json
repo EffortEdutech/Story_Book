@@ -1,0 +1,24 @@
+{
+  "nodes": [
+    {
+      "id": "source"
+    },
+    {
+      "id": "approved"
+    },
+    {
+      "id": "live"
+    }
+  ],
+  "edges": [
+    {
+      "from": "source",
+      "to": "approved"
+    },
+    {
+      "from": "approved",
+      "to": "live"
+    }
+  ],
+  "required_terminal": "live"
+}

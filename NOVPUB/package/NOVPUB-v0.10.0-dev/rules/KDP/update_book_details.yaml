@@ -1,0 +1,25 @@
+rule_set: KDP_POST_PUBLICATION_MUTABILITY
+verified_at: 2026-10-10
+source: https://kdp.amazon.com/en_US/help/topic/G200736410
+rules:
+  locked_after_publication:
+    - language
+    - title
+    - subtitle
+    - edition_number
+    - primary_author
+    - publication_date_print
+    - isbn_choice_print
+    - imprint_print
+    - trim_size_print
+  mutable_after_publication:
+    - contributors
+    - description
+    - publishing_rights
+    - keywords
+    - categories
+    - reading_age
+    - territories
+    - pricing
+  paperback_hardcover_title_author_edit_window_hours: 72
+  refresh_before_live_use: true

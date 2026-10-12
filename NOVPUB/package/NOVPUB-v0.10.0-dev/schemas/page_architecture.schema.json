@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Page Architecture",
+  "type": "object",
+  "properties": {
+    "architecture_id": {
+      "type": "string"
+    },
+    "chapter_start": {
+      "type": "object"
+    },
+    "folios": {
+      "type": "object"
+    },
+    "running_heads": {
+      "type": "object"
+    },
+    "front_matter": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "back_matter": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "blank_page_rules": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "approved": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "architecture_id",
+    "chapter_start",
+    "folios",
+    "front_matter",
+    "back_matter",
+    "approved"
+  ]
+}

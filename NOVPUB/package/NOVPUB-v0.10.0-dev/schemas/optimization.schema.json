@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Launch Optimization",
+  "type": "object",
+  "properties": {
+    "optimization_id": {
+      "type": "string"
+    },
+    "observation": {
+      "type": "string"
+    },
+    "hypothesis": {
+      "type": "string"
+    },
+    "change_proposed": {
+      "type": "string"
+    },
+    "affected_phase": {
+      "type": "string"
+    },
+    "risk": {
+      "type": "string"
+    },
+    "approved": {
+      "type": "boolean"
+    },
+    "approved_by": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "string"
+    },
+    "measurement_window": {
+      "type": "string"
+    },
+    "result": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "optimization_id",
+    "observation",
+    "hypothesis",
+    "change_proposed",
+    "approved"
+  ]
+}

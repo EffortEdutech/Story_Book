@@ -1,0 +1,30 @@
+{
+  "work_id": "WORK-001",
+  "title": "Pilot Novel",
+  "authors": [
+    "Author Name"
+  ],
+  "copyright_owners": [],
+  "publishing_rights_holders": [
+    "Author Name"
+  ],
+  "publication_authority": null,
+  "territories": [
+    "Worldwide"
+  ],
+  "languages": [
+    "English"
+  ],
+  "formats": [
+    "print",
+    "ebook"
+  ],
+  "prior_publication": {
+    "exists": false
+  },
+  "prior_assignment": {
+    "exists": false,
+    "resolved": true
+  },
+  "rights_status": "cleared"
+}

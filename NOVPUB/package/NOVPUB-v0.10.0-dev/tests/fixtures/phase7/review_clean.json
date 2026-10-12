@@ -1,0 +1,11 @@
+{
+  "review_id": "REV1",
+  "platform": "Media Blog",
+  "source": "https://example.test/review",
+  "review_type": "MEDIA",
+  "quote": "A carefully crafted novel.",
+  "exact_quote_verified": true,
+  "context_preserved": true,
+  "permission_status": "NOT_REQUIRED",
+  "marketing_use_approved": true
+}

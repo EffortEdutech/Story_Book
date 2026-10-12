@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Supersession Record",
+  "type": "object",
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "asset_or_edition": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "ACTIVE",
+        "SUPERSEDED",
+        "WITHDRAWN",
+        "HISTORICAL"
+      ]
+    },
+    "supersedes": {
+      "type": "string"
+    },
+    "superseded_by": {
+      "type": "string"
+    },
+    "effective_date": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "record_id",
+    "asset_or_edition",
+    "version",
+    "status",
+    "effective_date"
+  ]
+}

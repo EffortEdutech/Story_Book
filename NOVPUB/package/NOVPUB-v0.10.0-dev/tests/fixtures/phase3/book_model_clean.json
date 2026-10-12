@@ -1,0 +1,20 @@
+{
+  "book_id": "BOOK-001",
+  "title": "Pilot Novel",
+  "language": "en",
+  "source_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "sections": [
+    {
+      "section_id": "ch1",
+      "kind": "chapter",
+      "sequence": 1,
+      "source_reference": "MS#ch1"
+    },
+    {
+      "section_id": "ch2",
+      "kind": "chapter",
+      "sequence": 2,
+      "source_reference": "MS#ch2"
+    }
+  ]
+}

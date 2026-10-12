@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rights Opportunity",
+  "type": "object",
+  "properties": {
+    "opportunity_id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "WIDE_EBOOK",
+        "AUDIOBOOK",
+        "LARGE_PRINT",
+        "TRANSLATION",
+        "SPECIAL_EDITION",
+        "BOX_SET",
+        "OMNIBUS",
+        "BOOK_CLUB",
+        "EDUCATIONAL",
+        "TERRITORIAL_LICENCE",
+        "AUDIO_LICENCE",
+        "FILM_TV_OPTION",
+        "MERCHANDISING",
+        "SERIALISATION"
+      ]
+    },
+    "territory": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string"
+    },
+    "rights_available": {
+      "type": "boolean"
+    },
+    "existing_exclusive_conflict": {
+      "type": "boolean"
+    },
+    "commercial_value": {
+      "type": "string"
+    },
+    "required_partner": {
+      "type": "string"
+    },
+    "risk": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "opportunity_id",
+    "type",
+    "rights_available",
+    "status"
+  ]
+}

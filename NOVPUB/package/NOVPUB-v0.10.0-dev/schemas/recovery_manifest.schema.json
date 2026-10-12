@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Recovery Manifest",
+  "type": "object",
+  "properties": {
+    "required_source_files": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "required_fonts_licences": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "renderer_requirements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "identifier_mapping": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": true
+    },
+    "channel_settings": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": true
+    },
+    "rule_snapshots": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "credential_policy": {
+      "type": "string",
+      "enum": [
+        "REFERENCE_ONLY_NO_SECRETS"
+      ]
+    },
+    "recovery_owner": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "required_source_files",
+    "renderer_requirements",
+    "identifier_mapping",
+    "credential_policy"
+  ]
+}

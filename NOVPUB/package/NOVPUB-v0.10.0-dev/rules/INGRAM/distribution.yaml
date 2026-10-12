@@ -1,0 +1,11 @@
+rule_set: INGRAM_DISTRIBUTION
+verified_at: 2026-10-10
+sources:
+  - https://www.ingramspark.com/faqs
+  - https://www.ingramspark.com/blog/on-sale-date-for-book-marketing
+rules:
+  non_exclusive: true
+  kdp_direct_compatible_if_expanded_distribution_disabled: true
+  availability_does_not_guarantee_retail_stocking: true
+  final_files_should_be_approved_before_distribution_activation: true
+  refresh_before_live_use: true

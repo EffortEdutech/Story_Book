@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Payment Record",
+  "type": "object",
+  "properties": {
+    "payment_id": {
+      "type": "string"
+    },
+    "channel": {
+      "type": "string"
+    },
+    "earning_period": {
+      "type": "string"
+    },
+    "payment_date": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 3
+    },
+    "gross_payable": {
+      "type": "number"
+    },
+    "adjustments": {
+      "type": "number"
+    },
+    "actual_payment": {
+      "type": "number"
+    },
+    "bank_reference": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "PENDING",
+        "PAID",
+        "PARTIAL",
+        "FAILED",
+        "UNRECONCILED"
+      ]
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "payment_id",
+    "channel",
+    "earning_period",
+    "currency",
+    "actual_payment",
+    "status"
+  ]
+}

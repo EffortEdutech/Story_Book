@@ -1,0 +1,568 @@
+{
+  "validators": [
+    {
+      "validator_id": "validate-state",
+      "path": "validators/state.py"
+    },
+    {
+      "validator_id": "validate-gate",
+      "path": "validators/gate.py"
+    },
+    {
+      "validator_id": "check-isbn13",
+      "path": "validators/isbn.py"
+    },
+    {
+      "validator_id": "sha256",
+      "path": "validators/checksums.py"
+    },
+    {
+      "validator_id": "validate-phase1",
+      "path": "validators/phase1.py"
+    },
+    {
+      "validator_id": "validate-json-schema",
+      "path": "validators/schema.py"
+    },
+    {
+      "validator_id": "validate-package",
+      "path": "validators/package.py"
+    },
+    {
+      "validator_id": "validate-phase2-rights",
+      "path": "validators/phase2.py"
+    },
+    {
+      "validator_id": "validate-phase2-permissions",
+      "path": "validators/phase2.py"
+    },
+    {
+      "validator_id": "validate-edition-manifest",
+      "path": "validators/phase2.py"
+    },
+    {
+      "validator_id": "validate-isbn-registry",
+      "path": "validators/phase2.py"
+    },
+    {
+      "validator_id": "validate-isbn-edition-parity",
+      "path": "validators/phase2.py"
+    },
+    {
+      "validator_id": "validate-copyright-page",
+      "path": "validators/phase2.py"
+    },
+    {
+      "validator_id": "validate-legal-deposit-plan",
+      "path": "validators/phase2.py"
+    },
+    {
+      "validator_id": "validate-gate-03",
+      "path": "validators/phase2.py"
+    },
+    {
+      "validator_id": "validate-gate-04",
+      "path": "validators/phase2.py"
+    },
+    {
+      "validator_id": "validate-rule-freshness",
+      "path": "validators/phase2.py"
+    },
+    {
+      "validator_id": "validate-book-model",
+      "path": "validators/phase3.py"
+    },
+    {
+      "validator_id": "validate-production-source",
+      "path": "validators/phase3.py"
+    },
+    {
+      "validator_id": "validate-format-strategy",
+      "path": "validators/phase3.py"
+    },
+    {
+      "validator_id": "validate-trim-profile",
+      "path": "validators/phase3.py"
+    },
+    {
+      "validator_id": "validate-font-register",
+      "path": "validators/phase3.py"
+    },
+    {
+      "validator_id": "validate-typography",
+      "path": "validators/phase3.py"
+    },
+    {
+      "validator_id": "validate-page-architecture",
+      "path": "validators/phase3.py"
+    },
+    {
+      "validator_id": "validate-text-integrity",
+      "path": "validators/phase3.py"
+    },
+    {
+      "validator_id": "preflight-pdf",
+      "path": "validators/phase3.py"
+    },
+    {
+      "validator_id": "validate-pdf-preflight",
+      "path": "validators/phase3.py"
+    },
+    {
+      "validator_id": "validate-epub",
+      "path": "validators/phase3.py"
+    },
+    {
+      "validator_id": "validate-cover-spec",
+      "path": "validators/phase3.py"
+    },
+    {
+      "validator_id": "validate-cover-parity",
+      "path": "validators/phase3.py"
+    },
+    {
+      "validator_id": "validate-proof-plan",
+      "path": "validators/phase3.py"
+    },
+    {
+      "validator_id": "validate-physical-proof",
+      "path": "validators/phase3.py"
+    },
+    {
+      "validator_id": "validate-gate-05",
+      "path": "validators/phase3.py"
+    },
+    {
+      "validator_id": "validate-gate-06",
+      "path": "validators/phase3.py"
+    },
+    {
+      "validator_id": "validate-metadata-master",
+      "path": "validators/phase4.py"
+    },
+    {
+      "validator_id": "validate-metadata-provenance",
+      "path": "validators/phase4.py"
+    },
+    {
+      "validator_id": "validate-positioning",
+      "path": "validators/phase4.py"
+    },
+    {
+      "validator_id": "validate-classification",
+      "path": "validators/phase4.py"
+    },
+    {
+      "validator_id": "validate-keywords",
+      "path": "validators/phase4.py"
+    },
+    {
+      "validator_id": "validate-description",
+      "path": "validators/phase4.py"
+    },
+    {
+      "validator_id": "validate-author-bio",
+      "path": "validators/phase4.py"
+    },
+    {
+      "validator_id": "calculate-kdp-print-royalty",
+      "path": "validators/phase4.py"
+    },
+    {
+      "validator_id": "calculate-kdp-ebook-royalty",
+      "path": "validators/phase4.py"
+    },
+    {
+      "validator_id": "calculate-ingram-compensation",
+      "path": "validators/phase4.py"
+    },
+    {
+      "validator_id": "calculate-return-exposure",
+      "path": "validators/phase4.py"
+    },
+    {
+      "validator_id": "validate-pricing",
+      "path": "validators/phase4.py"
+    },
+    {
+      "validator_id": "validate-wholesale",
+      "path": "validators/phase4.py"
+    },
+    {
+      "validator_id": "validate-returns",
+      "path": "validators/phase4.py"
+    },
+    {
+      "validator_id": "validate-territories",
+      "path": "validators/phase4.py"
+    },
+    {
+      "validator_id": "validate-release-calendar",
+      "path": "validators/phase4.py"
+    },
+    {
+      "validator_id": "validate-channel-map",
+      "path": "validators/phase4.py"
+    },
+    {
+      "validator_id": "validate-gate-07",
+      "path": "validators/phase4.py"
+    },
+    {
+      "validator_id": "validate-kdp-rule-freshness",
+      "path": "validators/phase5.py"
+    },
+    {
+      "validator_id": "validate-kdp-account",
+      "path": "validators/phase5.py"
+    },
+    {
+      "validator_id": "validate-kdp-metadata",
+      "path": "validators/phase5.py"
+    },
+    {
+      "validator_id": "validate-kdp-isbn",
+      "path": "validators/phase5.py"
+    },
+    {
+      "validator_id": "validate-kdp-print-format-pair",
+      "path": "validators/phase5.py"
+    },
+    {
+      "validator_id": "validate-kdp-content-origin",
+      "path": "validators/phase5.py"
+    },
+    {
+      "validator_id": "validate-kdp-select",
+      "path": "validators/phase5.py"
+    },
+    {
+      "validator_id": "validate-expanded-distribution",
+      "path": "validators/phase5.py"
+    },
+    {
+      "validator_id": "validate-kindle-preorder",
+      "path": "validators/phase5.py"
+    },
+    {
+      "validator_id": "validate-kdp-scheduled-release",
+      "path": "validators/phase5.py"
+    },
+    {
+      "validator_id": "validate-kdp-asset-hashes",
+      "path": "validators/phase5.py"
+    },
+    {
+      "validator_id": "validate-kindle-preview",
+      "path": "validators/phase5.py"
+    },
+    {
+      "validator_id": "validate-print-previewer",
+      "path": "validators/phase5.py"
+    },
+    {
+      "validator_id": "validate-kdp-proof",
+      "path": "validators/phase5.py"
+    },
+    {
+      "validator_id": "validate-kdp-publication-authorization",
+      "path": "validators/phase5.py"
+    },
+    {
+      "validator_id": "validate-amazon-live-listing",
+      "path": "validators/phase5.py"
+    },
+    {
+      "validator_id": "validate-gate-kdp-01",
+      "path": "validators/phase5.py"
+    },
+    {
+      "validator_id": "validate-ingram-rule-freshness",
+      "path": "validators/phase6.py"
+    },
+    {
+      "validator_id": "validate-ingram-account",
+      "path": "validators/phase6.py"
+    },
+    {
+      "validator_id": "validate-ingram-metadata",
+      "path": "validators/phase6.py"
+    },
+    {
+      "validator_id": "validate-ingram-manufacturing",
+      "path": "validators/phase6.py"
+    },
+    {
+      "validator_id": "validate-ingram-isbn-reconciliation",
+      "path": "validators/phase6.py"
+    },
+    {
+      "validator_id": "validate-ingram-print-isbn-pair",
+      "path": "validators/phase6.py"
+    },
+    {
+      "validator_id": "validate-kdp-ingram-coexistence",
+      "path": "validators/phase6.py"
+    },
+    {
+      "validator_id": "validate-ingram-market-pricing",
+      "path": "validators/phase6.py"
+    },
+    {
+      "validator_id": "validate-ingram-returns",
+      "path": "validators/phase6.py"
+    },
+    {
+      "validator_id": "validate-ingram-eproof",
+      "path": "validators/phase6.py"
+    },
+    {
+      "validator_id": "validate-ingram-physical-proof",
+      "path": "validators/phase6.py"
+    },
+    {
+      "validator_id": "validate-gate-08-components",
+      "path": "validators/phase6.py"
+    },
+    {
+      "validator_id": "validate-ingram-distribution-authorization",
+      "path": "validators/phase6.py"
+    },
+    {
+      "validator_id": "validate-ingram-retailer-listing",
+      "path": "validators/phase6.py"
+    },
+    {
+      "validator_id": "validate-gate-ingram-01",
+      "path": "validators/phase6.py"
+    },
+    {
+      "validator_id": "validate-arc-manifest",
+      "path": "validators/phase7.py"
+    },
+    {
+      "validator_id": "validate-arc-recipient",
+      "path": "validators/phase7.py"
+    },
+    {
+      "validator_id": "validate-reviewer",
+      "path": "validators/phase7.py"
+    },
+    {
+      "validator_id": "validate-reviewer-outreach",
+      "path": "validators/phase7.py"
+    },
+    {
+      "validator_id": "validate-review-record",
+      "path": "validators/phase7.py"
+    },
+    {
+      "validator_id": "validate-launch-team",
+      "path": "validators/phase7.py"
+    },
+    {
+      "validator_id": "validate-author-central",
+      "path": "validators/phase7.py"
+    },
+    {
+      "validator_id": "validate-retailer-links",
+      "path": "validators/phase7.py"
+    },
+    {
+      "validator_id": "validate-marketing-claims",
+      "path": "validators/phase7.py"
+    },
+    {
+      "validator_id": "validate-marketing-asset",
+      "path": "validators/phase7.py"
+    },
+    {
+      "validator_id": "validate-media-kit",
+      "path": "validators/phase7.py"
+    },
+    {
+      "validator_id": "validate-launch-calendar",
+      "path": "validators/phase7.py"
+    },
+    {
+      "validator_id": "validate-launch-day",
+      "path": "validators/phase7.py"
+    },
+    {
+      "validator_id": "validate-launch-metric",
+      "path": "validators/phase7.py"
+    },
+    {
+      "validator_id": "validate-launch-authorization",
+      "path": "validators/phase7.py"
+    },
+    {
+      "validator_id": "validate-gate-09",
+      "path": "validators/phase7.py"
+    },
+    {
+      "validator_id": "validate-sales-records",
+      "path": "validators/phase8.py"
+    },
+    {
+      "validator_id": "validate-financial-reconciliation",
+      "path": "validators/phase8.py"
+    },
+    {
+      "validator_id": "validate-payment-record",
+      "path": "validators/phase8.py"
+    },
+    {
+      "validator_id": "validate-select-lifecycle",
+      "path": "validators/phase8.py"
+    },
+    {
+      "validator_id": "validate-postpub-optimization",
+      "path": "validators/phase8.py"
+    },
+    {
+      "validator_id": "validate-revision-classification",
+      "path": "validators/phase8.py"
+    },
+    {
+      "validator_id": "validate-erratum",
+      "path": "validators/phase8.py"
+    },
+    {
+      "validator_id": "validate-return-exposure",
+      "path": "validators/phase8.py"
+    },
+    {
+      "validator_id": "validate-return-record",
+      "path": "validators/phase8.py"
+    },
+    {
+      "validator_id": "validate-feedback",
+      "path": "validators/phase8.py"
+    },
+    {
+      "validator_id": "validate-legal-deposit",
+      "path": "validators/phase8.py"
+    },
+    {
+      "validator_id": "validate-rights-opportunity",
+      "path": "validators/phase8.py"
+    },
+    {
+      "validator_id": "validate-publication-manifest",
+      "path": "validators/phase8.py"
+    },
+    {
+      "validator_id": "validate-provenance-graph",
+      "path": "validators/phase8.py"
+    },
+    {
+      "validator_id": "validate-recovery-manifest",
+      "path": "validators/phase8.py"
+    },
+    {
+      "validator_id": "validate-gate-10",
+      "path": "validators/phase8.py"
+    },
+    {
+      "validator_id": "validate-phase9-registry",
+      "path": "validators/phase9.py"
+    },
+    {
+      "validator_id": "validate-gate-evidence",
+      "path": "validators/phase9.py"
+    },
+    {
+      "validator_id": "validate-major-transition",
+      "path": "validators/phase9.py"
+    },
+    {
+      "validator_id": "validate-determinism-runs",
+      "path": "validators/phase9.py"
+    },
+    {
+      "validator_id": "validate-cross-phase-parity",
+      "path": "validators/phase9.py"
+    },
+    {
+      "validator_id": "validate-phase9-provenance",
+      "path": "validators/phase9.py"
+    },
+    {
+      "validator_id": "validate-rule-freshness-result",
+      "path": "validators/phase9.py"
+    },
+    {
+      "validator_id": "validate-fixture-manifest",
+      "path": "validators/phase9.py"
+    },
+    {
+      "validator_id": "validate-adversarial-catalog",
+      "path": "validators/phase9.py"
+    },
+    {
+      "validator_id": "validate-adversarial-results",
+      "path": "validators/phase9.py"
+    },
+    {
+      "validator_id": "validate-agent-parity",
+      "path": "validators/phase9.py"
+    },
+    {
+      "validator_id": "validate-professional-review",
+      "path": "validators/phase9.py"
+    },
+    {
+      "validator_id": "validate-defect-register",
+      "path": "validators/phase9.py"
+    },
+    {
+      "validator_id": "validate-release-candidate",
+      "path": "validators/phase9.py"
+    },
+    {
+      "validator_id": "validate-pilot-project",
+      "path": "validators/phase10.py"
+    },
+    {
+      "validator_id": "validate-real-manuscript-baseline",
+      "path": "validators/phase10.py"
+    },
+    {
+      "validator_id": "validate-pilot-evidence-matrix",
+      "path": "validators/phase10.py"
+    },
+    {
+      "validator_id": "validate-phase1-4-pilot",
+      "path": "validators/phase10.py"
+    },
+    {
+      "validator_id": "validate-kdp-pilot",
+      "path": "validators/phase10.py"
+    },
+    {
+      "validator_id": "validate-ingram-pilot",
+      "path": "validators/phase10.py"
+    },
+    {
+      "validator_id": "validate-proof-launch-pilot",
+      "path": "validators/phase10.py"
+    },
+    {
+      "validator_id": "validate-postpub-pilot",
+      "path": "validators/phase10.py"
+    },
+    {
+      "validator_id": "validate-pilot-defects",
+      "path": "validators/phase10.py"
+    },
+    {
+      "validator_id": "validate-real-pilot-parity",
+      "path": "validators/phase10.py"
+    },
+    {
+      "validator_id": "validate-v1-release",
+      "path": "validators/phase10.py"
+    }
+  ]
+}

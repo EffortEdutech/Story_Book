@@ -1,0 +1,43 @@
+{
+  "returnability": "NON_RETURNABLE",
+  "scenarios": [
+    {
+      "return_rate": 0,
+      "units_shipped": 100,
+      "units_returned": 0,
+      "estimated_loss": 0.0
+    },
+    {
+      "return_rate": 0.05,
+      "units_shipped": 100,
+      "units_returned": 5,
+      "estimated_loss": 33.75
+    },
+    {
+      "return_rate": 0.1,
+      "units_shipped": 100,
+      "units_returned": 10,
+      "estimated_loss": 67.5
+    },
+    {
+      "return_rate": 0.2,
+      "units_shipped": 100,
+      "units_returned": 20,
+      "estimated_loss": 135.0
+    },
+    {
+      "return_rate": 0.4,
+      "units_shipped": 100,
+      "units_returned": 40,
+      "estimated_loss": 270.0
+    },
+    {
+      "return_rate": 1.0,
+      "units_shipped": 100,
+      "units_returned": 100,
+      "estimated_loss": 675.0
+    }
+  ],
+  "maximum_return_exposure": 1000,
+  "approved": true
+}

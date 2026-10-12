@@ -1,0 +1,26 @@
+{
+  "project_id": "NOVPUB-PILOT-001",
+  "package": "NOVPUB",
+  "package_version": "0.10.0-dev",
+  "created_at": "2026-10-10T16:00:04.677949+00:00",
+  "timezone": "Asia/Kuala_Lumpur",
+  "current_phase": 1,
+  "title": "The Blue Silence",
+  "author_display_name": null,
+  "channels": {
+    "kdp": true,
+    "ingramspark": true
+  },
+  "project_type": "professional_real_novel_pilot",
+  "source": {
+    "real_manuscript": true,
+    "source_project_path": "01_The_Blue_Silence",
+    "current_manuscript_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_MANUSCRIPT_V1.0_Prologue_Chapter_1.docx",
+    "current_manuscript_status": "PARTIAL_PROLOGUE_AND_CHAPTER_1_ONLY",
+    "source_inventory": "01_SOURCE/the_blue_silence_source_inventory.json"
+  },
+  "novpub": {
+    "candidate_version": "NOVPUB-v1.0.0-RC"
+  },
+  "pilot_status": "BLOCKED_RC_PENDING"
+}

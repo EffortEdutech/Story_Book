@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ingram Manufacturing Configuration",
+  "type": "object",
+  "properties": {
+    "edition_id": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string",
+      "enum": [
+        "paperback",
+        "hardcover"
+      ]
+    },
+    "trim": {
+      "type": "object",
+      "properties": {
+        "width_in": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "height_in": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "required": [
+        "width_in",
+        "height_in"
+      ],
+      "additionalProperties": true
+    },
+    "binding": {
+      "type": "string"
+    },
+    "interior": {
+      "type": "string"
+    },
+    "paper": {
+      "type": "string"
+    },
+    "bleed": {
+      "type": "boolean"
+    },
+    "cover_finish": {
+      "type": "string"
+    },
+    "page_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "cover_template_id": {
+      "type": "string"
+    },
+    "template_page_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "interior_hash": {
+      "type": "string"
+    },
+    "cover_hash": {
+      "type": "string"
+    },
+    "approved": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "edition_id",
+    "format",
+    "trim",
+    "binding",
+    "interior",
+    "paper",
+    "page_count",
+    "cover_template_id",
+    "approved"
+  ]
+}

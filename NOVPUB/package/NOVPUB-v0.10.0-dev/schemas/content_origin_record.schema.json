@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Content Origin Record",
+  "type": "object",
+  "properties": {
+    "manuscript": {
+      "type": "object",
+      "properties": {
+        "classification": {
+          "type": "string",
+          "enum": [
+            "human_created",
+            "ai_generated",
+            "ai_assisted",
+            "mixed",
+            "unknown"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "classification"
+      ],
+      "additionalProperties": true
+    },
+    "cover": {
+      "type": "object",
+      "properties": {
+        "classification": {
+          "type": "string",
+          "enum": [
+            "human_created",
+            "ai_generated",
+            "ai_assisted",
+            "mixed",
+            "unknown"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "classification"
+      ],
+      "additionalProperties": true
+    },
+    "illustrations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": true
+      }
+    },
+    "kdp_disclosure_required": {
+      "type": "boolean"
+    },
+    "confirmed_by": {
+      "type": "string"
+    },
+    "confirmed_at": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "manuscript",
+    "cover",
+    "confirmed_by"
+  ]
+}

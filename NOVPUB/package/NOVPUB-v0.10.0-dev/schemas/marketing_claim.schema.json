@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Marketing Claim",
+  "type": "object",
+  "properties": {
+    "claim_id": {
+      "type": "string"
+    },
+    "claim": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "FACTUAL",
+        "EDITORIAL",
+        "REVIEW_QUOTE",
+        "AWARD",
+        "SALES",
+        "RANKING",
+        "MEDIA",
+        "DISTRIBUTION",
+        "AUTHOR_CREDENTIAL"
+      ]
+    },
+    "source": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "VERIFIED",
+        "QUALIFIED",
+        "UNVERIFIED"
+      ]
+    },
+    "expiry": {
+      "type": "string"
+    },
+    "public_use": {
+      "type": "boolean"
+    },
+    "approved": {
+      "type": "boolean"
+    },
+    "marketplace": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "rank": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "observed_at": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "claim_id",
+    "claim",
+    "type",
+    "verification_status",
+    "public_use"
+  ]
+}

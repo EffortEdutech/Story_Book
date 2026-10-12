@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KDP Submission Freeze",
+  "type": "object",
+  "properties": {
+    "freeze_id": {
+      "type": "string"
+    },
+    "edition_id": {
+      "type": "string"
+    },
+    "metadata_hash": {
+      "type": "string"
+    },
+    "asset_hashes": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": true
+    },
+    "pricing": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": true
+    },
+    "territories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "release_settings": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": true
+    },
+    "select_setting": {
+      "type": "string"
+    },
+    "expanded_distribution": {
+      "type": "boolean"
+    },
+    "rule_snapshot": {
+      "type": "string"
+    },
+    "submitted_at": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "freeze_id",
+    "edition_id",
+    "metadata_hash",
+    "asset_hashes",
+    "rule_snapshot",
+    "submitted_at"
+  ]
+}

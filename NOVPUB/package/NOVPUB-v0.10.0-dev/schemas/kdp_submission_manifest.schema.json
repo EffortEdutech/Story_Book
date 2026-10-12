@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KDP Submission Manifest",
+  "type": "object",
+  "properties": {
+    "submission_id": {
+      "type": "string"
+    },
+    "edition_id": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string"
+    },
+    "metadata_version": {
+      "type": "string"
+    },
+    "asset_hashes": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": true
+    },
+    "isbn": {
+      "type": "string"
+    },
+    "pricing_version": {
+      "type": "string"
+    },
+    "rights_version": {
+      "type": "string"
+    },
+    "territory_version": {
+      "type": "string"
+    },
+    "release_strategy": {
+      "type": "string"
+    },
+    "select_status": {
+      "type": "string"
+    },
+    "rule_snapshot_id": {
+      "type": "string"
+    },
+    "preview_status": {
+      "type": "string"
+    },
+    "proof_status": {
+      "type": "string"
+    },
+    "authorization_id": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "submission_id",
+    "edition_id",
+    "format",
+    "metadata_version",
+    "asset_hashes",
+    "rule_snapshot_id"
+  ]
+}

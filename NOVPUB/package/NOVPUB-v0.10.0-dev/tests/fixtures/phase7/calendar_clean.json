@@ -1,0 +1,27 @@
+{
+  "events": [
+    {
+      "event_id": "E1",
+      "event": "cover reveal",
+      "planned_date": "2026-11-01",
+      "dependencies": [],
+      "requires_live_listing": false,
+      "status": "COMPLETE"
+    },
+    {
+      "event_id": "E2",
+      "event": "buy now",
+      "planned_date": "2026-11-10",
+      "dependencies": [
+        "E1"
+      ],
+      "requires_live_listing": true,
+      "status": "COMPLETE"
+    }
+  ],
+  "dependencies_resolved": [
+    "E1"
+  ],
+  "approved": true,
+  "approved_by": "publisher"
+}

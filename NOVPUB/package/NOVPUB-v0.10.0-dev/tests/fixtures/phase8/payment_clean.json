@@ -1,0 +1,11 @@
+{
+  "payment_id": "P1",
+  "channel": "KDP",
+  "earning_period": "2026-08",
+  "payment_date": "2026-10-01",
+  "currency": "USD",
+  "gross_payable": 100,
+  "adjustments": 0,
+  "actual_payment": 100,
+  "status": "PAID"
+}

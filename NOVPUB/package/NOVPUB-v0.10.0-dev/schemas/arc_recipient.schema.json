@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARC Recipient",
+  "type": "object",
+  "properties": {
+    "recipient_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "organization": {
+      "type": "string"
+    },
+    "reviewer_type": {
+      "type": "string"
+    },
+    "contact_source": {
+      "type": "string"
+    },
+    "relationship_to_author": {
+      "type": "string"
+    },
+    "arc_format": {
+      "type": "string"
+    },
+    "date_sent": {
+      "type": "string"
+    },
+    "followup_allowed": {
+      "type": "boolean"
+    },
+    "review_required": {
+      "type": "boolean"
+    },
+    "review_expected": {
+      "type": "boolean"
+    },
+    "incentive": {
+      "type": "boolean"
+    },
+    "future_benefit_conditioned_on_review": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "recipient_id",
+    "reviewer_type",
+    "arc_format",
+    "review_required",
+    "review_expected",
+    "status"
+  ]
+}

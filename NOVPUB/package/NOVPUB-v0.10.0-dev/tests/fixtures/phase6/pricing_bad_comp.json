@@ -1,0 +1,16 @@
+{
+  "edition_id": "ED-PB",
+  "markets": [
+    {
+      "market": "US",
+      "currency": "USD",
+      "list_price": 15.0,
+      "wholesale_discount": 0.55,
+      "print_cost": 5.0,
+      "estimated_publisher_compensation": 2.0
+    }
+  ],
+  "rule_snapshot": "ING-2026-10-10",
+  "approved": true,
+  "approved_by": "Publisher"
+}

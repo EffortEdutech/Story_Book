@@ -1,0 +1,11 @@
+{
+  "erratum_id": "E1",
+  "edition_id": "ED-PB",
+  "location": "p.10",
+  "reported_text_or_issue": "teh",
+  "correct_text_or_resolution": "the",
+  "severity": "TYPOGRAPHIC_MINOR",
+  "source": "reader",
+  "verified": true,
+  "status": "VERIFIED"
+}

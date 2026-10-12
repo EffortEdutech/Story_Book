@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {
+      "id": "MS1",
+      "type": "MANUSCRIPT",
+      "hash": "h1",
+      "status": "ACTIVE"
+    }
+  ],
+  "edges": [
+    {
+      "from": "PB1",
+      "to": "MS1",
+      "relation": "DERIVED_FROM"
+    }
+  ]
+}

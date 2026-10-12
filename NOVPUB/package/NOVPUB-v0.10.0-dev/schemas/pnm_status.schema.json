@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "isbn",
+    "pdp"
+  ],
+  "properties": {
+    "isbn": {
+      "type": "object",
+      "required": [
+        "application_prepared",
+        "submitted",
+        "allocation_received",
+        "verified"
+      ],
+      "properties": {
+        "application_prepared": {
+          "type": "boolean"
+        },
+        "submitted": {
+          "type": "boolean"
+        },
+        "allocation_received": {
+          "type": "boolean"
+        },
+        "verified": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true
+    },
+    "pdp": {
+      "type": "object",
+      "required": [
+        "application_prepared",
+        "submitted",
+        "record_received",
+        "verified"
+      ],
+      "properties": {
+        "application_prepared": {
+          "type": "boolean"
+        },
+        "submitted": {
+          "type": "boolean"
+        },
+        "record_received": {
+          "type": "boolean"
+        },
+        "verified": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

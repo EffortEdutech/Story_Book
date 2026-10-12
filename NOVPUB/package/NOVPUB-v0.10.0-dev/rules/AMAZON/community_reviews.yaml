@@ -1,0 +1,17 @@
+rule_set: AMAZON_COMMUNITY_REVIEWS
+verified_at: 2026-10-10
+sources:
+  - https://digprjsurvey.amazon.com/csad/help/node/GLHXEX85MENUE4XF
+  - https://digprjsurvey.amazon.com/csad/help/node/GDSRWWGGRA2JXSNZ
+  - https://kdp.amazon.com/en_US/help/topic/G202101910
+rules:
+  free_or_discounted_book_review_allowed_without_review_requirement: true
+  review_must_not_be_required_for_arc: true
+  review_opinion_must_not_be_influenced: true
+  compensation_for_customer_review_forbidden: true
+  future_benefit_conditioned_on_review_forbidden: true
+  close_personal_connection_review_forbidden: true
+  financial_interest_review_forbidden: true
+  reciprocal_positive_review_forbidden: true
+  honest_unincentivized_review_request_allowed: true
+  refresh_before_live_use: true

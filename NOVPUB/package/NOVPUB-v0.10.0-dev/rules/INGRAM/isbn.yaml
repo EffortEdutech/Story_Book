@@ -1,0 +1,12 @@
+rule_set: INGRAM_ISBN
+verified_at: 2026-10-10
+sources:
+  - https://www.ingramspark.com/free-isbns
+  - https://www.ingramspark.com/lp/title-transfer
+rules:
+  unique_isbn_per_print_format: true
+  free_ingram_isbn_external_use_allowed: false
+  free_kdp_isbn_usable_on_ingram: false
+  publisher_owned_isbn_required_for_shared_kdp_ingram_architecture: true
+  kdp_expanded_distribution_must_be_removed_for_shared_distribution: true
+  refresh_before_live_use: true

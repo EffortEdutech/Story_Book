@@ -1,0 +1,12 @@
+{
+  "results": [
+    {
+      "field": "isbn",
+      "authority": "isbn_registry",
+      "expected": "9781234567897",
+      "actual": "9781234567897",
+      "parity_class": "MUST_MATCH",
+      "pass": true
+    }
+  ]
+}

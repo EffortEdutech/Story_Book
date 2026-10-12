@@ -1,0 +1,12 @@
+{
+  "freeze_id": "PENDING",
+  "version": "1.0.0-RC1",
+  "created_at": "",
+  "gate": "GATE-NOVPUB-RC1",
+  "gate_result": "PENDING",
+  "approved_by": "",
+  "package_hash": "",
+  "notes": [
+    "Not a completed freeze record"
+  ]
+}

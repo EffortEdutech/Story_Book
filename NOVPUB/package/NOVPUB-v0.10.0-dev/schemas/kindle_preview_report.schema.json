@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Kindle Preview Report",
+  "type": "object",
+  "properties": {
+    "edition_id": {
+      "type": "string"
+    },
+    "reviewed": {
+      "type": "boolean"
+    },
+    "devices_checked": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "font_sizes_checked": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": true
+      }
+    },
+    "approved": {
+      "type": "boolean"
+    },
+    "approved_by": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "edition_id",
+    "reviewed",
+    "findings",
+    "approved"
+  ]
+}

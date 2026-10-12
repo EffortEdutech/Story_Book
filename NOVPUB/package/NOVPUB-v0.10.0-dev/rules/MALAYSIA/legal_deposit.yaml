@@ -1,0 +1,15 @@
+rule_id: MY-ACT331-BASELINE-2026-10-10
+authority: Perpustakaan Negara Malaysia
+law: Deposit of Library Material Act 1986 (Act 331)
+live_refresh_required: true
+verified_at: 2026-10-10
+sources:
+  - https://www.pnm.gov.my/pnm/resources/pdf%20file/DasarPembangunanKoleksiPNM.pdf
+baseline:
+  printed_material:
+    quantity: 5
+    deadline: within one month of publication
+  non_printed_material:
+    quantity: 2
+    condition: upon written request within one year of publication under section 4(2), subject to current law/instructions
+  closure_requires_evidence: true

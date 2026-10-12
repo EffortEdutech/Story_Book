@@ -1,0 +1,11 @@
+{
+  "filename": "MASTER_MANUSCRIPT.docx",
+  "format": "docx",
+  "sha256": "<SHA256>",
+  "authoritative_source": true,
+  "completeness_checked": true,
+  "partial_export_detected": false,
+  "human_confirmed_source": true,
+  "confirmed_by": "<HUMAN>",
+  "evidence_type": "REAL_FILE"
+}

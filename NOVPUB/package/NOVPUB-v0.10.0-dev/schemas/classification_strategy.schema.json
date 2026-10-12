@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Classification Strategy",
+  "type": "object",
+  "properties": {
+    "bisac": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "priority": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "basis": {
+            "type": "string"
+          },
+          "approved": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "code",
+          "description",
+          "priority",
+          "basis",
+          "approved"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 1
+    },
+    "thema": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": true
+      }
+    },
+    "amazon_categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "marketplace": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "basis": {
+            "type": "string"
+          },
+          "approved": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "marketplace",
+          "category",
+          "basis",
+          "approved"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "regional_subjects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": true
+      }
+    },
+    "approved": {
+      "type": "boolean"
+    },
+    "verified_at": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "bisac",
+    "thema",
+    "amazon_categories",
+    "approved"
+  ]
+}

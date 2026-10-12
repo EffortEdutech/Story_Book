@@ -1,0 +1,11 @@
+{
+  "edition_id": "ED-PB-001",
+  "format": "paperback",
+  "isbn": "9780306406157",
+  "ingram_distribution_planned": true,
+  "same_isbn_on_ingram": true,
+  "kdp_expanded_distribution_requested": true,
+  "compatible": false,
+  "required_setting": "DISABLED",
+  "reason": "Same ISBN planned for Ingram"
+}

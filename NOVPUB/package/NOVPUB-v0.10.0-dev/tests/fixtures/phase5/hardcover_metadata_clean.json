@@ -1,0 +1,26 @@
+{
+  "edition_id": "ED-HC-001",
+  "format": "hardcover",
+  "language": "en",
+  "title": "Pilot Novel",
+  "author": "A. Author",
+  "description": "A novel description.",
+  "keywords": [
+    "historical fiction"
+  ],
+  "categories": [
+    "Fiction / Historical"
+  ],
+  "publishing_rights": "copyright",
+  "territories": [
+    "WORLD"
+  ],
+  "primary_marketplace": "Amazon.com",
+  "pricing": {
+    "currency": "USD",
+    "list_price": 24.0
+  },
+  "isbn": "9781861972712",
+  "imprint": "Pilot Press",
+  "approved": true
+}

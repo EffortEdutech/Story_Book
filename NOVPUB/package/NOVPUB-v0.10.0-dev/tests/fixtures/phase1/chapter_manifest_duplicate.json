@@ -1,0 +1,18 @@
+{
+  "chapters": [
+    {
+      "chapter_id": "CH001",
+      "order": 1,
+      "heading": "Chapter One",
+      "word_count": 2500,
+      "status": "valid"
+    },
+    {
+      "chapter_id": "CH001",
+      "order": 2,
+      "heading": "Chapter Two",
+      "word_count": 2700,
+      "status": "warning"
+    }
+  ]
+}

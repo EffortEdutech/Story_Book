@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Edition History",
+  "type": "object",
+  "properties": {
+    "work_id": {
+      "type": "string"
+    },
+    "editions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "edition_id": {
+            "type": "string"
+          },
+          "format": {
+            "type": "string"
+          },
+          "isbn": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "ACTIVE",
+              "SUPERSEDED",
+              "WITHDRAWN",
+              "HISTORICAL"
+            ]
+          },
+          "effective_date": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "edition_id",
+          "format",
+          "status"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "work_id",
+    "editions"
+  ]
+}

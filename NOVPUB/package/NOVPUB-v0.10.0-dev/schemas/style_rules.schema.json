@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "language_variant",
+    "protected_style_features"
+  ],
+  "properties": {
+    "language_variant": {
+      "type": "string"
+    },
+    "quotation_style": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "serial_comma": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "scene_break": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "chapter_pattern": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "protected_terms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "protected_style_features": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "author_exceptions": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": true
+}

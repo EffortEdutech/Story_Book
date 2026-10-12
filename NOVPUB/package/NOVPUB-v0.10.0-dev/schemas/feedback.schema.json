@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reader Feedback",
+  "type": "object",
+  "properties": {
+    "feedback_id": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "edition_id": {
+      "type": "string"
+    },
+    "feedback_type": {
+      "type": "string",
+      "enum": [
+        "READER_PREFERENCE",
+        "CONTENT_RESPONSE",
+        "TYPO_ERRATUM",
+        "PRODUCTION_DEFECT",
+        "COVER_EXPECTATION",
+        "GENRE_EXPECTATION",
+        "METADATA_MISMATCH",
+        "PRICE_FEEDBACK",
+        "DELIVERY_RETAILER_ISSUE"
+      ]
+    },
+    "summary": {
+      "type": "string"
+    },
+    "verified": {
+      "type": "boolean"
+    },
+    "independent_report_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "action_required": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "feedback_id",
+    "source",
+    "edition_id",
+    "feedback_type",
+    "verified",
+    "action_required"
+  ]
+}

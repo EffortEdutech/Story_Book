@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "website_live": true,
+    "retailer_links_valid": false,
+    "campaign_assets_ready": true,
+    "incident_route_active": false
+  },
+  "critical_failures": [
+    "buy link wrong"
+  ],
+  "incidents_open": [
+    "INC1"
+  ],
+  "ready": false,
+  "checked_at": "2026-11-10T08:00:00+08:00"
+}

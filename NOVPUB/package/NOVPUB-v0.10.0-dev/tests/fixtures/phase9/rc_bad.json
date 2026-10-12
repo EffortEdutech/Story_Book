@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0-RC1",
+  "requirements": {
+    "RC-01": "PASS",
+    "RC-02": "PASS",
+    "RC-03": "PASS",
+    "RC-04": "PASS",
+    "RC-05": "PASS",
+    "RC-06": "PASS",
+    "RC-07": "PASS",
+    "RC-08": "PASS",
+    "RC-09": "PASS",
+    "RC-10": "PASS",
+    "RC-11": "PASS",
+    "RC-12": "PASS",
+    "RC-13": "PASS",
+    "RC-14": "PASS",
+    "RC-15": "PASS",
+    "RC-16": "PASS",
+    "RC-17": "PASS",
+    "RC-18": "PASS",
+    "RC-19": "FAIL",
+    "RC-20": "PASS",
+    "RC-21": "PASS",
+    "RC-22": "PASS",
+    "RC-23": "PASS",
+    "RC-24": "PASS"
+  },
+  "professional_review_status": "PENDING",
+  "human_release_approval": false,
+  "approved_by": "",
+  "gate_result": "FAIL"
+}

@@ -1,0 +1,25 @@
+phase: 6
+name: IngramSpark Channel Adapter
+entry_state: KDP_VERIFIED_OR_COMMERCIAL_METADATA_APPROVED
+required_gates:
+  - GATE-03
+  - GATE-04
+  - GATE-05
+  - GATE-06
+  - GATE-07
+skills:
+  - NPUB-50
+  - NPUB-51
+  - NPUB-52
+  - NPUB-53
+  - NPUB-54
+  - NPUB-55
+  - NPUB-56
+gates:
+  - GATE-08
+  - GATE-INGRAM-01
+exit_state: WIDE_DISTRIBUTION_VERIFIED
+notes:
+  - eProof approval does not satisfy GATE-08 physical-proof approval.
+  - Default NOVPUB policy blocks Ingram distribution activation until required physical proofs pass, unless an explicit human exception is recorded.
+  - Wholesale and return rules are dated adapter snapshots and must be refreshed before live use.

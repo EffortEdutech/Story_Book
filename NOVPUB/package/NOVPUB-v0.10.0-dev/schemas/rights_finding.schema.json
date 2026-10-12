@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "finding_id",
+    "type",
+    "severity",
+    "status"
+  ],
+  "properties": {
+    "finding_id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "severity": {
+      "enum": [
+        "info",
+        "warning",
+        "major",
+        "blocking"
+      ]
+    },
+    "evidence": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "affected_right": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "affected_territory": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "affected_format": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "human_review_required": {
+      "type": "boolean"
+    },
+    "legal_review_required": {
+      "type": "boolean"
+    },
+    "status": {
+      "enum": [
+        "open",
+        "resolved",
+        "accepted_risk"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

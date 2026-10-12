@@ -1,0 +1,14 @@
+{
+  "edition_id": "ED-PB-001",
+  "format": "paperback",
+  "previewed": true,
+  "blocking_errors": [],
+  "warnings": [],
+  "manual_qa": [
+    "trim",
+    "cover",
+    "interior"
+  ],
+  "approved": true,
+  "approved_by": "Publisher"
+}

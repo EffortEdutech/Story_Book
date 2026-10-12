@@ -1,0 +1,21 @@
+{
+  "positioning_id": "POS-001",
+  "genre": "Historical Fiction",
+  "subgenre": "Literary",
+  "target_reader": "Adult readers of historical fiction",
+  "core_promise": "A character-driven historical story",
+  "themes": [
+    "belonging"
+  ],
+  "tone": [
+    "reflective"
+  ],
+  "setting": [
+    "Malaysia"
+  ],
+  "manuscript_basis": [
+    "approved synopsis",
+    "chapter evidence"
+  ],
+  "approved": true
+}

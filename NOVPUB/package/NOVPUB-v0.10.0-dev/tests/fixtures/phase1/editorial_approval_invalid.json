@@ -1,0 +1,15 @@
+{
+  "phase": "Phase 1",
+  "gate": "GATE-02",
+  "manuscript_version": "1.0",
+  "manuscript_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "structural_audit": "failed",
+  "continuity_audit": "passed",
+  "style_bible": "approved",
+  "copyedit": "complete",
+  "proofread": "pending",
+  "unresolved_blocking_issues": 1,
+  "human_approval": false,
+  "approval_timestamp": null,
+  "status": "EDITORIAL_REVIEW"
+}

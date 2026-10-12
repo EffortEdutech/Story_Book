@@ -1,0 +1,16 @@
+{
+  "book_factsheet": "BOOK_FACTSHEET.md",
+  "approved_cover": "cover.jpg",
+  "approved_author_bio": "bio.md",
+  "press_release": "press.md",
+  "media_pitch": "pitch.md",
+  "interview_topics": [
+    "writing process"
+  ],
+  "claims": [
+    "C1"
+  ],
+  "trade_terms_version": "T1",
+  "approved": true,
+  "approved_by": "publisher"
+}

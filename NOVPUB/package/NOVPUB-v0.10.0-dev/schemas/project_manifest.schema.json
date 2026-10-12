@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NOVPUB Project Manifest",
+  "type": "object",
+  "required": [
+    "project_id",
+    "package",
+    "created_at",
+    "timezone",
+    "current_phase"
+  ],
+  "properties": {
+    "project_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "package": {
+      "const": "NOVPUB"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "timezone": {
+      "type": "string"
+    },
+    "current_phase": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "author_display_name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "channels": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

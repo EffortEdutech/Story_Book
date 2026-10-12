@@ -1,0 +1,17 @@
+{
+  "events": [
+    {
+      "event_id": "E2",
+      "event": "buy now",
+      "planned_date": "2026-11-10",
+      "dependencies": [
+        "LIVE_LISTING"
+      ],
+      "requires_live_listing": true,
+      "status": "COMPLETE"
+    }
+  ],
+  "dependencies_resolved": [],
+  "approved": true,
+  "approved_by": "publisher"
+}

@@ -1,0 +1,11 @@
+rule_set: KDP_SELECT
+verified_at: 2026-10-10
+source: https://kdp.amazon.com/en_US/help/topic/GD9PMU58BV24QFZ7
+rules:
+  term_days: 90
+  ebook_exclusivity_required: true
+  print_distribution_allowed_elsewhere: true
+  non_ebook_formats_allowed_elsewhere: true
+  outside_sample_max_percent: 10
+  auto_renew_default: true
+  refresh_before_live_use: true

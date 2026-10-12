@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ingram eProof",
+  "type": "object",
+  "properties": {
+    "edition_id": {
+      "type": "string"
+    },
+    "processing_complete": {
+      "type": "boolean"
+    },
+    "eproof_available": {
+      "type": "boolean"
+    },
+    "reviewed": {
+      "type": "boolean"
+    },
+    "blocking_findings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "approval": {
+      "type": "string",
+      "enum": [
+        "PENDING",
+        "APPROVED_FOR_PRINT_PROOF",
+        "CORRECTION_REQUIRED",
+        "REJECTED"
+      ]
+    },
+    "approved_by": {
+      "type": "string"
+    },
+    "reviewed_at": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "edition_id",
+    "processing_complete",
+    "eproof_available",
+    "reviewed",
+    "blocking_findings",
+    "approval"
+  ]
+}

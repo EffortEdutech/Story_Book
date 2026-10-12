@@ -1,0 +1,15 @@
+{
+  "material": "Paperback",
+  "edition_id": "ED-PB",
+  "material_type": "PRINTED",
+  "publication_date": "2026-08-01",
+  "copies_or_units_required": 5,
+  "deadline": "2026-09-01",
+  "submission_method": "courier",
+  "submitted": false,
+  "evidence": [],
+  "acknowledged": false,
+  "closed": false,
+  "status": "OVERDUE",
+  "rule_snapshot_verified_at": "2026-10-10"
+}

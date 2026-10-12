@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "finding_id",
+    "type",
+    "severity",
+    "locations",
+    "certainty",
+    "status"
+  ],
+  "properties": {
+    "finding_id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "severity": {
+      "enum": [
+        "info",
+        "warning",
+        "major",
+        "blocking"
+      ]
+    },
+    "locations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "claim_a": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "claim_b": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "certainty": {
+      "enum": [
+        "explicit",
+        "strongly_supported",
+        "probable",
+        "uncertain"
+      ]
+    },
+    "recommended_action": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "open",
+        "resolved",
+        "accepted",
+        "superseded"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

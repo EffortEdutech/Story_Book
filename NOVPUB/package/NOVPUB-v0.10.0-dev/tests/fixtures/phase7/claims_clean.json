@@ -1,0 +1,16 @@
+{
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim": "A historical novel",
+      "type": "FACTUAL",
+      "source": "metadata_master",
+      "evidence": [
+        "META-1"
+      ],
+      "verification_status": "VERIFIED",
+      "public_use": true,
+      "approved": true
+    }
+  ]
+}

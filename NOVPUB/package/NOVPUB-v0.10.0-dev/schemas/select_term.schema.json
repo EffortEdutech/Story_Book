@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KDP Select Term",
+  "type": "object",
+  "properties": {
+    "edition_id": {
+      "type": "string"
+    },
+    "enrolled": {
+      "type": "boolean"
+    },
+    "auto_renew": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "term_start": {
+      "type": "string"
+    },
+    "term_end": {
+      "type": "string"
+    },
+    "wide_ebook_distribution": {
+      "type": "boolean"
+    },
+    "ku_enabled": {
+      "type": "boolean"
+    },
+    "decision": {
+      "type": "string",
+      "enum": [
+        "RENEW_SELECT",
+        "OPT_OUT_AT_END",
+        "MAINTAIN_CURRENT_TERM",
+        "NOT_ENROLLED"
+      ]
+    },
+    "human_approved": {
+      "type": "boolean"
+    },
+    "approved_by": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "edition_id",
+    "enrolled",
+    "auto_renew",
+    "term_start",
+    "term_end",
+    "wide_ebook_distribution"
+  ]
+}

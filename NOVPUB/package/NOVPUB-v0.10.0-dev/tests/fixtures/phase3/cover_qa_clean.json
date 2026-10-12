@@ -1,0 +1,17 @@
+{
+  "edition_id": "ED-PB-001",
+  "channel": "KDP",
+  "identity_checks": {
+    "title": "Pilot Novel",
+    "author": "A. Author",
+    "isbn": "9780306406157",
+    "publisher": "Test Press"
+  },
+  "technical_checks": {
+    "bleed": true,
+    "safe_zone": true
+  },
+  "visual_qa": "PASS",
+  "errors": [],
+  "passed": true
+}

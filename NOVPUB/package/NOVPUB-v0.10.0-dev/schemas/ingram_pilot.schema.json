@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "title": "NOVPUB Ingram Pilot",
+  "properties": {
+    "level": {
+      "enum": [
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ]
+    },
+    "package_validated": {
+      "type": "boolean"
+    },
+    "real_evidence": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "level",
+    "package_validated",
+    "real_evidence"
+  ]
+}

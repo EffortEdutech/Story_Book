@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Author Central Profile",
+  "type": "object",
+  "properties": {
+    "author_display_name": {
+      "type": "string"
+    },
+    "marketplaces": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "claimed_books": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "bio_version": {
+      "type": "string"
+    },
+    "bio_approved": {
+      "type": "boolean"
+    },
+    "photo_asset": {
+      "type": "string"
+    },
+    "photo_rights_confirmed": {
+      "type": "boolean"
+    },
+    "duplicate_author_identity_detected": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "NOT_STARTED",
+        "IN_PROGRESS",
+        "READY",
+        "VERIFIED"
+      ]
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "author_display_name",
+    "marketplaces",
+    "claimed_books",
+    "bio_approved",
+    "photo_rights_confirmed",
+    "status"
+  ]
+}

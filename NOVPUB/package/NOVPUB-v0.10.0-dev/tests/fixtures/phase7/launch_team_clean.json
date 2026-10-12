@@ -1,0 +1,19 @@
+{
+  "members": [
+    {
+      "member_id": "M1",
+      "name": "Supporter",
+      "relationship": "reader",
+      "role": "sharing",
+      "activities": [
+        "share link"
+      ],
+      "review_conflict_status": "CLEAR",
+      "amazon_review_eligible": true,
+      "paid": false,
+      "disclosure_required": false
+    }
+  ],
+  "approved": true,
+  "approved_by": "publisher"
+}

@@ -1,0 +1,14 @@
+{
+  "claims": [
+    {
+      "claim_id": "C2",
+      "claim": "#1 Bestseller",
+      "type": "RANKING",
+      "source": "none",
+      "evidence": [],
+      "verification_status": "UNVERIFIED",
+      "public_use": true,
+      "approved": false
+    }
+  ]
+}

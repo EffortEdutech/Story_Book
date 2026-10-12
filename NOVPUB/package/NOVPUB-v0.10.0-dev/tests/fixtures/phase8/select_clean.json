@@ -1,0 +1,12 @@
+{
+  "edition_id": "ED-K",
+  "enrolled": true,
+  "auto_renew": false,
+  "term_start": "2026-08-01",
+  "term_end": "2026-10-30",
+  "wide_ebook_distribution": false,
+  "ku_enabled": true,
+  "decision": "OPT_OUT_AT_END",
+  "human_approved": true,
+  "approved_by": "Publisher"
+}

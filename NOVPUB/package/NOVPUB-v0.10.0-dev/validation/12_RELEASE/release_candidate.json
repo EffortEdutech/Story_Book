@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0-RC1",
+  "requirements": {
+    "RC-01": "PENDING",
+    "RC-02": "PENDING",
+    "RC-03": "PENDING",
+    "RC-04": "PENDING",
+    "RC-05": "PENDING",
+    "RC-06": "PENDING",
+    "RC-07": "PENDING",
+    "RC-08": "PENDING",
+    "RC-09": "PENDING",
+    "RC-10": "PENDING",
+    "RC-11": "PENDING",
+    "RC-12": "PENDING",
+    "RC-13": "PENDING",
+    "RC-14": "PENDING",
+    "RC-15": "PENDING",
+    "RC-16": "PENDING",
+    "RC-17": "PENDING",
+    "RC-18": "PENDING",
+    "RC-19": "PENDING",
+    "RC-20": "PENDING",
+    "RC-21": "PENDING",
+    "RC-22": "PENDING",
+    "RC-23": "PENDING",
+    "RC-24": "PENDING"
+  },
+  "professional_review_status": "PENDING",
+  "human_release_approval": false,
+  "approved_by": "",
+  "gate_result": "PENDING"
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ingram ISBN Reconciliation",
+  "type": "object",
+  "properties": {
+    "edition_id": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string"
+    },
+    "isbn": {
+      "type": "string"
+    },
+    "isbn_source": {
+      "type": "string"
+    },
+    "publisher_owned": {
+      "type": "boolean"
+    },
+    "kdp_isbn": {
+      "type": "string"
+    },
+    "ingram_isbn": {
+      "type": "string"
+    },
+    "copyright_page_isbn": {
+      "type": "string"
+    },
+    "cover_isbn": {
+      "type": "string"
+    },
+    "consistent": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "edition_id",
+    "isbn",
+    "publisher_owned",
+    "kdp_isbn",
+    "ingram_isbn",
+    "consistent"
+  ]
+}

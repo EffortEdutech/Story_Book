@@ -1,0 +1,14 @@
+{
+  "editions": [
+    {
+      "edition_id": "ED-PB-001",
+      "market": "US",
+      "retail_price": 15.0,
+      "wholesale_discount": 0.55,
+      "publisher_compensation": 1.75,
+      "bookstore_strategy": "bookstore_priority",
+      "approved": true
+    }
+  ],
+  "approved": true
+}

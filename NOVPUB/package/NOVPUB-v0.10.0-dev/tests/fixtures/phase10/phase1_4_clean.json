@@ -1,0 +1,52 @@
+{
+  "gates": {
+    "GATE-02": {
+      "status": "PASS",
+      "evidence": [
+        "real"
+      ],
+      "human_required": true,
+      "approved_by": "Publisher Owner"
+    },
+    "GATE-03": {
+      "status": "PASS",
+      "evidence": [
+        "real"
+      ],
+      "human_required": true,
+      "approved_by": "Publisher Owner"
+    },
+    "GATE-04": {
+      "status": "PASS",
+      "evidence": [
+        "real"
+      ],
+      "human_required": true,
+      "approved_by": "Publisher Owner"
+    },
+    "GATE-05": {
+      "status": "PASS",
+      "evidence": [
+        "real"
+      ],
+      "human_required": true,
+      "approved_by": "Publisher Owner"
+    },
+    "GATE-06": {
+      "status": "PASS",
+      "evidence": [
+        "real"
+      ],
+      "human_required": true,
+      "approved_by": "Publisher Owner"
+    },
+    "GATE-07": {
+      "status": "PASS",
+      "evidence": [
+        "real"
+      ],
+      "human_required": true,
+      "approved_by": "Publisher Owner"
+    }
+  }
+}

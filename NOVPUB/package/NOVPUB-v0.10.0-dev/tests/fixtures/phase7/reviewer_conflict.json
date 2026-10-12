@@ -1,0 +1,12 @@
+{
+  "reviewer_id": "RV2",
+  "genres": [
+    "fiction"
+  ],
+  "relationship_to_author": "spouse",
+  "financial_interest": false,
+  "paid_promotional_relationship": false,
+  "conflict_status": "ELIGIBLE",
+  "amazon_review_eligible": true,
+  "source": "author"
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Expanded Distribution Check",
+  "type": "object",
+  "properties": {
+    "edition_id": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string"
+    },
+    "isbn": {
+      "type": "string"
+    },
+    "ingram_distribution_planned": {
+      "type": "boolean"
+    },
+    "same_isbn_on_ingram": {
+      "type": "boolean"
+    },
+    "kdp_expanded_distribution_requested": {
+      "type": "boolean"
+    },
+    "compatible": {
+      "type": "boolean"
+    },
+    "required_setting": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "edition_id",
+    "format",
+    "ingram_distribution_planned",
+    "kdp_expanded_distribution_requested",
+    "compatible"
+  ]
+}

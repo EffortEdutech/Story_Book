@@ -1,0 +1,13 @@
+{
+  "outreach_id": "O1",
+  "reviewer_id": "RV1",
+  "contact_date": "2026-10-10",
+  "message_version": "v1",
+  "arc_offered": true,
+  "review_requested": true,
+  "review_optional": true,
+  "compensation": 0,
+  "positive_review_requested": false,
+  "future_benefit_conditioned_on_review": false,
+  "status": "SENT"
+}

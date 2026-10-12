@@ -1,0 +1,16 @@
+{
+  "edition_id": "ED-PB",
+  "gate08_status": "PENDING",
+  "markets": [
+    "US",
+    "UK"
+  ],
+  "wholesale_discount": 0.55,
+  "returns_status": "NON_RETURNABLE",
+  "pricing_version": "P1",
+  "risk_model_version": "R1",
+  "on_sale_date": "2026-12-01",
+  "authorized": false,
+  "authorized_by": "",
+  "authorized_at": "2026-10-15T12:00:00+08:00"
+}

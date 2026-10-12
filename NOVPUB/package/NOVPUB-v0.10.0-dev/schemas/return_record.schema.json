@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ingram Return Record",
+  "type": "object",
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "period": {
+      "type": "string"
+    },
+    "edition_id": {
+      "type": "string"
+    },
+    "market": {
+      "type": "string"
+    },
+    "units_returned": {
+      "type": "number",
+      "minimum": 0
+    },
+    "wholesale_value": {
+      "type": "number"
+    },
+    "shipping_handling": {
+      "type": "number"
+    },
+    "total_cost": {
+      "type": "number"
+    },
+    "source": {
+      "type": "string"
+    },
+    "reconciled": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "record_id",
+    "period",
+    "edition_id",
+    "units_returned",
+    "total_cost",
+    "source"
+  ]
+}

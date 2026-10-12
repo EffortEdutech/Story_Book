@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Post Publication State",
+  "type": "object",
+  "properties": {
+    "project_id": {
+      "type": "string"
+    },
+    "active_editions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "channel_status": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": true
+    },
+    "financial_status": {
+      "type": "string"
+    },
+    "compliance_status": {
+      "type": "string"
+    },
+    "archive_status": {
+      "type": "string"
+    },
+    "gate_10": {
+      "type": "string",
+      "enum": [
+        "PENDING",
+        "PASS",
+        "FAIL",
+        "CONDITIONAL",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "project_id",
+    "active_editions",
+    "gate_10",
+    "updated_at"
+  ]
+}

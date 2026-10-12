@@ -1,0 +1,16 @@
+{
+  "jurisdiction": "Malaysia",
+  "authority": "Perpustakaan Negara Malaysia",
+  "law": "Deposit of Library Material Act 1986 (Act 331)",
+  "publication_triggered": false,
+  "obligations": [
+    {
+      "material_type": "printed_book",
+      "quantity": 5,
+      "deadline_rule": "within one month of publication",
+      "status": "not_triggered"
+    }
+  ],
+  "rule_verified_at": "2026-10-10",
+  "source_snapshot": "rules/MALAYSIA/legal_deposit.yaml"
+}

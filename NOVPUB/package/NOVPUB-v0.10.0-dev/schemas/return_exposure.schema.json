@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Return Exposure",
+  "type": "object",
+  "properties": {
+    "edition_id": {
+      "type": "string"
+    },
+    "returnability": {
+      "type": "string",
+      "enum": [
+        "NON_RETURNABLE",
+        "YES_DELIVER",
+        "YES_DESTROY"
+      ]
+    },
+    "change_date": {
+      "type": "string"
+    },
+    "tail_end_date": {
+      "type": "string"
+    },
+    "tail_days": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "current_exposure": {
+      "type": "number",
+      "minimum": 0
+    },
+    "expected_exposure": {
+      "type": "number",
+      "minimum": 0
+    },
+    "worst_case_exposure": {
+      "type": "number",
+      "minimum": 0
+    },
+    "tail_closed": {
+      "type": "boolean"
+    },
+    "human_approved": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "edition_id",
+    "returnability",
+    "current_exposure",
+    "worst_case_exposure"
+  ]
+}

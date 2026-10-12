@@ -1,0 +1,11 @@
+rule_set: NOVPUB_EPUB3_BASELINE
+verified_at: 2026-10-10
+core:
+  container: ZIP
+  mimetype: application/epub+zip
+  container_xml_required: true
+  package_document_required: true
+  navigation_required: true
+  reflowable_default_for_novels: true
+notes:
+  - Full conformance should also be checked with a maintained EPUBCheck implementation in production.

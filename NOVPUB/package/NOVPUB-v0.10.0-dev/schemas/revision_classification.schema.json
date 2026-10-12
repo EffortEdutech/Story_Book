@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Revision Classification",
+  "type": "object",
+  "properties": {
+    "revision_id": {
+      "type": "string"
+    },
+    "requested_change": {
+      "type": "string"
+    },
+    "textual_scope": {
+      "type": "string"
+    },
+    "production_scope": {
+      "type": "string"
+    },
+    "identity_scope": {
+      "type": "string"
+    },
+    "rights_scope": {
+      "type": "string"
+    },
+    "metadata_scope": {
+      "type": "string"
+    },
+    "recommended_classification": {
+      "type": "string",
+      "enum": [
+        "R0_METADATA",
+        "R1_MINOR_CORRECTION",
+        "R2_MATERIAL_REVIEW",
+        "R3_NEW_EDITION",
+        "R4_NEW_FORMAT"
+      ]
+    },
+    "new_isbn_review": {
+      "type": "boolean"
+    },
+    "reopen_phase1": {
+      "type": "boolean"
+    },
+    "reopen_phase2": {
+      "type": "boolean"
+    },
+    "human_decision": {
+      "type": "boolean"
+    },
+    "approved_by": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "revision_id",
+    "requested_change",
+    "recommended_classification",
+    "human_decision"
+  ]
+}

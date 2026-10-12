@@ -1,0 +1,17 @@
+{
+  "level": "I4",
+  "package_validated": true,
+  "real_evidence": [
+    "title",
+    "eproof",
+    "physical proof"
+  ],
+  "title_draft_validated": true,
+  "eproof_approved": true,
+  "physical_proof_approved": true,
+  "proof_approved_by": "Publisher Owner",
+  "distribution_authorized": false,
+  "same_paperback_edition": true,
+  "publisher_owned_isbn": true,
+  "kdp_expanded_distribution": false
+}

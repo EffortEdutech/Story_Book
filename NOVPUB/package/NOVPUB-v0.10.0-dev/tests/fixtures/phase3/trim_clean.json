@@ -1,0 +1,12 @@
+{
+  "edition_id": "ED-PB-001",
+  "width_in": 6.0,
+  "height_in": 9.0,
+  "estimated_pages": 200,
+  "bleed": false,
+  "channels_supported": [
+    "KDP",
+    "INGRAM"
+  ],
+  "approved": true
+}

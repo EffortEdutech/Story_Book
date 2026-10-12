@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "title",
+    "copyright_year",
+    "copyright_owner",
+    "publisher",
+    "imprint",
+    "isbn_entries",
+    "permission_credits"
+  ],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "copyright_year": {
+      "type": [
+        "string",
+        "integer"
+      ]
+    },
+    "copyright_owner": {
+      "type": "string"
+    },
+    "publisher": {
+      "type": "string"
+    },
+    "imprint": {
+      "type": "string"
+    },
+    "edition": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "isbn_entries": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "pdp_status": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "permission_credits": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "additional_notices": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

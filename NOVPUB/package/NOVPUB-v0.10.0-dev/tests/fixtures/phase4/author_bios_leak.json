@@ -1,0 +1,13 @@
+{
+  "display_name": "A. Author",
+  "protected_legal_identity": true,
+  "bios": [
+    {
+      "type": "short",
+      "text": "A. Author is legally named Secret Legal Name and writes historical fiction.",
+      "approved": true
+    }
+  ],
+  "verified_claims": [],
+  "approved": true
+}

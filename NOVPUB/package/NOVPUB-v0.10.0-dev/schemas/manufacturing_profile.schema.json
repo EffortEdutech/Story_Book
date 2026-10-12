@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Manufacturing Profile",
+  "type": "object",
+  "properties": {
+    "edition_id": {
+      "type": "string"
+    },
+    "binding": {
+      "type": "string"
+    },
+    "interior": {
+      "type": "string"
+    },
+    "paper_preference": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "bleed": {
+      "type": "boolean"
+    },
+    "channels": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "approved",
+        "superseded"
+      ]
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "edition_id",
+    "binding",
+    "interior",
+    "bleed",
+    "channels",
+    "status"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "account": {
+    "exists": true,
+    "accessible": true
+  },
+  "publisher_profile": {
+    "status": "complete"
+  },
+  "payments": {
+    "status": "configured"
+  },
+  "agreements": {
+    "status": "complete"
+  },
+  "restrictions": [],
+  "ready_for_submission": true
+}

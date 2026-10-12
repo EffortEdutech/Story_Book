@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Amazon Listing Snapshot",
+  "type": "object",
+  "properties": {
+    "checked_at": {
+      "type": "string"
+    },
+    "marketplace": {
+      "type": "string"
+    },
+    "edition_id": {
+      "type": "string"
+    },
+    "asin": {
+      "type": "string"
+    },
+    "isbn": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number",
+      "minimum": 0
+    },
+    "currency": {
+      "type": "string"
+    },
+    "publisher": {
+      "type": "string"
+    },
+    "availability": {
+      "type": "string"
+    },
+    "cover_hash": {
+      "type": "string"
+    },
+    "detail_page_reference": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "checked_at",
+    "marketplace",
+    "edition_id",
+    "title",
+    "author"
+  ]
+}

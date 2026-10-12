@@ -1,0 +1,16 @@
+workflow_id: PHASE-1
+name: Manuscript & Editorial Readiness
+entry_state: MANUSCRIPT_COMPLETE
+steps:
+  - NPUB-01
+  - NPUB-02
+  - NPUB-03
+  - NPUB-04
+  - NPUB-05
+  - NPUB-06
+  - NPUB-07
+  - NPUB-08
+exit_gate: GATE-02
+pass_state: EDITORIAL_APPROVED
+failure_state: EDITORIAL_REVIEW
+human_approval_required: true

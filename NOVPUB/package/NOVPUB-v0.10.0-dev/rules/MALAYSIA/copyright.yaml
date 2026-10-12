@@ -1,0 +1,13 @@
+rule_id: MY-COPYRIGHT-BASELINE-2026-10-10
+authority: Intellectual Property Corporation of Malaysia (MyIPO)
+live_refresh_required: true
+verified_at: 2026-10-10
+sources:
+  - https://www.myipo.gov.my/faq/
+  - https://www.myipo.gov.my/notifying-copyright/
+baseline:
+  copyright_registration_required_for_protection: false
+  protection_automatic_on_creation_subject_to_law: true
+  voluntary_notification_available: true
+  voluntary_notification_optional_by_default: true
+  live_filing_procedure_refresh_required: true

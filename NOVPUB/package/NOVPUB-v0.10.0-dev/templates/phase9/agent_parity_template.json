@@ -1,0 +1,14 @@
+{
+  "comparisons": [
+    {
+      "fixture_id": "",
+      "codex_result": null,
+      "claude_result": null,
+      "deterministic": true,
+      "equivalent": false,
+      "material_difference": false,
+      "severity": "NONE",
+      "resolution": ""
+    }
+  ]
+}

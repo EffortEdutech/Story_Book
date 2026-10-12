@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "work_id",
+    "title",
+    "authors",
+    "copyright_owners",
+    "publishing_rights_holders",
+    "publication_authority",
+    "territories",
+    "languages",
+    "formats",
+    "rights_status"
+  ],
+  "properties": {
+    "work_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authors": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "copyright_owners": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "publishing_rights_holders": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "publication_authority": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "territories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "formats": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prior_publication": {
+      "type": "object"
+    },
+    "prior_assignment": {
+      "type": "object"
+    },
+    "rights_status": {
+      "enum": [
+        "under_review",
+        "cleared",
+        "blocked"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

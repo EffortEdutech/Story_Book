@@ -1,0 +1,21 @@
+rule_id: KDP-POSTPUB-20261010
+source: https://kdp.amazon.com/en_US/help/topic/G200736410
+last_verified: 2026-10-10
+require_live_refresh: true
+mutable_after_publication:
+  - contributors
+  - description
+  - publishing_rights
+  - keywords
+  - categories
+  - reading_age
+  - territories
+  - pricing
+locked_identity_fields:
+  - language
+  - edition_number
+  - isbn_choice_print
+  - trim_size
+notes:
+  - Title, subtitle and primary author for paperback/hardcover have a limited current 72-hour post-publication correction window; refresh before live use.
+  - Locked identity changes generally require a new edition.

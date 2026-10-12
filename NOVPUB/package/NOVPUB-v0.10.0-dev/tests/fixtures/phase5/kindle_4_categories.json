@@ -1,0 +1,28 @@
+{
+  "edition_id": "ED-KIN-001",
+  "format": "kindle",
+  "language": "en",
+  "title": "Pilot Novel",
+  "author": "A. Author",
+  "description": "A novel description.",
+  "keywords": [
+    "historical fiction",
+    "family secrets"
+  ],
+  "categories": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+  ],
+  "publishing_rights": "copyright",
+  "territories": [
+    "WORLD"
+  ],
+  "primary_marketplace": "Amazon.com",
+  "pricing": {
+    "currency": "USD",
+    "list_price": 4.99
+  },
+  "approved": true
+}

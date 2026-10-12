@@ -1,0 +1,22 @@
+{
+  "fonts": [
+    {
+      "font_id": "BODY",
+      "family": "Test Serif",
+      "license_status": "verified",
+      "embedding_allowed": true,
+      "print_allowed": true,
+      "ebook_allowed": true,
+      "source": "licensed-test-fixture"
+    },
+    {
+      "font_id": "HEAD",
+      "family": "Test Display",
+      "license_status": "verified",
+      "embedding_allowed": true,
+      "print_allowed": true,
+      "ebook_allowed": true,
+      "source": "licensed-test-fixture"
+    }
+  ]
+}

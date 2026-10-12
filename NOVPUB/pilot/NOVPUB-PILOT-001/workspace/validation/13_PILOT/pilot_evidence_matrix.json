@@ -1,0 +1,498 @@
+{
+  "pilot_id": "NOVPUB-PILOT-001",
+  "title": "The Blue Silence",
+  "package_version": "0.10.0-dev",
+  "created_at": "2026-10-11T05:26:19.203Z",
+  "policy": {
+    "fixture_evidence_allowed_for_real_gates": false,
+    "synthetic_evidence_allowed_for_real_gates": false,
+    "ai_may_execute_checks": true,
+    "ai_may_approve_release": false
+  },
+  "skills": [
+    {
+      "skill_id": "NPUB-01",
+      "skill_name": "Manuscript Intake",
+      "pilot_status": "REAL_EXECUTED",
+      "real_input": [
+        "01_SOURCE/the_blue_silence_real_baseline.json",
+        "01_SOURCE/the_blue_silence_source_inventory.json",
+        "01_SOURCE/the_blue_silence_manuscript_completeness.json"
+      ],
+      "real_output": [
+        "01_SOURCE/the_blue_silence_real_baseline.json"
+      ],
+      "evidence": [
+        "01_SOURCE/the_blue_silence_real_baseline.json",
+        "01_SOURCE/the_blue_silence_source_inventory.json",
+        "01_SOURCE/the_blue_silence_manuscript_completeness.json"
+      ],
+      "validator_pass": true,
+      "notes": "Real source integrity and manuscript baseline validated for The Blue Silence."
+    },
+    {
+      "skill_id": "NPUB-02",
+      "skill_name": "Manuscript Freeze",
+      "pilot_status": "REAL_EXECUTED",
+      "real_input": [
+        "01_SOURCE/the_blue_silence_real_baseline.json",
+        "01_SOURCE/the_blue_silence_source_inventory.json",
+        "01_SOURCE/the_blue_silence_manuscript_completeness.json"
+      ],
+      "real_output": [
+        "01_SOURCE/the_blue_silence_real_baseline.json"
+      ],
+      "evidence": [
+        "01_SOURCE/the_blue_silence_real_baseline.json",
+        "01_SOURCE/the_blue_silence_source_inventory.json",
+        "01_SOURCE/the_blue_silence_manuscript_completeness.json"
+      ],
+      "validator_pass": true,
+      "notes": "Real source integrity and manuscript baseline validated for The Blue Silence."
+    },
+    {
+      "skill_id": "NPUB-03",
+      "skill_name": "Structural Integrity Audit",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "The real manuscript has been registered and baselined, but full editorial/copyedit/proofread execution evidence has not yet been produced in this pilot."
+    },
+    {
+      "skill_id": "NPUB-04",
+      "skill_name": "Continuity Audit",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "The real manuscript has been registered and baselined, but full editorial/copyedit/proofread execution evidence has not yet been produced in this pilot."
+    },
+    {
+      "skill_id": "NPUB-05",
+      "skill_name": "Style Bible",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "The real manuscript has been registered and baselined, but full editorial/copyedit/proofread execution evidence has not yet been produced in this pilot."
+    },
+    {
+      "skill_id": "NPUB-06",
+      "skill_name": "Controlled Copyediting",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "The real manuscript has been registered and baselined, but full editorial/copyedit/proofread execution evidence has not yet been produced in this pilot."
+    },
+    {
+      "skill_id": "NPUB-07",
+      "skill_name": "Final Proofreading",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "The real manuscript has been registered and baselined, but full editorial/copyedit/proofread execution evidence has not yet been produced in this pilot."
+    },
+    {
+      "skill_id": "NPUB-08",
+      "skill_name": "Editorial Change Reconciliation",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "The real manuscript has been registered and baselined, but full editorial/copyedit/proofread execution evidence has not yet been produced in this pilot."
+    },
+    {
+      "skill_id": "NPUB-09",
+      "skill_name": "Rights & Ownership Audit",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Rights, ownership, third-party permissions, author identity, imprint, and Malaysia publication identity evidence have not yet been executed for this pilot."
+    },
+    {
+      "skill_id": "NPUB-10",
+      "skill_name": "Third-Party Content & Permissions Audit",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Rights, ownership, third-party permissions, author identity, imprint, and Malaysia publication identity evidence have not yet been executed for this pilot."
+    },
+    {
+      "skill_id": "NPUB-11",
+      "skill_name": "Author & Publishing Identity",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Rights, ownership, third-party permissions, author identity, imprint, and Malaysia publication identity evidence have not yet been executed for this pilot."
+    },
+    {
+      "skill_id": "NPUB-12",
+      "skill_name": "Publisher / Imprint Establishment",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Rights, ownership, third-party permissions, author identity, imprint, and Malaysia publication identity evidence have not yet been executed for this pilot."
+    },
+    {
+      "skill_id": "NPUB-13",
+      "skill_name": "Edition Architecture",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Rights, ownership, third-party permissions, author identity, imprint, and Malaysia publication identity evidence have not yet been executed for this pilot."
+    },
+    {
+      "skill_id": "NPUB-14",
+      "skill_name": "ISBN Registry & Assignment Control",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Rights, ownership, third-party permissions, author identity, imprint, and Malaysia publication identity evidence have not yet been executed for this pilot."
+    },
+    {
+      "skill_id": "NPUB-15",
+      "skill_name": "Malaysia ISBN / eISBN Workflow",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Rights, ownership, third-party permissions, author identity, imprint, and Malaysia publication identity evidence have not yet been executed for this pilot."
+    },
+    {
+      "skill_id": "NPUB-16",
+      "skill_name": "PNM PDP / CIP Workflow",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Rights, ownership, third-party permissions, author identity, imprint, and Malaysia publication identity evidence have not yet been executed for this pilot."
+    },
+    {
+      "skill_id": "NPUB-17",
+      "skill_name": "Copyright & Publication Notice Generator",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Rights, ownership, third-party permissions, author identity, imprint, and Malaysia publication identity evidence have not yet been executed for this pilot."
+    },
+    {
+      "skill_id": "NPUB-18",
+      "skill_name": "Malaysian Legal Deposit & Compliance",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Rights, ownership, third-party permissions, author identity, imprint, and Malaysia publication identity evidence have not yet been executed for this pilot."
+    },
+    {
+      "skill_id": "NPUB-19",
+      "skill_name": "Format & Manufacturing Strategy",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Production engineering evidence such as trim, typesetting, EPUB, cover, preflight, and production approvals has not yet been produced for this pilot."
+    },
+    {
+      "skill_id": "NPUB-20",
+      "skill_name": "Trim Size & Physical Product Engineering",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Production engineering evidence such as trim, typesetting, EPUB, cover, preflight, and production approvals has not yet been produced for this pilot."
+    },
+    {
+      "skill_id": "NPUB-21",
+      "skill_name": "Typography Specification",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Production engineering evidence such as trim, typesetting, EPUB, cover, preflight, and production approvals has not yet been produced for this pilot."
+    },
+    {
+      "skill_id": "NPUB-22",
+      "skill_name": "Page Architecture",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Production engineering evidence such as trim, typesetting, EPUB, cover, preflight, and production approvals has not yet been produced for this pilot."
+    },
+    {
+      "skill_id": "NPUB-23",
+      "skill_name": "Print Typesetting",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Production engineering evidence such as trim, typesetting, EPUB, cover, preflight, and production approvals has not yet been produced for this pilot."
+    },
+    {
+      "skill_id": "NPUB-24",
+      "skill_name": "Print PDF Preflight",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Production engineering evidence such as trim, typesetting, EPUB, cover, preflight, and production approvals has not yet been produced for this pilot."
+    },
+    {
+      "skill_id": "NPUB-25",
+      "skill_name": "EPUB Production",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Production engineering evidence such as trim, typesetting, EPUB, cover, preflight, and production approvals has not yet been produced for this pilot."
+    },
+    {
+      "skill_id": "NPUB-26",
+      "skill_name": "EPUB Validation & Reading QA",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Production engineering evidence such as trim, typesetting, EPUB, cover, preflight, and production approvals has not yet been produced for this pilot."
+    },
+    {
+      "skill_id": "NPUB-27",
+      "skill_name": "Cover Creative Brief",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Production engineering evidence such as trim, typesetting, EPUB, cover, preflight, and production approvals has not yet been produced for this pilot."
+    },
+    {
+      "skill_id": "NPUB-28",
+      "skill_name": "Cover Engineering",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Production engineering evidence such as trim, typesetting, EPUB, cover, preflight, and production approvals has not yet been produced for this pilot."
+    },
+    {
+      "skill_id": "NPUB-29",
+      "skill_name": "Cover QA & Metadata Parity",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Production engineering evidence such as trim, typesetting, EPUB, cover, preflight, and production approvals has not yet been produced for this pilot."
+    },
+    {
+      "skill_id": "NPUB-30",
+      "skill_name": "Physical Proof Management",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Production engineering evidence such as trim, typesetting, EPUB, cover, preflight, and production approvals has not yet been produced for this pilot."
+    },
+    {
+      "skill_id": "NPUB-31",
+      "skill_name": "Metadata Master & Source-of-Truth Registry",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Production engineering evidence such as trim, typesetting, EPUB, cover, preflight, and production approvals has not yet been produced for this pilot."
+    },
+    {
+      "skill_id": "NPUB-32",
+      "skill_name": "Book Positioning & Reader Market Strategy",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Commercial metadata, positioning, categories, keywords, pricing, territories, and channel metadata maps have not yet been executed for this pilot."
+    },
+    {
+      "skill_id": "NPUB-33",
+      "skill_name": "Classification & Subject Strategy",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Commercial metadata, positioning, categories, keywords, pricing, territories, and channel metadata maps have not yet been executed for this pilot."
+    },
+    {
+      "skill_id": "NPUB-34",
+      "skill_name": "Keyword & Discoverability Strategy",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Commercial metadata, positioning, categories, keywords, pricing, territories, and channel metadata maps have not yet been executed for this pilot."
+    },
+    {
+      "skill_id": "NPUB-35",
+      "skill_name": "Retail Book Description & Sales Copy",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Commercial metadata, positioning, categories, keywords, pricing, territories, and channel metadata maps have not yet been executed for this pilot."
+    },
+    {
+      "skill_id": "NPUB-36",
+      "skill_name": "Author Biography & Contributor Metadata",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Commercial metadata, positioning, categories, keywords, pricing, territories, and channel metadata maps have not yet been executed for this pilot."
+    },
+    {
+      "skill_id": "NPUB-37",
+      "skill_name": "Pricing, Royalty & Unit Economics Engine",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Commercial metadata, positioning, categories, keywords, pricing, territories, and channel metadata maps have not yet been executed for this pilot."
+    },
+    {
+      "skill_id": "NPUB-38",
+      "skill_name": "Wholesale Discount & Returns Risk Strategy",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Commercial metadata, positioning, categories, keywords, pricing, territories, and channel metadata maps have not yet been executed for this pilot."
+    },
+    {
+      "skill_id": "NPUB-39",
+      "skill_name": "Territory, Market & Distribution Strategy",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Commercial metadata, positioning, categories, keywords, pricing, territories, and channel metadata maps have not yet been executed for this pilot."
+    },
+    {
+      "skill_id": "NPUB-40",
+      "skill_name": "Publication Date, Pre-order & Release Strategy",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Commercial metadata, positioning, categories, keywords, pricing, territories, and channel metadata maps have not yet been executed for this pilot."
+    },
+    {
+      "skill_id": "NPUB-41",
+      "skill_name": "KDP Rules Refresh & Compatibility Audit",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "KDP pilot evidence is intentionally deferred to the dedicated KDP K1-K4 pilot stage after this matrix is established."
+    },
+    {
+      "skill_id": "NPUB-42",
+      "skill_name": "KDP Account & Publisher Readiness",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "KDP pilot evidence is intentionally deferred to the dedicated KDP K1-K4 pilot stage after this matrix is established."
+    },
+    {
+      "skill_id": "NPUB-43",
+      "skill_name": "Kindle eBook Submission Package",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "KDP pilot evidence is intentionally deferred to the dedicated KDP K1-K4 pilot stage after this matrix is established."
+    },
+    {
+      "skill_id": "NPUB-44",
+      "skill_name": "KDP Paperback Submission Package",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "KDP pilot evidence is intentionally deferred to the dedicated KDP K1-K4 pilot stage after this matrix is established."
+    },
+    {
+      "skill_id": "NPUB-45",
+      "skill_name": "KDP Hardcover Submission Package",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "KDP pilot evidence is intentionally deferred to the dedicated KDP K1-K4 pilot stage after this matrix is established."
+    },
+    {
+      "skill_id": "NPUB-46",
+      "skill_name": "KDP Select / Kindle Unlimited Decision",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "KDP pilot evidence is intentionally deferred to the dedicated KDP K1-K4 pilot stage after this matrix is established."
+    },
+    {
+      "skill_id": "NPUB-47",
+      "skill_name": "Expanded Distribution Conflict Control",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "KDP pilot evidence is intentionally deferred to the dedicated KDP K1-K4 pilot stage after this matrix is established."
+    },
+    {
+      "skill_id": "NPUB-48",
+      "skill_name": "KDP Preview, Proof & Submission Gate",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "KDP pilot evidence is intentionally deferred to the dedicated KDP K1-K4 pilot stage after this matrix is established."
+    },
+    {
+      "skill_id": "NPUB-49",
+      "skill_name": "Amazon Listing & Post-Publication QA",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "KDP pilot evidence is intentionally deferred to the dedicated KDP K1-K4 pilot stage after this matrix is established."
+    },
+    {
+      "skill_id": "NPUB-50",
+      "skill_name": "IngramSpark Rules Refresh & Account Readiness",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "IngramSpark pilot evidence is intentionally deferred to the dedicated Ingram I1-I5 pilot stage after this matrix is established."
+    },
+    {
+      "skill_id": "NPUB-51",
+      "skill_name": "Ingram Title & Metadata Configuration",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "IngramSpark pilot evidence is intentionally deferred to the dedicated Ingram I1-I5 pilot stage after this matrix is established."
+    },
+    {
+      "skill_id": "NPUB-52",
+      "skill_name": "Print Manufacturing & File Configuration",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "IngramSpark pilot evidence is intentionally deferred to the dedicated Ingram I1-I5 pilot stage after this matrix is established."
+    },
+    {
+      "skill_id": "NPUB-53",
+      "skill_name": "ISBN & KDP/Ingram Coexistence Reconciliation",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "IngramSpark pilot evidence is intentionally deferred to the dedicated Ingram I1-I5 pilot stage after this matrix is established."
+    },
+    {
+      "skill_id": "NPUB-54",
+      "skill_name": "Market Pricing & Wholesale Discount Execution",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "IngramSpark pilot evidence is intentionally deferred to the dedicated Ingram I1-I5 pilot stage after this matrix is established."
+    },
+    {
+      "skill_id": "NPUB-55",
+      "skill_name": "Returns & Distribution Strategy Execution",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "IngramSpark pilot evidence is intentionally deferred to the dedicated Ingram I1-I5 pilot stage after this matrix is established."
+    },
+    {
+      "skill_id": "NPUB-56",
+      "skill_name": "File Submission, eProof, Physical Proof & Distribution QA",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "IngramSpark pilot evidence is intentionally deferred to the dedicated Ingram I1-I5 pilot stage after this matrix is established."
+    },
+    {
+      "skill_id": "NPUB-57",
+      "skill_name": "ARC Production & Distribution Management",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Launch and marketing evidence is intentionally deferred until production/channel evidence and proof workflow are ready."
+    },
+    {
+      "skill_id": "NPUB-58",
+      "skill_name": "Reviewer Outreach & Review Integrity",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Launch and marketing evidence is intentionally deferred until production/channel evidence and proof workflow are ready."
+    },
+    {
+      "skill_id": "NPUB-59",
+      "skill_name": "Launch Team Management",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Launch and marketing evidence is intentionally deferred until production/channel evidence and proof workflow are ready."
+    },
+    {
+      "skill_id": "NPUB-60",
+      "skill_name": "Amazon Author Central & Author Presence",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Launch and marketing evidence is intentionally deferred until production/channel evidence and proof workflow are ready."
+    },
+    {
+      "skill_id": "NPUB-61",
+      "skill_name": "Author Website & Book Landing Page",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Launch and marketing evidence is intentionally deferred until production/channel evidence and proof workflow are ready."
+    },
+    {
+      "skill_id": "NPUB-62",
+      "skill_name": "Media, Press & Bookseller Kit",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Launch and marketing evidence is intentionally deferred until production/channel evidence and proof workflow are ready."
+    },
+    {
+      "skill_id": "NPUB-63",
+      "skill_name": "Launch Content & Campaign Asset System",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Launch and marketing evidence is intentionally deferred until production/channel evidence and proof workflow are ready."
+    },
+    {
+      "skill_id": "NPUB-64",
+      "skill_name": "Launch Calendar & Campaign Orchestration",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Launch and marketing evidence is intentionally deferred until production/channel evidence and proof workflow are ready."
+    },
+    {
+      "skill_id": "NPUB-65",
+      "skill_name": "Publication-Day & Launch Operations",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Launch and marketing evidence is intentionally deferred until production/channel evidence and proof workflow are ready."
+    },
+    {
+      "skill_id": "NPUB-66",
+      "skill_name": "Launch Analytics, Monitoring & Issue Response",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Launch and marketing evidence is intentionally deferred until production/channel evidence and proof workflow are ready."
+    },
+    {
+      "skill_id": "NPUB-67",
+      "skill_name": "Sales, Royalty & Payment Reconciliation",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Post-publication governance controls are not applicable before publication; they will be instantiated during the post-publication pilot stage."
+    },
+    {
+      "skill_id": "NPUB-68",
+      "skill_name": "KDP Select & Digital Distribution Lifecycle",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Post-publication governance controls are not applicable before publication; they will be instantiated during the post-publication pilot stage."
+    },
+    {
+      "skill_id": "NPUB-69",
+      "skill_name": "Pricing, Metadata & Discoverability Optimization",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Post-publication governance controls are not applicable before publication; they will be instantiated during the post-publication pilot stage."
+    },
+    {
+      "skill_id": "NPUB-70",
+      "skill_name": "Errata, Corrections & Production Defect Management",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Post-publication governance controls are not applicable before publication; they will be instantiated during the post-publication pilot stage."
+    },
+    {
+      "skill_id": "NPUB-71",
+      "skill_name": "Edition, Format & Revision Change Control",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Post-publication governance controls are not applicable before publication; they will be instantiated during the post-publication pilot stage."
+    },
+    {
+      "skill_id": "NPUB-72",
+      "skill_name": "Ingram Returns, Wholesale & Distribution Monitoring",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Post-publication governance controls are not applicable before publication; they will be instantiated during the post-publication pilot stage."
+    },
+    {
+      "skill_id": "NPUB-73",
+      "skill_name": "Reader Feedback, Reviews & Quality Intelligence",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Post-publication governance controls are not applicable before publication; they will be instantiated during the post-publication pilot stage."
+    },
+    {
+      "skill_id": "NPUB-74",
+      "skill_name": "Malaysia Legal Deposit & Regulatory Closure",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Post-publication governance controls are not applicable before publication; they will be instantiated during the post-publication pilot stage."
+    },
+    {
+      "skill_id": "NPUB-75",
+      "skill_name": "Backlist, Rights Expansion & New Format Management",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Post-publication governance controls are not applicable before publication; they will be instantiated during the post-publication pilot stage."
+    },
+    {
+      "skill_id": "NPUB-76",
+      "skill_name": "Publication Archive, Governance & Long-Term Stewardship",
+      "pilot_status": "NOT_APPLICABLE_WITH_JUSTIFICATION",
+      "justification": "Post-publication governance controls are not applicable before publication; they will be instantiated during the post-publication pilot stage."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Royalty Record",
+  "type": "object",
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "period": {
+      "type": "string"
+    },
+    "channel": {
+      "type": "string"
+    },
+    "edition_id": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 3
+    },
+    "reported_units": {
+      "type": "number"
+    },
+    "reported_royalty": {
+      "type": "number"
+    },
+    "expected_royalty": {
+      "type": "number"
+    },
+    "variance": {
+      "type": "number"
+    },
+    "rule_effective_date": {
+      "type": "string"
+    },
+    "source_reference": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "record_id",
+    "period",
+    "channel",
+    "edition_id",
+    "currency",
+    "reported_royalty",
+    "expected_royalty"
+  ]
+}

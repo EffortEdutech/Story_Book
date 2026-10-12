@@ -1,0 +1,8 @@
+{
+  "rule_id": "KDP-X",
+  "source": "official",
+  "authoritative": true,
+  "verified_at": "2025-01-01",
+  "ttl_days": 30,
+  "status": "STALE"
+}

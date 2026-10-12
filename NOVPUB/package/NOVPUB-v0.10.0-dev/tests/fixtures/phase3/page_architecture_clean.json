@@ -1,0 +1,25 @@
+{
+  "architecture_id": "PAGE-001",
+  "chapter_start": {
+    "preferred_page": "recto"
+  },
+  "folios": {
+    "visible_from": "body"
+  },
+  "running_heads": {
+    "body": true
+  },
+  "front_matter": [
+    "title",
+    "copyright"
+  ],
+  "back_matter": [
+    "acknowledgements"
+  ],
+  "blank_page_rules": [
+    {
+      "reason": "recto_start"
+    }
+  ],
+  "approved": true
+}

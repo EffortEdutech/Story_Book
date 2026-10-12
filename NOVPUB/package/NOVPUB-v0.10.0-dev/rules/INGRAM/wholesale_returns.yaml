@@ -1,0 +1,15 @@
+rule_set: INGRAM_WHOLESALE_RETURNS
+verified_at: 2026-10-10
+sources:
+  - https://www.ingramspark.com/blog/how-to-set-up-a-title-with-ingramspark-part-1
+rules:
+  us_canada_wholesale_discount_min: 0.40
+  us_canada_wholesale_discount_max: 0.55
+  international_wholesale_discount_min: 0.35
+  international_wholesale_discount_max: 0.55
+  bookstore_friendly_common_range:
+    - 0.53
+    - 0.55
+  returnability_is_separate_human_decision: true
+  print_cost_is_dynamic: true
+  refresh_before_live_use: true

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "registry_owner",
+    "country",
+    "entries"
+  ],
+  "properties": {
+    "registry_owner": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "isbn13",
+          "status",
+          "source",
+          "evidence"
+        ],
+        "properties": {
+          "isbn13": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "allocated_available",
+              "reserved",
+              "assigned",
+              "published",
+              "cancelled",
+              "unusable",
+              "historical"
+            ]
+          },
+          "edition_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "title": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "format": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "assigned_at": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

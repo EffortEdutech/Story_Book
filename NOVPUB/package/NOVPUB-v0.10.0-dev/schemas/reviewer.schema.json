@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reviewer",
+  "type": "object",
+  "properties": {
+    "reviewer_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "organization_or_channel": {
+      "type": "string"
+    },
+    "genres": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "region": {
+      "type": "string"
+    },
+    "submission_policy": {
+      "type": "string"
+    },
+    "contact_method": {
+      "type": "string"
+    },
+    "review_policy": {
+      "type": "string"
+    },
+    "relationship_to_author": {
+      "type": "string"
+    },
+    "financial_interest": {
+      "type": "boolean"
+    },
+    "paid_promotional_relationship": {
+      "type": "boolean"
+    },
+    "conflict_status": {
+      "type": "string",
+      "enum": [
+        "ELIGIBLE",
+        "CONFLICT_REVIEW_REQUIRED",
+        "INELIGIBLE",
+        "UNKNOWN"
+      ]
+    },
+    "amazon_review_eligible": {
+      "type": "boolean"
+    },
+    "source": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "reviewer_id",
+    "genres",
+    "relationship_to_author",
+    "conflict_status",
+    "amazon_review_eligible"
+  ]
+}

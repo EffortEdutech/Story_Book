@@ -1,0 +1,13 @@
+{
+  "author_display_name": "A. Author",
+  "marketplaces": [
+    "Amazon.com"
+  ],
+  "claimed_books": [],
+  "bio_version": "BIO-1",
+  "bio_approved": false,
+  "photo_asset": "author.jpg",
+  "photo_rights_confirmed": false,
+  "duplicate_author_identity_detected": true,
+  "status": "IN_PROGRESS"
+}

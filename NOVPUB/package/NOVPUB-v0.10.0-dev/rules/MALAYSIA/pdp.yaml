@@ -1,0 +1,10 @@
+rule_id: MY-PDP-BASELINE-2026-10-10
+authority: Perpustakaan Negara Malaysia
+live_refresh_required: true
+verified_at: 2026-10-10
+sources:
+  - https://www.pnm.gov.my/pnm/resources/UploadFile/Awam/e-borang/borang_PDP.pdf
+  - https://www.pnm.gov.my/pnm/resources/pdf%20file/panduan_sdk2021.pdf
+baseline:
+  timing: pre-publication
+  returned_record_must_be_reconciled: true

@@ -1,0 +1,21 @@
+{
+  "required_source_files": [
+    "MS1",
+    "META1"
+  ],
+  "required_fonts_licences": [
+    "Font license"
+  ],
+  "renderer_requirements": [
+    "Python 3.10+"
+  ],
+  "identifier_mapping": {
+    "ED-PB": "9780306406157"
+  },
+  "channel_settings": {},
+  "rule_snapshots": [
+    "KDP-POSTPUB-20261010"
+  ],
+  "credential_policy": "REFERENCE_ONLY_NO_SECRETS",
+  "recovery_owner": "Publisher"
+}

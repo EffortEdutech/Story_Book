@@ -1,0 +1,11 @@
+{
+  "edition_id": "ED-PB",
+  "isbn": "9780306406157",
+  "kdp_direct": true,
+  "kdp_expanded_distribution": false,
+  "ingram_distribution": true,
+  "same_publisher_owned_isbn": true,
+  "historical_kdp_expanded_distribution": true,
+  "compatible": false,
+  "required_action": "none"
+}

@@ -1,0 +1,45 @@
+{
+  "candidates": [
+    {
+      "phrase": "Malaysian historical fiction",
+      "dimension": "genre_setting",
+      "manuscript_basis": "setting and genre",
+      "relevance": 1.0,
+      "approved": true
+    },
+    {
+      "phrase": "family legacy novel",
+      "dimension": "theme",
+      "manuscript_basis": "central theme",
+      "relevance": 0.9,
+      "approved": true
+    },
+    {
+      "phrase": "Famous Author bestseller",
+      "dimension": "bad",
+      "manuscript_basis": "none",
+      "relevance": 0.1,
+      "approved": true
+    }
+  ],
+  "channel_map": {
+    "kdp": [
+      "k1",
+      "k2",
+      "k3",
+      "k4",
+      "k5",
+      "k6",
+      "k7",
+      "k8"
+    ],
+    "ingram": [
+      "Malaysian historical fiction",
+      "family legacy novel"
+    ],
+    "website": [
+      "Malaysian historical fiction"
+    ]
+  },
+  "approved": true
+}

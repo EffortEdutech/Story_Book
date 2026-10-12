@@ -1,0 +1,13 @@
+{
+  "snapshot_id": "ING-2026-10-10",
+  "verified_at": "2026-07-01",
+  "sources": [
+    "https://www.ingramspark.com/faqs",
+    "https://www.ingramspark.com/hubfs/downloads/user-guide.pdf"
+  ],
+  "rules": {
+    "returns_tail_days": 180,
+    "kdp_expanded_distribution_conflict": true
+  },
+  "refresh_before_live_use": true
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Territory Strategy",
+  "type": "object",
+  "properties": {
+    "markets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "territory": {
+            "type": "string"
+          },
+          "format": {
+            "type": "string"
+          },
+          "rights_available": {
+            "type": "boolean"
+          },
+          "distribution_enabled": {
+            "type": "boolean"
+          },
+          "currency": {
+            "type": "string"
+          },
+          "priority": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "territory",
+          "format",
+          "rights_available",
+          "distribution_enabled",
+          "currency"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 1
+    },
+    "approved": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "markets",
+    "approved"
+  ]
+}

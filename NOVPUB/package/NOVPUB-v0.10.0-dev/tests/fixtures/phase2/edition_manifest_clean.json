@@ -1,0 +1,35 @@
+{
+  "work_id": "WORK-001",
+  "editions": [
+    {
+      "edition_id": "ED-PB-001",
+      "format": "paperback",
+      "language": "English",
+      "publisher": "Example Publishing Enterprise",
+      "imprint": "Example Press",
+      "isbn_required": true,
+      "isbn": "9780306406157",
+      "publication_status": "planned"
+    },
+    {
+      "edition_id": "ED-HC-001",
+      "format": "hardcover",
+      "language": "English",
+      "publisher": "Example Publishing Enterprise",
+      "imprint": "Example Press",
+      "isbn_required": true,
+      "isbn": "9783161484100",
+      "publication_status": "planned"
+    },
+    {
+      "edition_id": "ED-KDL-001",
+      "format": "kindle",
+      "language": "English",
+      "publisher": "Example Publishing Enterprise",
+      "imprint": "Example Press",
+      "isbn_required": false,
+      "isbn": null,
+      "publication_status": "planned"
+    }
+  ]
+}

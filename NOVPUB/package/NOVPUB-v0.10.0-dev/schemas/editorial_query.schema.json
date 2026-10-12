@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "query_id",
+    "chapter",
+    "issue",
+    "author_decision_required",
+    "status"
+  ],
+  "properties": {
+    "query_id": {
+      "type": "string"
+    },
+    "chapter": {
+      "type": "string"
+    },
+    "context": {
+      "type": "string"
+    },
+    "issue": {
+      "type": "string"
+    },
+    "suggested_options": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recommended_option": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "author_decision_required": {
+      "type": "boolean"
+    },
+    "blocking": {
+      "type": "boolean"
+    },
+    "status": {
+      "enum": [
+        "open",
+        "resolved",
+        "deferred",
+        "superseded"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

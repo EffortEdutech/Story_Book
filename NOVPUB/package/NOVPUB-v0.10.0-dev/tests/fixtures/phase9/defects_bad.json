@@ -1,0 +1,13 @@
+{
+  "defects": [
+    {
+      "defect_id": "D-1",
+      "severity": "CRITICAL",
+      "classification": "CONTROL_GAP",
+      "description": "x",
+      "root_cause": "",
+      "status": "OPEN",
+      "regression_test": ""
+    }
+  ]
+}

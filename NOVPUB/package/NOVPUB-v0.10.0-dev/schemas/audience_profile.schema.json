@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Audience Profile",
+  "type": "object",
+  "properties": {
+    "primary_reader": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "genre_preferences": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "emotional_expectations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "description"
+      ],
+      "additionalProperties": true
+    },
+    "secondary_reader": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": true
+    },
+    "exclude": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "approved": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "primary_reader",
+    "approved"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Post-publication Change Event",
+  "type": "object",
+  "properties": {
+    "change_id": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "edition": {
+      "type": "string"
+    },
+    "channel": {
+      "type": "string"
+    },
+    "change_type": {
+      "type": "string"
+    },
+    "old_value_or_asset": {},
+    "new_value_or_asset": {},
+    "reason": {
+      "type": "string"
+    },
+    "upstream_source": {
+      "type": "string"
+    },
+    "approval": {
+      "type": "string"
+    },
+    "approved_by": {
+      "type": "string"
+    },
+    "effective_date": {
+      "type": "string"
+    },
+    "verification": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "change_id",
+    "date",
+    "edition",
+    "channel",
+    "change_type",
+    "reason",
+    "approval",
+    "verification"
+  ]
+}

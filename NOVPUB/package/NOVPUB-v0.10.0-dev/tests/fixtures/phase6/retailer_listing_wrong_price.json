@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-12-15T10:00:00+08:00",
+  "retailer": "Example Bookseller",
+  "edition_id": "ED-PB",
+  "title": "Pilot Novel",
+  "author": "A. Author",
+  "isbn": "9780306406157",
+  "publisher": "Pilot Press",
+  "price": 17.99,
+  "currency": "USD",
+  "cover_hash": "cov123",
+  "status": "ORDERABLE"
+}

@@ -1,0 +1,12 @@
+rule_set: AMAZON_FORMAT_LINKING
+verified_at: 2026-10-10
+source: https://kdp.amazon.com/en_US/help/topic/GTQGN866DSS6XBD2
+rules:
+  matching_metadata_required: true
+  linking_can_take_up_to_days: 7
+  author_central_claim_can_support_linking: true
+  supported_kdp_formats:
+    - ebook
+    - paperback
+    - hardcover
+  refresh_before_live_use: true

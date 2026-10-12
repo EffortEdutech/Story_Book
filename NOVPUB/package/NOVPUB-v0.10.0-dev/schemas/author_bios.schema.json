@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Author Bios",
+  "type": "object",
+  "properties": {
+    "display_name": {
+      "type": "string"
+    },
+    "protected_legal_identity": {
+      "type": "boolean"
+    },
+    "legal_name_reference": {
+      "type": "string"
+    },
+    "bios": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "approved": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "type",
+          "text",
+          "approved"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 1
+    },
+    "verified_claims": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "approved": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "display_name",
+    "bios",
+    "approved"
+  ]
+}

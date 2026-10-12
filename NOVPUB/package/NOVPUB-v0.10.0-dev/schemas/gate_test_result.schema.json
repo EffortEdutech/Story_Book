@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Gate Test Result",
+  "type": "object",
+  "properties": {
+    "test_id": {
+      "type": "string"
+    },
+    "gate_id": {
+      "type": "string"
+    },
+    "scenario": {
+      "type": "string"
+    },
+    "expected": {
+      "type": "string"
+    },
+    "actual": {
+      "type": "string"
+    },
+    "pass": {
+      "type": "boolean"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "test_id",
+    "gate_id",
+    "expected",
+    "actual",
+    "pass"
+  ],
+  "additionalProperties": true
+}

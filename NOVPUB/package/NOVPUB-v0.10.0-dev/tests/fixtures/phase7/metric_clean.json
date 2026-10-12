@@ -1,0 +1,9 @@
+{
+  "metric": "paperback units sold",
+  "value": 10,
+  "period": "2026-11-10",
+  "source": "KDP report",
+  "retrieved_at": "2026-11-11T08:00:00+08:00",
+  "confidence": "reported",
+  "metric_class": "SALE"
+}

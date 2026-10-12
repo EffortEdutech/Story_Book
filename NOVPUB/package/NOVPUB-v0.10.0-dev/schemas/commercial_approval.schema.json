@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Commercial Approval",
+  "type": "object",
+  "properties": {
+    "phase": {
+      "type": "integer",
+      "const": 4
+    },
+    "metadata_lock_id": {
+      "type": "string"
+    },
+    "positioning": {
+      "type": "string"
+    },
+    "classification": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "author_bio": {
+      "type": "string"
+    },
+    "pricing": {
+      "type": "string"
+    },
+    "wholesale": {
+      "type": "string"
+    },
+    "returns": {
+      "type": "string"
+    },
+    "territories": {
+      "type": "string"
+    },
+    "release_strategy": {
+      "type": "string"
+    },
+    "gate_07": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "FAIL",
+        "CONDITIONAL",
+        "PENDING"
+      ]
+    },
+    "approved_by": {
+      "type": "string"
+    },
+    "approved_at": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "phase",
+    "metadata_lock_id",
+    "gate_07",
+    "approved_by",
+    "approved_at"
+  ]
+}

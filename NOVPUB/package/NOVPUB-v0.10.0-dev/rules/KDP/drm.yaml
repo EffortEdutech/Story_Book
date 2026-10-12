@@ -1,0 +1,9 @@
+rule_set: KDP_DRM
+verified_at: 2026-10-10
+source: https://kdp.amazon.com/en_US/help/topic/GDDXGH9VR22ACM8U
+rules:
+  drm_is_human_decision: true
+  drm_setting_can_be_changed_after_publication: true
+  drm_free_verified_purchasers_can_download_epub_pdf_from: 2026-01-20
+  royalty_unchanged_by_drm_choice: true
+  refresh_before_live_use: true

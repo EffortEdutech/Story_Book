@@ -1,0 +1,8 @@
+{
+  "project_id": "NOVPUB-PILOT-001",
+  "phase": 1,
+  "state": "MANUSCRIPT_FROZEN",
+  "blocking_issues": [],
+  "human_decisions_required": [],
+  "next_recommended_action": "Run NPUB-03 Structural Integrity Audit"
+}

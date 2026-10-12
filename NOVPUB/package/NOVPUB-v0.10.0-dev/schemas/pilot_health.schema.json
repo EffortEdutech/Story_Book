@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "title": "NOVPUB Pilot Health",
+  "properties": {
+    "dimensions": {
+      "type": "object"
+    },
+    "overall": {
+      "enum": [
+        "GREEN",
+        "AMBER",
+        "RED"
+      ]
+    }
+  },
+  "required": [
+    "dimensions",
+    "overall"
+  ]
+}

@@ -1,0 +1,13 @@
+rule_set: INGRAM_PRINT_FILES
+verified_at: 2026-10-10
+sources:
+  - https://myaccount.ingramspark.com/documents/IngramSpark%20File%20Creation%20Guide.pdf
+  - https://www.ingramspark.com/blog/file-requirements-for-print-books
+rules:
+  interior_and_cover_separate_files: true
+  pdf_fonts_embedded: true
+  cover_resolution_ppi: 300
+  cover_color_space: CMYK
+  current_template_required: true
+  current_page_count_required_for_cover_template: true
+  refresh_before_live_use: true

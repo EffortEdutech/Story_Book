@@ -1,0 +1,53 @@
+{
+  "metadata_id": "META-001",
+  "work": {
+    "title": "Pilot Novel",
+    "language": "en"
+  },
+  "contributors": {
+    "primary_author": "A. Author"
+  },
+  "publisher": {
+    "publisher_name": "Test Press",
+    "imprint": "Test Press"
+  },
+  "editions": [
+    {
+      "edition_id": "ED-PB-001",
+      "format": "paperback",
+      "isbn": "9780306406157",
+      "page_count": 200
+    },
+    {
+      "edition_id": "ED-EPUB-001",
+      "format": "ebook"
+    }
+  ],
+  "rights": {
+    "copyright_owner": "A. Author",
+    "territories": [
+      "MY",
+      "US",
+      "GB"
+    ],
+    "formats": [
+      "paperback",
+      "ebook"
+    ]
+  },
+  "classification": {},
+  "discoverability": {},
+  "descriptions": {},
+  "author": {},
+  "commercial": {},
+  "release": {},
+  "provenance": {
+    "sources": [
+      "author_identity.json",
+      "edition_manifest.json",
+      "pagination_manifest.json"
+    ],
+    "approved_by": "Publisher",
+    "approved_at": "2026-10-10"
+  }
+}

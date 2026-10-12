@@ -1,0 +1,7 @@
+rule_set: INGRAM_ACCOUNT_READINESS
+verified_at: 2026-10-10
+source: https://www.ingramspark.com/fraudalert
+rules:
+  store_status_not_credentials: true
+  never_store_password_or_bank_credentials_in_project: true
+  refresh_before_live_use: true

@@ -1,0 +1,21 @@
+rule_set: INGRAM_PRINT_PRODUCTION
+verified_at: 2026-10-10
+source: https://www.ingramspark.com/hubfs/downloads/file-creation-guide.pdf
+rules:
+  cover_resolution_ppi: 300
+  cover_color_space: CMYK
+  cover_bleed_in: 0.125
+  cover_type_safety_recommended_in: 0.25
+  separate_interior_and_cover_files: true
+  fonts_embedded: true
+  recommended_pdf_standards:
+    - PDF/X-1a:2001
+    - PDF/X-3:2002
+  cover_template_required: true
+  dynamic_values:
+    - trim_sizes
+    - binding_options
+    - paper_options
+    - spine_safety
+    - page_count_limits
+  refresh_before_live_use: true

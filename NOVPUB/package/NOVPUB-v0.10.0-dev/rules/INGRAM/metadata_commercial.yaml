@@ -1,0 +1,11 @@
+rule_set: INGRAM_METADATA_COMMERCIAL
+verified_at: 2026-10-10
+sources:
+  - https://www.ingramspark.com/hubfs/downloads/metadata-checklist.pdf
+  - https://www.ingramspark.com/hubfs/downloads/title-metadata-guide.pdf
+rules:
+  bisac_recommended_count: 2-3
+  thema_subject_max_recommended: 3
+  keywords_recommended_min: 7
+  accurate_specific_subjects_required: true
+  refresh_before_live_use: true

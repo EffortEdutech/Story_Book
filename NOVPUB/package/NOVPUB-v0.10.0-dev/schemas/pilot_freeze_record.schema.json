@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "title": "NOVPUB v1 Freeze Record",
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "gate": {
+      "type": "string"
+    },
+    "approved_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "frozen": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "version",
+    "gate",
+    "frozen"
+  ]
+}

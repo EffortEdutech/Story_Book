@@ -1,0 +1,71 @@
+{
+  "pilot_id": "NOVPUB-PILOT-001",
+  "title": "The Blue Silence",
+  "package_version": "0.10.0-dev",
+  "created_at": "2026-10-11T07:40:00+08:00",
+  "gates": {
+    "GATE-02": {
+      "name": "Editorial Approval",
+      "status": "PENDING",
+      "evidence": [
+        "01_SOURCE/the_blue_silence_real_baseline.json",
+        "01_SOURCE/the_blue_silence_source_inventory.json",
+        "01_SOURCE/the_blue_silence_manuscript_completeness.json",
+        "../../../../../01_The_Blue_Silence/01_THE_BLUE_SILENCE_Novel_Master_Blueprint_V1.0.docx",
+        "../../../../../01_The_Blue_Silence/02_THE_BLUE_SILENCE_Character_Bible_V1.0.docx",
+        "../../../../../01_The_Blue_Silence/03_THE_BLUE_SILENCE_World_and_Police_Criminal_Ecosystem_Bible_V1.0.docx",
+        "../../../../../01_The_Blue_Silence/04_THE_BLUE_SILENCE_Master_Timeline_and_Hidden_Conspiracy_Bible_V1.0.docx",
+        "../../../../../01_The_Blue_Silence/05_THE_BLUE_SILENCE_40_Chapter_Detailed_Story_Treatment_V1.0.docx"
+      ],
+      "human_required": true,
+      "approved_by": "",
+      "blocking_reason": "Full editorial approval has not yet been explicitly given for the completed manuscript baseline."
+    },
+    "GATE-03": {
+      "name": "Rights Clearance",
+      "status": "PENDING",
+      "evidence": [
+        "../../../../../01_The_Blue_Silence/06_THE_BLUE_SILENCE_Fiction_Disclaimer_V1.0.docx",
+        "01_SOURCE/the_blue_silence_real_baseline.json"
+      ],
+      "human_required": true,
+      "approved_by": "",
+      "blocking_reason": "Rights/ownership, third-party content, permissions, author identity, and publication identity audit evidence has not yet been completed."
+    },
+    "GATE-04": {
+      "name": "Publisher, Edition & ISBN Approval",
+      "status": "PENDING",
+      "evidence": [],
+      "human_required": true,
+      "approved_by": "",
+      "blocking_reason": "No ISBN assignment, edition architecture approval, imprint/publisher profile, copyright-page data, or Malaysia PNM publication identity evidence found."
+    },
+    "GATE-05": {
+      "name": "Interior & Digital Production Approval",
+      "status": "PENDING",
+      "evidence": [],
+      "human_required": true,
+      "approved_by": "",
+      "blocking_reason": "No trim, typography, typeset interior, PDF preflight, EPUB validation, or production approval evidence found."
+    },
+    "GATE-06": {
+      "name": "Cover Production Approval",
+      "status": "PENDING",
+      "evidence": [],
+      "human_required": true,
+      "approved_by": "",
+      "blocking_reason": "No cover brief, cover specification, cover files, cover QA, or human cover approval evidence found."
+    },
+    "GATE-07": {
+      "name": "Metadata & Commercial Approval",
+      "status": "PENDING",
+      "evidence": [],
+      "human_required": true,
+      "approved_by": "",
+      "blocking_reason": "No commercial metadata package, positioning, category/classification, keywords, descriptions, pricing, territories, or channel metadata maps found."
+    }
+  },
+  "gate_result": "PENDING_REAL_EVIDENCE",
+  "summary": "Phase 1-4 pilot record created from current project evidence. GATE-02 has manuscript/development evidence available for review; GATE-03 through GATE-07 require additional real rights, ISBN, production, cover, and metadata artifacts before passing."
+}
+

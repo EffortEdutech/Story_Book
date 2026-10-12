@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Release Manifest",
+  "type": "object",
+  "properties": {
+    "package": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "schemas": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "validators": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tests": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "known_limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "supported_channels": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "supported_jurisdiction": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "release_status": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "package",
+    "version",
+    "skills",
+    "schemas",
+    "validators",
+    "tests",
+    "known_limitations",
+    "release_status"
+  ],
+  "additionalProperties": true
+}

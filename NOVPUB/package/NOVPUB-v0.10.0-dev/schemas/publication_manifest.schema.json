@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Publication Manifest",
+  "type": "object",
+  "properties": {
+    "work_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "publisher": {
+      "type": "string"
+    },
+    "imprint": {
+      "type": "string"
+    },
+    "active_editions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "historical_editions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "current_assets": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": true
+    },
+    "identifiers": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": true
+    },
+    "channels": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": true
+    },
+    "current_metadata_version": {
+      "type": "string"
+    },
+    "current_production_version": {
+      "type": "string"
+    },
+    "publication_dates": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": true
+    },
+    "archive_created": {
+      "type": "string"
+    },
+    "archive_verified": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "work_id",
+    "title",
+    "author",
+    "publisher",
+    "active_editions",
+    "current_assets",
+    "archive_verified"
+  ]
+}

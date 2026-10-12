@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Publication Strategy",
+  "type": "object",
+  "properties": {
+    "release_type": {
+      "type": "string",
+      "enum": [
+        "immediate",
+        "scheduled",
+        "preorder_led",
+        "soft_launch",
+        "coordinated_launch"
+      ]
+    },
+    "official_publication_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "preorder_start_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "submission_target_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "marketing_launch_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "proof_required": {
+      "type": "boolean"
+    },
+    "approved": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "release_type",
+    "official_publication_date",
+    "approved"
+  ]
+}

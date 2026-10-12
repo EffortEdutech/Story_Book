@@ -1,0 +1,15 @@
+rule_set: INGRAM_WHOLESALE_DISCOUNT
+verified_at: 2026-10-10
+sources:
+  - https://www.ingramspark.com/blog/how-to-set-up-a-title-with-ingramspark-part-1
+  - https://www.ingramspark.com/blog/why-should-i-discount-my-book
+rules:
+  us_canada_min: 0.40
+  us_canada_max: 0.55
+  international_guidance_min: 0.35
+  international_max: 0.55
+  bookstore_friendly_guidance_range:
+    - 0.53
+    - 0.55
+  automatic_55_percent_selection_forbidden: true
+  refresh_before_live_use: true

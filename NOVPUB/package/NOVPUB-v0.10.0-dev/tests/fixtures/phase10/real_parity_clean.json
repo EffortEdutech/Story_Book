@@ -1,0 +1,16 @@
+{
+  "codex_run": {
+    "evidence_type": "ACTUAL_AGENT_RUN"
+  },
+  "claude_run": {
+    "evidence_type": "ACTUAL_AGENT_RUN"
+  },
+  "comparisons": [
+    {
+      "check_id": "ISBN",
+      "deterministic": true,
+      "equivalent": true,
+      "material_difference": false
+    }
+  ]
+}

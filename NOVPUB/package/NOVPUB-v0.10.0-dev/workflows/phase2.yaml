@@ -1,0 +1,26 @@
+phase: 2
+name: Rights, Publisher, ISBN & Malaysia Compliance
+entry_state: EDITORIAL_APPROVED
+entry_gate: GATE-02
+skills:
+  - NPUB-09
+  - NPUB-10
+  - GATE-03
+  - NPUB-11
+  - NPUB-12
+  - NPUB-13
+  - NPUB-14
+  - NPUB-15
+  - NPUB-16
+  - NPUB-17
+  - NPUB-18
+  - GATE-04
+exit_state: PUBLICATION_IDENTITY_APPROVED
+human_gates:
+  - GATE-03
+  - GATE-04
+rules:
+  never_invent_isbn: true
+  never_invent_rights: true
+  malaysia_live_rule_refresh_required: true
+  legal_deposit_execution_post_publication: true

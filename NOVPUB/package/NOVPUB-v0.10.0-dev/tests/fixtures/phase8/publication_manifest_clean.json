@@ -1,0 +1,32 @@
+{
+  "work_id": "W1",
+  "title": "Pilot Novel",
+  "author": "A. Author",
+  "publisher": "Pilot Press",
+  "imprint": "Pilot Press",
+  "active_editions": [
+    "ED-K",
+    "ED-PB"
+  ],
+  "historical_editions": [],
+  "current_assets": {
+    "manuscript": "MS1",
+    "metadata": "META1",
+    "paperback": "PB1",
+    "ebook": "EP1"
+  },
+  "identifiers": {
+    "paperback_isbn": "9780306406157"
+  },
+  "channels": {
+    "kdp": "LIVE",
+    "ingram": "LIVE"
+  },
+  "current_metadata_version": "1.0",
+  "current_production_version": "1.0",
+  "publication_dates": {
+    "paperback": "2026-09-15"
+  },
+  "archive_created": "2026-10-10",
+  "archive_verified": true
+}

@@ -1,0 +1,78 @@
+{
+  "pilot_id": "NOVPUB-PILOT-001",
+  "status": "TEMPLATE",
+  "coverage": {
+    "phase_1_to_4_real_pilot": "NPUB-01 through NPUB-49 evidence required from original package",
+    "phase_6_ingram": "NPUB-50 through NPUB-56",
+    "phase_7_launch": "NPUB-57 through NPUB-66",
+    "phase_8_post_publication": "NPUB-67 through NPUB-76",
+    "phase_9_rc": "NPUB-77 through NPUB-86",
+    "phase_10_real_pilot": "NPUB-87 through NPUB-96"
+  },
+  "required_real_evidence": [
+    {
+      "id": "P10-EV-001",
+      "gate": "GATE-P10-01",
+      "name": "Actual completed manuscript file inventory",
+      "status": "NOT_STARTED",
+      "allows_fixture": false
+    },
+    {
+      "id": "P10-EV-002",
+      "gate": "GATE-P10-01",
+      "name": "SHA-256 digest for each manuscript source file",
+      "status": "NOT_STARTED",
+      "allows_fixture": false
+    },
+    {
+      "id": "P10-EV-003",
+      "gate": "GATE-P10-01",
+      "name": "Source ownership and provenance evidence",
+      "status": "NOT_STARTED",
+      "allows_fixture": false
+    },
+    {
+      "id": "P10-EV-004",
+      "gate": "GATE-NOVPUB-V1",
+      "name": "KDP pilot levels K1-K4 evidence",
+      "status": "NOT_STARTED",
+      "allows_fixture": false
+    },
+    {
+      "id": "P10-EV-005",
+      "gate": "GATE-NOVPUB-V1",
+      "name": "Ingram pilot levels I1-I5 evidence",
+      "status": "NOT_STARTED",
+      "allows_fixture": false
+    },
+    {
+      "id": "P10-EV-006",
+      "gate": "GATE-NOVPUB-V1",
+      "name": "Physical proof evidence and human approval",
+      "status": "NOT_STARTED",
+      "allows_fixture": false
+    },
+    {
+      "id": "P10-EV-007",
+      "gate": "GATE-NOVPUB-V1",
+      "name": "Defect remediation and regression evidence",
+      "status": "NOT_STARTED",
+      "allows_fixture": false
+    },
+    {
+      "id": "P10-EV-008",
+      "gate": "GATE-NOVPUB-V1",
+      "name": "Codex and Claude real-pilot reproducibility certification",
+      "status": "NOT_STARTED",
+      "allows_fixture": false
+    },
+    {
+      "id": "P10-EV-009",
+      "gate": "GATE-NOVPUB-V1",
+      "name": "Final human v1 approval",
+      "status": "NOT_STARTED",
+      "allows_fixture": false
+    }
+  ]
+}
+

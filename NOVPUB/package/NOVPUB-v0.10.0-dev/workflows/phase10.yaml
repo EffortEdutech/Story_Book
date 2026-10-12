@@ -1,0 +1,24 @@
+phase: 10
+name: Professional Pilot Using the Completed Novel
+entry_state: NOVPUB_V1_RC_APPROVED
+required_gates:
+  - GATE-NOVPUB-RC1
+skills:
+  - NPUB-87
+  - NPUB-88
+  - NPUB-89
+  - NPUB-90
+  - NPUB-91
+  - NPUB-92
+  - NPUB-93
+  - NPUB-94
+  - NPUB-95
+  - NPUB-96
+gates:
+  - GATE-NOVPUB-V1
+exit_state: NOVPUB_V1_0_0_RELEASED
+notes:
+  - Phase 10 is a real-novel certification pilot, not a synthetic fixture pass.
+  - Missing real evidence remains PENDING_REAL_EVIDENCE and must never be fabricated.
+  - Physical-proof approval must be supported by real human inspection where required.
+  - Professional human review and actual Codex/Claude runs are required for production release.

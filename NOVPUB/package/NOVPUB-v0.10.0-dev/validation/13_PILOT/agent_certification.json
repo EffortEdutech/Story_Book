@@ -1,0 +1,9 @@
+{
+  "codex": {
+    "status": "PENDING_REAL_RUN"
+  },
+  "claude": {
+    "status": "PENDING_REAL_RUN"
+  },
+  "certified": false
+}

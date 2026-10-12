@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KDP Metadata",
+  "type": "object",
+  "properties": {
+    "edition_id": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string",
+      "enum": [
+        "kindle",
+        "paperback",
+        "hardcover"
+      ]
+    },
+    "language": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "series": {
+      "type": "string"
+    },
+    "edition": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "contributors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "description": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "publishing_rights": {
+      "type": "string"
+    },
+    "territories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "primary_marketplace": {
+      "type": "string"
+    },
+    "pricing": {
+      "type": "object",
+      "properties": {
+        "currency": {
+          "type": "string"
+        },
+        "list_price": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "currency",
+        "list_price"
+      ],
+      "additionalProperties": true
+    },
+    "isbn": {
+      "type": "string"
+    },
+    "imprint": {
+      "type": "string"
+    },
+    "approved": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "edition_id",
+    "format",
+    "language",
+    "title",
+    "author",
+    "description",
+    "territories",
+    "pricing"
+  ]
+}

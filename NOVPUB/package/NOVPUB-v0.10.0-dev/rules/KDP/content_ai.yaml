@@ -1,0 +1,13 @@
+rule_set: KDP_AI_CONTENT_DISCLOSURE
+verified_at: 2026-10-10
+source: https://kdp.amazon.com/en_US/help/topic/G200644110
+rules:
+  disclose_ai_generated_content: true
+  disclose_ai_assisted_content: false
+  applies_to:
+    - text
+    - images
+    - translations
+  ai_generated_definition: actual content created by an AI-based tool even if substantially edited later
+  ai_assisted_definition: human-created content edited refined checked or brainstormed with AI
+  refresh_before_live_use: true

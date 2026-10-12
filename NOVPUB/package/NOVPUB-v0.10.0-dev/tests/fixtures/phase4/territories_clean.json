@@ -1,0 +1,21 @@
+{
+  "markets": [
+    {
+      "territory": "MY",
+      "format": "paperback",
+      "rights_available": true,
+      "distribution_enabled": true,
+      "currency": "MYR",
+      "priority": "PRIMARY"
+    },
+    {
+      "territory": "US",
+      "format": "paperback",
+      "rights_available": true,
+      "distribution_enabled": true,
+      "currency": "USD",
+      "priority": "SECONDARY"
+    }
+  ],
+  "approved": true
+}

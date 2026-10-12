@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 9 Defect Register",
+  "type": "object",
+  "properties": {
+    "defects": {
+      "type": "array",
+      "items": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "title": "defect",
+        "type": "object",
+        "properties": {
+          "defect_id": {
+            "type": "string"
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "CRITICAL",
+              "MAJOR",
+              "MODERATE",
+              "MINOR"
+            ]
+          },
+          "classification": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "root_cause": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "OPEN",
+              "TRIAGED",
+              "FIX_IN_PROGRESS",
+              "FIXED",
+              "REGRESSION_TESTING",
+              "CLOSED",
+              "DEFERRED",
+              "ACCEPTED_RISK",
+              "DUPLICATE",
+              "NOT_A_DEFECT"
+            ]
+          },
+          "regression_test": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "defect_id",
+          "severity",
+          "description",
+          "status"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": [
+    "defects"
+  ],
+  "additionalProperties": true
+}

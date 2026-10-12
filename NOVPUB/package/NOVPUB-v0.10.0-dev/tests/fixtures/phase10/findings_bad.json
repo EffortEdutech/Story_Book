@@ -1,0 +1,9 @@
+{
+  "findings": [
+    {
+      "pilot_finding_id": "PF-002",
+      "severity": "CRITICAL",
+      "status": "OPEN"
+    }
+  ]
+}

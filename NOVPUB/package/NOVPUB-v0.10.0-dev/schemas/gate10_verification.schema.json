@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Gate 10 Verification",
+  "type": "object",
+  "properties": {
+    "gate_id": {
+      "type": "string",
+      "enum": [
+        "GATE-10"
+      ]
+    },
+    "result": {
+      "type": "string",
+      "enum": [
+        "PENDING",
+        "PASS",
+        "FAIL",
+        "CONDITIONAL"
+      ]
+    },
+    "checks": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": true
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "human_approval": {
+      "type": "boolean"
+    },
+    "approved_by": {
+      "type": "string"
+    },
+    "approved_at": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "gate_id",
+    "result",
+    "checks",
+    "human_approval"
+  ]
+}

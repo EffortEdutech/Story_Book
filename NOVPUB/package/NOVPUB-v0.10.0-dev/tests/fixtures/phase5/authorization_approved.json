@@ -1,0 +1,18 @@
+{
+  "authorization_id": "AUTH-PB-001",
+  "edition_id": "ED-PB-001",
+  "channel": "KDP",
+  "ready": true,
+  "proof_status": "PASS",
+  "metadata_version": "META-v1",
+  "asset_versions": {
+    "interior": "sha256:abc",
+    "cover": "sha256:def"
+  },
+  "pricing_version": "PRICE-v1",
+  "territory_version": "TERR-v1",
+  "publication_mode": "scheduled",
+  "authorized": true,
+  "authorized_by": "Publisher",
+  "authorized_at": "2026-10-10"
+}

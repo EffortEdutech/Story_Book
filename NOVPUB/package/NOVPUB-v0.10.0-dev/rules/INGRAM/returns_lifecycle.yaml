@@ -1,0 +1,12 @@
+rule_id: INGRAM-RETURNS-LIFECYCLE-20261010
+source: https://www.ingramspark.com/hubfs/downloads/user-guide.pdf
+last_verified: 2026-10-10
+require_live_refresh: true
+return_statuses:
+  - NON_RETURNABLE
+  - YES_DELIVER
+  - YES_DESTROY
+returnable_to_nonreturnable_tail_days: 180
+notes:
+  - Returned books can create negative publisher compensation and may create an invoice liability.
+  - Changing from non-returnable to a returnable status can expose previously purchased copies to returns under current terms.

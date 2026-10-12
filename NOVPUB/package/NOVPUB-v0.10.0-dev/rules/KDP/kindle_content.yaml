@@ -1,0 +1,11 @@
+rule_set: KDP_KINDLE_CONTENT
+verified_at: 2026-10-10
+sources:
+  - https://kdp.amazon.com/en_US/help/topic/G200634390
+  - https://kdp.amazon.com/en_US/help/topic/G202131170
+rules:
+  epub_supported: true
+  epub_preview_recommended: true
+  online_previewer_available: true
+  kindle_previewer_available: true
+  refresh_before_live_use: true

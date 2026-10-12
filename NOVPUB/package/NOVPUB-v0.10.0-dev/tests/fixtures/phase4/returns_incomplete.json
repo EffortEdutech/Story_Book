@@ -1,0 +1,19 @@
+{
+  "returnability": "RETURNABLE_DELIVER",
+  "scenarios": [
+    {
+      "return_rate": 0,
+      "units_shipped": 100,
+      "units_returned": 0,
+      "estimated_loss": 0.0
+    },
+    {
+      "return_rate": 0.05,
+      "units_shipped": 100,
+      "units_returned": 5,
+      "estimated_loss": 33.75
+    }
+  ],
+  "maximum_return_exposure": 1000,
+  "approved": false
+}

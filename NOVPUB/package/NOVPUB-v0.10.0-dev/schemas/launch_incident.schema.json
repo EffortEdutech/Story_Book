@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Launch Incident",
+  "type": "object",
+  "properties": {
+    "incident_id": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "channel": {
+      "type": "string"
+    },
+    "severity": {
+      "type": "string",
+      "enum": [
+        "P0",
+        "P1",
+        "P2",
+        "P3"
+      ]
+    },
+    "observed": {
+      "type": "string"
+    },
+    "expected": {
+      "type": "string"
+    },
+    "impact": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "resolution": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "incident_id",
+    "timestamp",
+    "channel",
+    "severity",
+    "observed",
+    "expected",
+    "status"
+  ]
+}

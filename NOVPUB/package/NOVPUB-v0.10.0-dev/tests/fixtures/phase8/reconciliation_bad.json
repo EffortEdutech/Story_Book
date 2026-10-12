@@ -1,0 +1,10 @@
+{
+  "reconciliation_id": "R2",
+  "currency": "USD",
+  "expected": 100,
+  "reported": 80,
+  "paid": 80,
+  "threshold_absolute": 1,
+  "threshold_percentage": 1,
+  "status": "MATCHED"
+}

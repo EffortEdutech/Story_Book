@@ -1,0 +1,188 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Metadata Master",
+  "type": "object",
+  "properties": {
+    "metadata_id": {
+      "type": "string"
+    },
+    "work": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "subtitle": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string"
+        },
+        "series": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "language"
+      ],
+      "additionalProperties": true
+    },
+    "contributors": {
+      "type": "object",
+      "properties": {
+        "primary_author": {
+          "type": "string"
+        },
+        "additional_contributors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {},
+            "required": [],
+            "additionalProperties": true
+          }
+        }
+      },
+      "required": [
+        "primary_author"
+      ],
+      "additionalProperties": true
+    },
+    "publisher": {
+      "type": "object",
+      "properties": {
+        "publisher_name": {
+          "type": "string"
+        },
+        "imprint": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "publisher_name"
+      ],
+      "additionalProperties": true
+    },
+    "editions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "edition_id": {
+            "type": "string"
+          },
+          "format": {
+            "type": "string"
+          },
+          "isbn": {
+            "type": "string"
+          },
+          "page_count": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "edition_id",
+          "format"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 1
+    },
+    "rights": {
+      "type": "object",
+      "properties": {
+        "copyright_owner": {
+          "type": "string"
+        },
+        "territories": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "formats": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "copyright_owner"
+      ],
+      "additionalProperties": true
+    },
+    "classification": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": true
+    },
+    "discoverability": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": true
+    },
+    "descriptions": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": true
+    },
+    "author": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": true
+    },
+    "commercial": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": true
+    },
+    "release": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": true
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "approved_by": {
+          "type": "string"
+        },
+        "approved_at": {
+          "type": "string"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "sources"
+      ],
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "metadata_id",
+    "work",
+    "contributors",
+    "publisher",
+    "editions",
+    "rights",
+    "commercial",
+    "release",
+    "provenance"
+  ]
+}

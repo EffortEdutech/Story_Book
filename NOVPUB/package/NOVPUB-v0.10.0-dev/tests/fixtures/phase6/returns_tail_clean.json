@@ -1,0 +1,14 @@
+{
+  "edition_id": "ED-PB",
+  "returnability": "NON_RETURNABLE",
+  "risk_model_current": true,
+  "maximum_return_exposure": 1000,
+  "estimated_worst_case_exposure": 0,
+  "deliver_logistics_resolved": false,
+  "previous_returnability": "YES_DESTROY",
+  "change_date": "2026-10-10",
+  "tail_end_date": "2027-04-08",
+  "tail_exposure_modelled": true,
+  "approved": true,
+  "approved_by": "Publisher"
+}

@@ -1,0 +1,42 @@
+import json, unittest
+from pathlib import Path
+from validators.phase7 import *
+ROOT=Path(__file__).resolve().parents[2]; FX=ROOT/'tests/fixtures/phase7'
+def load(n): return json.loads((FX/n).read_text())
+class Phase7Tests(unittest.TestCase):
+    def test_arc_clean(self): self.assertEqual([],validate_arc_manifest(load('arc_clean.json')))
+    def test_arc_review_required(self): self.assertTrue(any('ARC-006' in x for x in validate_arc_manifest(load('arc_review_required.json'))))
+    def test_arc_recipient_clean(self): self.assertEqual([],validate_arc_recipient(load('arc_recipient_clean.json')))
+    def test_arc_incentive(self): self.assertTrue(any('ARC-007' in x for x in validate_arc_recipient(load('arc_recipient_incentive.json'))))
+    def test_reviewer_clean(self): self.assertEqual([],validate_reviewer(load('reviewer_clean.json')))
+    def test_reviewer_conflict(self): self.assertTrue(any('REV-001' in x for x in validate_reviewer(load('reviewer_conflict.json'))))
+    def test_outreach_clean(self): self.assertEqual([],validate_reviewer_outreach(load('outreach_clean.json')))
+    def test_outreach_bad(self): self.assertGreaterEqual(len(validate_reviewer_outreach(load('outreach_bad.json'))),3)
+    def test_review_record(self): self.assertEqual([],validate_review_record(load('review_clean.json')))
+    def test_team_clean(self): self.assertEqual([],validate_launch_team(load('launch_team_clean.json')))
+    def test_team_conflict(self): self.assertTrue(any('TEAM-002' in x for x in validate_launch_team(load('launch_team_conflict.json'))))
+    def test_author_central(self): self.assertEqual([],validate_author_central(load('author_central_clean.json')))
+    def test_author_central_bad(self): self.assertTrue(validate_author_central(load('author_central_bad.json')))
+    def test_links_clean(self): self.assertEqual([],validate_retailer_links(load('links_clean.json')))
+    def test_links_bad(self): self.assertTrue(validate_retailer_links(load('links_bad.json')))
+    def test_claims_clean(self): self.assertEqual([],validate_marketing_claims(load('claims_clean.json')))
+    def test_claims_bad(self): self.assertTrue(validate_marketing_claims(load('claims_bad.json')))
+    def test_asset_clean(self): self.assertEqual([],validate_marketing_asset(load('asset_clean.json'),{'C1'}))
+    def test_asset_bad(self): self.assertGreaterEqual(len(validate_marketing_asset(load('asset_bad.json'),{'C1'})),3)
+    def test_media_kit(self): self.assertEqual([],validate_media_kit(load('media_kit_clean.json'),{'C1'}))
+    def test_calendar_clean(self): self.assertEqual([],validate_launch_calendar(load('calendar_clean.json'),True))
+    def test_calendar_live_not_ready(self): self.assertTrue(any('CAL-003' in x for x in validate_launch_calendar(load('calendar_clean.json'),False)))
+    def test_calendar_bad(self): self.assertTrue(any('CAL-002' in x for x in validate_launch_calendar(load('calendar_bad.json'),False)))
+    def test_launch_day_clean(self): self.assertEqual([],validate_launch_day(load('launch_day_clean.json')))
+    def test_launch_day_bad(self): self.assertTrue(validate_launch_day(load('launch_day_bad.json')))
+    def test_metric_clean(self): self.assertEqual([],validate_launch_metric(load('metric_clean.json')))
+    def test_metric_rank_bad(self): self.assertTrue(any('LA-003' in x for x in validate_launch_metric(load('metric_bad_rank.json'))))
+    def test_authorization_clean(self): self.assertEqual([],validate_launch_authorization(load('authorization_clean.json')))
+    def test_authorization_bad(self): self.assertTrue(validate_launch_authorization(load('authorization_bad.json')))
+    def test_gate09_clean(self):
+        e=validate_gate09(load('upstream_gates_clean.json'),load('launch_strategy_clean.json'),load('arc_clean.json'),load('launch_team_clean.json'),load('author_central_clean.json'),load('links_clean.json'),load('media_kit_clean.json'),load('claims_clean.json'),{'assets':[load('asset_clean.json')]},load('calendar_clean.json'),load('launch_day_clean.json'),load('authorization_clean.json'),True)
+        self.assertEqual([],e)
+    def test_gate09_requires_human(self):
+        e=validate_gate09(load('upstream_gates_clean.json'),load('launch_strategy_clean.json'),load('arc_clean.json'),load('launch_team_clean.json'),load('author_central_clean.json'),load('links_clean.json'),load('media_kit_clean.json'),load('claims_clean.json'),{'assets':[load('asset_clean.json')]},load('calendar_clean.json'),load('launch_day_clean.json'),load('authorization_clean.json'),False)
+        self.assertIn('G09 human gate approval missing',e)
+if __name__=='__main__': unittest.main()

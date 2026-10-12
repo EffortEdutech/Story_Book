@@ -1,0 +1,12 @@
+{
+  "outreach_id": "O2",
+  "reviewer_id": "RV1",
+  "arc_offered": true,
+  "review_requested": true,
+  "review_optional": false,
+  "compensation": 20,
+  "positive_review_requested": true,
+  "star_rating_requested": 5,
+  "future_benefit_conditioned_on_review": true,
+  "status": "DRAFT"
+}

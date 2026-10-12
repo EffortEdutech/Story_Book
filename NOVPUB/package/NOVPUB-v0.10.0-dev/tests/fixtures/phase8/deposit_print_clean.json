@@ -1,0 +1,18 @@
+{
+  "material": "Paperback",
+  "edition_id": "ED-PB",
+  "material_type": "PRINTED",
+  "publication_date": "2026-09-15",
+  "copies_or_units_required": 5,
+  "deadline": "2026-10-15",
+  "submission_method": "courier",
+  "submitted": true,
+  "submission_date": "2026-10-01",
+  "evidence": [
+    "tracking-123"
+  ],
+  "acknowledged": true,
+  "closed": true,
+  "status": "CLOSED",
+  "rule_snapshot_verified_at": "2026-10-10"
+}

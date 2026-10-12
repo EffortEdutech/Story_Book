@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "website_live": true,
+    "retailer_links_valid": true,
+    "campaign_assets_ready": true,
+    "incident_route_active": true
+  },
+  "critical_failures": [],
+  "incidents_open": [],
+  "ready": true,
+  "checked_at": "2026-11-10T08:00:00+08:00"
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ingram Return Policy",
+  "type": "object",
+  "properties": {
+    "edition_id": {
+      "type": "string"
+    },
+    "returnability": {
+      "type": "string",
+      "enum": [
+        "NON_RETURNABLE",
+        "YES_DELIVER",
+        "YES_DESTROY"
+      ]
+    },
+    "risk_model_current": {
+      "type": "boolean"
+    },
+    "maximum_return_exposure": {
+      "type": "number",
+      "minimum": 0
+    },
+    "estimated_worst_case_exposure": {
+      "type": "number",
+      "minimum": 0
+    },
+    "deliver_logistics_resolved": {
+      "type": "boolean"
+    },
+    "previous_returnability": {
+      "type": "string"
+    },
+    "change_date": {
+      "type": "string"
+    },
+    "tail_end_date": {
+      "type": "string"
+    },
+    "tail_exposure_modelled": {
+      "type": "boolean"
+    },
+    "approved": {
+      "type": "boolean"
+    },
+    "approved_by": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "edition_id",
+    "returnability",
+    "risk_model_current",
+    "approved"
+  ]
+}

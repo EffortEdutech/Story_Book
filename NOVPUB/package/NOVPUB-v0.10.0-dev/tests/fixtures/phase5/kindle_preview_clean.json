@@ -1,0 +1,17 @@
+{
+  "edition_id": "ED-KIN-001",
+  "reviewed": true,
+  "devices_checked": [
+    "phone",
+    "tablet",
+    "e-ink"
+  ],
+  "font_sizes_checked": [
+    "small",
+    "default",
+    "large"
+  ],
+  "findings": [],
+  "approved": true,
+  "approved_by": "Publisher"
+}

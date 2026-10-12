@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Media Kit Manifest",
+  "type": "object",
+  "properties": {
+    "book_factsheet": {
+      "type": "string"
+    },
+    "approved_cover": {
+      "type": "string"
+    },
+    "approved_author_photo": {
+      "type": "string"
+    },
+    "approved_author_bio": {
+      "type": "string"
+    },
+    "press_release": {
+      "type": "string"
+    },
+    "media_pitch": {
+      "type": "string"
+    },
+    "interview_topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "trade_terms_version": {
+      "type": "string"
+    },
+    "approved": {
+      "type": "boolean"
+    },
+    "approved_by": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "book_factsheet",
+    "approved_cover",
+    "approved_author_bio",
+    "claims",
+    "approved"
+  ]
+}

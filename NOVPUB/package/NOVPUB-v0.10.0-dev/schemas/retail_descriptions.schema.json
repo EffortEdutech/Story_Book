@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Retail Descriptions",
+  "type": "object",
+  "properties": {
+    "descriptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "description_id": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "spoiler_level": {
+            "type": "string",
+            "enum": [
+              "none",
+              "light",
+              "moderate",
+              "major"
+            ]
+          },
+          "approved": {
+            "type": "boolean"
+          },
+          "claims": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {},
+              "required": [],
+              "additionalProperties": true
+            }
+          }
+        },
+        "required": [
+          "description_id",
+          "type",
+          "text",
+          "spoiler_level",
+          "approved"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 1
+    },
+    "approved": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "descriptions",
+    "approved"
+  ]
+}

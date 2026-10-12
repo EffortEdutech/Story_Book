@@ -1,0 +1,10 @@
+{
+  "recipient_id": "R2",
+  "reviewer_type": "blogger",
+  "arc_format": "PDF",
+  "review_required": false,
+  "review_expected": true,
+  "incentive": true,
+  "future_benefit_conditioned_on_review": false,
+  "status": "SENT"
+}

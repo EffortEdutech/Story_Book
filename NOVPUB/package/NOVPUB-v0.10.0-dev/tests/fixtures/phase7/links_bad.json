@@ -1,0 +1,15 @@
+{
+  "links": [
+    {
+      "retailer": "Amazon",
+      "marketplace": "US",
+      "format": "paperback",
+      "url": "https://example.test/wrong",
+      "accessible": true,
+      "correct_book": false,
+      "correct_format": false,
+      "affiliate_parameter_approved": false
+    }
+  ],
+  "validated_at": "2026-10-10T00:00:00+08:00"
+}

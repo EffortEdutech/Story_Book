@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Launch Metric",
+  "type": "object",
+  "properties": {
+    "metric": {
+      "type": "string"
+    },
+    "value": {
+      "type": "number"
+    },
+    "period": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "retrieved_at": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "string"
+    },
+    "metric_class": {
+      "type": "string",
+      "enum": [
+        "ORDER",
+        "SALE",
+        "SHIPMENT",
+        "ROYALTY_ELIGIBLE_SALE",
+        "RETURN",
+        "KU_READ",
+        "RANK",
+        "REVIEW",
+        "TRAFFIC",
+        "ENGAGEMENT",
+        "SPEND",
+        "CONVERSION"
+      ]
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "metric",
+    "value",
+    "period",
+    "source",
+    "retrieved_at",
+    "metric_class"
+  ]
+}

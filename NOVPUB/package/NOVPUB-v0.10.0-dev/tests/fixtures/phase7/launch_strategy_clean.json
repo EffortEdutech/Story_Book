@@ -1,0 +1,16 @@
+{
+  "launch_type": "SOFT_LAUNCH",
+  "primary_goal": "reader acquisition",
+  "primary_audience": [
+    "historical fiction readers"
+  ],
+  "primary_channels": [
+    "Amazon",
+    "website"
+  ],
+  "success_metrics": [
+    "verified live listings"
+  ],
+  "approved": true,
+  "approved_by": "publisher"
+}

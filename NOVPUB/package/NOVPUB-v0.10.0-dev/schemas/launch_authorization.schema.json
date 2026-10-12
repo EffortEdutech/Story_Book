@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Launch Authorization",
+  "type": "object",
+  "properties": {
+    "book_id": {
+      "type": "string"
+    },
+    "launch_date": {
+      "type": "string"
+    },
+    "soft_launch_complete": {
+      "type": "boolean"
+    },
+    "channels_verified": {
+      "type": "boolean"
+    },
+    "proof_status": {
+      "type": "string"
+    },
+    "website_status": {
+      "type": "string"
+    },
+    "author_central_status": {
+      "type": "string"
+    },
+    "media_kit_status": {
+      "type": "string"
+    },
+    "campaign_assets_status": {
+      "type": "string"
+    },
+    "review_policy_status": {
+      "type": "string"
+    },
+    "incident_process_status": {
+      "type": "string"
+    },
+    "gate_09": {
+      "type": "string"
+    },
+    "authorized": {
+      "type": "boolean"
+    },
+    "authorized_by": {
+      "type": "string"
+    },
+    "authorized_at": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "book_id",
+    "launch_date",
+    "soft_launch_complete",
+    "channels_verified",
+    "gate_09",
+    "authorized"
+  ]
+}

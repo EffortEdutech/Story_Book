@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Production Source Manifest",
+  "type": "object",
+  "properties": {
+    "manifest_id": {
+      "type": "string"
+    },
+    "editorial_source_hash": {
+      "type": "string",
+      "pattern": "^[a-fA-F0-9]{64}$"
+    },
+    "canonical_text_hash": {
+      "type": "string",
+      "pattern": "^[a-fA-F0-9]{64}$"
+    },
+    "source_freeze_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "manifest_id",
+    "editorial_source_hash",
+    "canonical_text_hash",
+    "source_freeze_id"
+  ]
+}

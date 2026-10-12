@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "phase",
+    "gate",
+    "manuscript_version",
+    "manuscript_hash",
+    "unresolved_blocking_issues",
+    "human_approval",
+    "status"
+  ],
+  "properties": {
+    "phase": {
+      "const": "Phase 1"
+    },
+    "gate": {
+      "const": "GATE-02"
+    },
+    "manuscript_version": {
+      "type": "string"
+    },
+    "manuscript_hash": {
+      "type": "string",
+      "pattern": "^[a-fA-F0-9]{64}$"
+    },
+    "structural_audit": {
+      "enum": [
+        "passed",
+        "failed",
+        "pending"
+      ]
+    },
+    "continuity_audit": {
+      "enum": [
+        "passed",
+        "failed",
+        "pending"
+      ]
+    },
+    "style_bible": {
+      "enum": [
+        "approved",
+        "pending"
+      ]
+    },
+    "copyedit": {
+      "enum": [
+        "complete",
+        "pending"
+      ]
+    },
+    "proofread": {
+      "enum": [
+        "complete",
+        "pending"
+      ]
+    },
+    "unresolved_blocking_issues": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "human_approval": {
+      "type": "boolean"
+    },
+    "approval_timestamp": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "AWAITING_HUMAN_APPROVAL",
+        "EDITORIAL_APPROVED",
+        "EDITORIAL_REVIEW"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

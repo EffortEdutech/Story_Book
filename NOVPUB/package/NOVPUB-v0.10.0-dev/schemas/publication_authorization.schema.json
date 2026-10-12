@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KDP Publication Authorization",
+  "type": "object",
+  "properties": {
+    "authorization_id": {
+      "type": "string"
+    },
+    "edition_id": {
+      "type": "string"
+    },
+    "channel": {
+      "type": "string",
+      "const": "KDP"
+    },
+    "ready": {
+      "type": "boolean"
+    },
+    "proof_status": {
+      "type": "string"
+    },
+    "metadata_version": {
+      "type": "string"
+    },
+    "asset_versions": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": true
+    },
+    "pricing_version": {
+      "type": "string"
+    },
+    "territory_version": {
+      "type": "string"
+    },
+    "publication_mode": {
+      "type": "string"
+    },
+    "authorized": {
+      "type": "boolean"
+    },
+    "authorized_by": {
+      "type": "string"
+    },
+    "authorized_at": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "authorization_id",
+    "edition_id",
+    "channel",
+    "ready",
+    "authorized"
+  ]
+}

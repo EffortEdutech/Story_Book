@@ -1,0 +1,13 @@
+rule_set: INGRAM_RETURNS
+verified_at: 2026-10-10
+source: https://www.ingramspark.com/hubfs/downloads/user-guide.pdf
+rules:
+  options:
+    - NON_RETURNABLE
+    - YES_DELIVER
+    - YES_DESTROY
+  returnable_to_non_returnable_tail_days: 180
+  yes_deliver_to_no_tail_handling: YES_DESTROY
+  non_returnable_to_returnable_effective_immediately_for_sellers: true
+  returnability_is_human_decision: true
+  refresh_before_live_use: true

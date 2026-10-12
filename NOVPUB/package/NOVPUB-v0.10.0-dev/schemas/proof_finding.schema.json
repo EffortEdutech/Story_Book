@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Proof Finding",
+  "type": "object",
+  "properties": {
+    "proof_finding_id": {
+      "type": "string"
+    },
+    "edition_id": {
+      "type": "string"
+    },
+    "channel": {
+      "type": "string"
+    },
+    "severity": {
+      "enum": [
+        "COSMETIC",
+        "MINOR",
+        "MAJOR",
+        "BLOCKING"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "correction_required": {
+      "type": "boolean"
+    },
+    "status": {
+      "enum": [
+        "open",
+        "resolved",
+        "accepted"
+      ]
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "proof_finding_id",
+    "edition_id",
+    "channel",
+    "severity",
+    "description",
+    "correction_required",
+    "status"
+  ]
+}

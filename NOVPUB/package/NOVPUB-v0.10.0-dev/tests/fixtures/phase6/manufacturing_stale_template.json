@@ -1,0 +1,19 @@
+{
+  "edition_id": "ED-PB",
+  "format": "paperback",
+  "trim": {
+    "width_in": 6.0,
+    "height_in": 9.0
+  },
+  "binding": "perfect_bound",
+  "interior": "black_white",
+  "paper": "cream",
+  "bleed": false,
+  "cover_finish": "matte",
+  "page_count": 320,
+  "cover_template_id": "ING-TPL-001",
+  "template_page_count": 300,
+  "interior_hash": "int123",
+  "cover_hash": "cov123",
+  "approved": true
+}

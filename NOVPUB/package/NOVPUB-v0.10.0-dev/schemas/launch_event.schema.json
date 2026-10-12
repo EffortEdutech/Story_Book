@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Launch Event",
+  "type": "object",
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "event": {
+      "type": "string"
+    },
+    "planned_date": {
+      "type": "string"
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "owner": {
+      "type": "string"
+    },
+    "asset_dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "requires_live_listing": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "ON_TRACK",
+        "AT_RISK",
+        "BLOCKED",
+        "COMPLETE",
+        "CANCELLED"
+      ]
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "event_id",
+    "event",
+    "planned_date",
+    "dependencies",
+    "status"
+  ]
+}

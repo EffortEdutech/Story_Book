@@ -1,0 +1,158 @@
+{
+  "gates": [
+    {
+      "gate_id": "GATE-02",
+      "name": "Editorial Approval",
+      "statuses": [
+        "PENDING",
+        "PASS",
+        "FAIL",
+        "CONDITIONAL",
+        "NOT_APPLICABLE"
+      ]
+    },
+    {
+      "gate_id": "GATE-03",
+      "name": "Rights Clearance",
+      "statuses": [
+        "PENDING",
+        "PASS",
+        "FAIL",
+        "CONDITIONAL",
+        "NOT_APPLICABLE"
+      ]
+    },
+    {
+      "gate_id": "GATE-04",
+      "name": "Publisher, Edition & ISBN Approval",
+      "statuses": [
+        "PENDING",
+        "PASS",
+        "FAIL",
+        "CONDITIONAL",
+        "NOT_APPLICABLE"
+      ]
+    },
+    {
+      "gate_id": "GATE-05",
+      "name": "Interior & Digital Production Approval",
+      "statuses": [
+        "PENDING",
+        "PASS",
+        "FAIL",
+        "CONDITIONAL",
+        "NOT_APPLICABLE"
+      ]
+    },
+    {
+      "gate_id": "GATE-06",
+      "name": "Cover Production Approval",
+      "statuses": [
+        "PENDING",
+        "PASS",
+        "FAIL",
+        "CONDITIONAL",
+        "NOT_APPLICABLE"
+      ]
+    },
+    {
+      "gate_id": "GATE-07",
+      "name": "Metadata & Commercial Approval",
+      "statuses": [
+        "PENDING",
+        "PASS",
+        "FAIL",
+        "CONDITIONAL",
+        "NOT_APPLICABLE"
+      ]
+    },
+    {
+      "gate_id": "GATE-08",
+      "name": "Physical Proof Approval",
+      "statuses": [
+        "PENDING",
+        "PASS",
+        "FAIL",
+        "CONDITIONAL",
+        "NOT_APPLICABLE"
+      ]
+    },
+    {
+      "gate_id": "GATE-09",
+      "name": "Master Publication & Launch Authorization",
+      "statuses": [
+        "PENDING",
+        "PASS",
+        "FAIL",
+        "CONDITIONAL",
+        "NOT_APPLICABLE"
+      ]
+    },
+    {
+      "gate_id": "GATE-10",
+      "name": "Post-Publication Verification & Governance",
+      "statuses": [
+        "PENDING",
+        "PASS",
+        "FAIL",
+        "CONDITIONAL",
+        "NOT_APPLICABLE"
+      ]
+    },
+    {
+      "gate_id": "GATE-KDP-01",
+      "name": "KDP Submission Readiness",
+      "statuses": [
+        "PENDING",
+        "PASS",
+        "FAIL",
+        "CONDITIONAL",
+        "NOT_APPLICABLE"
+      ]
+    },
+    {
+      "gate_id": "GATE-INGRAM-01",
+      "name": "Ingram Distribution Readiness",
+      "statuses": [
+        "PENDING",
+        "PASS",
+        "FAIL",
+        "CONDITIONAL",
+        "NOT_APPLICABLE"
+      ]
+    },
+    {
+      "gate_id": "GATE-NOVPUB-RC1",
+      "name": "NOVPUB v1.0 Release Candidate Approval",
+      "statuses": [
+        "PENDING",
+        "PASS",
+        "FAIL",
+        "CONDITIONAL",
+        "NOT_APPLICABLE"
+      ]
+    },
+    {
+      "gate_id": "GATE-NOVPUB-V1",
+      "name": "NOVPUB v1.0.0 Production Release",
+      "statuses": [
+        "PENDING",
+        "PASS",
+        "FAIL",
+        "CONDITIONAL",
+        "NOT_APPLICABLE"
+      ]
+    },
+    {
+      "gate_id": "GATE-P10-01",
+      "name": "Real Source Integrity",
+      "statuses": [
+        "PENDING",
+        "PASS",
+        "FAIL",
+        "CONDITIONAL",
+        "NOT_APPLICABLE"
+      ]
+    }
+  ]
+}

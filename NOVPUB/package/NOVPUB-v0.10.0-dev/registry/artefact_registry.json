@@ -1,0 +1,1222 @@
+{
+  "artefacts": [
+    {
+      "artefact_id": "project_manifest",
+      "path": "project_manifest.json",
+      "producer": "runtime",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "publishing_state",
+      "path": "publishing_state.json",
+      "producer": "runtime",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "decision_log",
+      "path": "decision_log.jsonl",
+      "producer": "runtime",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "issue_register",
+      "path": "issue_register.json",
+      "producer": "runtime",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "approval_register",
+      "path": "approval_register.json",
+      "producer": "runtime",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "artifact_manifest",
+      "path": "artifact_manifest.json",
+      "producer": "runtime",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "manuscript_intake",
+      "path": "02_EDITORIAL/00_INTAKE/manuscript_intake.json",
+      "producer": "NPUB-01",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "source_inventory",
+      "path": "02_EDITORIAL/00_INTAKE/source_inventory.json",
+      "producer": "NPUB-01",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "manuscript_freeze",
+      "path": "02_EDITORIAL/01_FREEZE/manuscript_freeze.json",
+      "producer": "NPUB-02",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "manuscript_manifest",
+      "path": "02_EDITORIAL/01_FREEZE/manuscript_manifest.json",
+      "producer": "NPUB-02",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "chapter_manifest",
+      "path": "02_EDITORIAL/02_STRUCTURE/chapter_manifest.json",
+      "producer": "NPUB-03",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "structural_audit",
+      "path": "02_EDITORIAL/02_STRUCTURE/structural_audit.json",
+      "producer": "NPUB-03",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "continuity_issues",
+      "path": "02_EDITORIAL/03_CONTINUITY/continuity_issues.json",
+      "producer": "NPUB-04",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "style_bible",
+      "path": "02_EDITORIAL/04_STYLE/STYLE_BIBLE.md",
+      "producer": "NPUB-05",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "style_rules",
+      "path": "02_EDITORIAL/04_STYLE/style_rules.json",
+      "producer": "NPUB-05",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "copyedit_changes",
+      "path": "02_EDITORIAL/05_COPYEDIT/copyedit_changes.json",
+      "producer": "NPUB-06",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "copyedit_queries",
+      "path": "02_EDITORIAL/05_COPYEDIT/copyedit_queries.json",
+      "producer": "NPUB-06",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "proof_changes",
+      "path": "02_EDITORIAL/06_PROOFREAD/proof_changes.json",
+      "producer": "NPUB-07",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "editorial_change_register",
+      "path": "02_EDITORIAL/07_RECONCILIATION/editorial_change_register.json",
+      "producer": "NPUB-08",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "editorial_approval",
+      "path": "02_EDITORIAL/08_APPROVED/editorial_approval.json",
+      "producer": "NPUB-08",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "rights_profile",
+      "path": "03_RIGHTS/00_RIGHTS_AUDIT/rights_profile.json",
+      "producer": "NPUB-09",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "ownership_evidence",
+      "path": "03_RIGHTS/00_RIGHTS_AUDIT/ownership_evidence.json",
+      "producer": "NPUB-09",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "territorial_rights",
+      "path": "03_RIGHTS/00_RIGHTS_AUDIT/territorial_rights.json",
+      "producer": "NPUB-09",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "rights_findings",
+      "path": "03_RIGHTS/00_RIGHTS_AUDIT/rights_findings.json",
+      "producer": "NPUB-09",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "third_party_content_register",
+      "path": "03_RIGHTS/01_THIRD_PARTY/third_party_content_register.json",
+      "producer": "NPUB-10",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "permissions_register",
+      "path": "03_RIGHTS/01_THIRD_PARTY/permissions_register.json",
+      "producer": "NPUB-10",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "author_identity",
+      "path": "03_RIGHTS/02_AUTHOR_IDENTITY/author_identity.json",
+      "producer": "NPUB-11",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "publisher_profile",
+      "path": "03_RIGHTS/03_PUBLISHER/publisher_profile.json",
+      "producer": "NPUB-12",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "imprint_profile",
+      "path": "03_RIGHTS/03_PUBLISHER/imprint_profile.json",
+      "producer": "NPUB-12",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "edition_manifest",
+      "path": "04_ISBN_PUBLISHER/04_EDITIONS/edition_manifest.json",
+      "producer": "NPUB-13",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "isbn_registry",
+      "path": "04_ISBN_PUBLISHER/05_ISBN/isbn_registry.json",
+      "producer": "NPUB-14",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "isbn_assignments",
+      "path": "04_ISBN_PUBLISHER/05_ISBN/isbn_assignments.json",
+      "producer": "NPUB-14",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "pnm_status",
+      "path": "04_ISBN_PUBLISHER/06_PNM/pnm_status.json",
+      "producer": "NPUB-15",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "copyright_page_data",
+      "path": "04_ISBN_PUBLISHER/07_COPYRIGHT_PAGE/copyright_page_data.json",
+      "producer": "NPUB-17",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "copyright_page_approved",
+      "path": "04_ISBN_PUBLISHER/07_COPYRIGHT_PAGE/COPYRIGHT_PAGE_APPROVED.md",
+      "producer": "NPUB-17",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "legal_deposit_obligations",
+      "path": "11_PNM_COMPLIANCE/legal_deposit_obligations.json",
+      "producer": "NPUB-18",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "compliance_calendar",
+      "path": "11_PNM_COMPLIANCE/compliance_calendar.json",
+      "producer": "NPUB-18",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "gate03_rights_clearance",
+      "path": "03_RIGHTS/gate03_rights_clearance.json",
+      "producer": "NPUB-10",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "gate04_edition_isbn_approval",
+      "path": "04_ISBN_PUBLISHER/gate04_edition_isbn_approval.json",
+      "producer": "NPUB-18",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "book_model",
+      "path": "05_PRODUCTION/00_CANONICAL/book_model.json",
+      "producer": "NPUB-23",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "production_source_manifest",
+      "path": "05_PRODUCTION/00_CANONICAL/production_source_manifest.json",
+      "producer": "NPUB-23",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "format_strategy",
+      "path": "05_PRODUCTION/01_FORMAT_STRATEGY/format_strategy.json",
+      "producer": "NPUB-19",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "manufacturing_profiles",
+      "path": "05_PRODUCTION/01_FORMAT_STRATEGY/manufacturing_profiles.json",
+      "producer": "NPUB-19",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "trim_profiles",
+      "path": "05_PRODUCTION/02_TRIM/trim_profiles.json",
+      "producer": "NPUB-20",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "typography_spec",
+      "path": "05_PRODUCTION/03_TYPOGRAPHY/typography_spec.json",
+      "producer": "NPUB-21",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "font_register",
+      "path": "05_PRODUCTION/03_TYPOGRAPHY/font_register.json",
+      "producer": "NPUB-21",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "page_architecture",
+      "path": "05_PRODUCTION/04_PAGE_ARCHITECTURE/page_architecture.json",
+      "producer": "NPUB-22",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "pagination_manifest",
+      "path": "05_PRODUCTION/05_TYPESETTING/pagination_manifest.json",
+      "producer": "NPUB-23",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "print_master_pdf",
+      "path": "05_PRODUCTION/05_TYPESETTING/PRINT_MASTER_PDF.pdf",
+      "producer": "NPUB-23",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "pdf_preflight",
+      "path": "05_PRODUCTION/06_PREFLIGHT/pdf_preflight_results.json",
+      "producer": "NPUB-24",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "epub_master",
+      "path": "05_PRODUCTION/07_EPUB/book.epub",
+      "producer": "NPUB-25",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "epub_validation",
+      "path": "05_PRODUCTION/07_EPUB/epub_validation.json",
+      "producer": "NPUB-26",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "cover_brief",
+      "path": "05_PRODUCTION/08_COVER/cover_brief.json",
+      "producer": "NPUB-27",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "cover_spec",
+      "path": "05_PRODUCTION/08_COVER/cover_spec.json",
+      "producer": "NPUB-28",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "cover_qa",
+      "path": "05_PRODUCTION/09_COVER_QA/cover_qa.json",
+      "producer": "NPUB-29",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "proof_plan",
+      "path": "09_PROOFS/proof_plan.json",
+      "producer": "NPUB-30",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "proof_register",
+      "path": "09_PROOFS/proof_register.json",
+      "producer": "NPUB-30",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "proof_findings",
+      "path": "09_PROOFS/proof_findings.json",
+      "producer": "NPUB-30",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "proof_approval",
+      "path": "09_PROOFS/proof_approval.json",
+      "producer": "NPUB-30",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "production_approval",
+      "path": "05_PRODUCTION/11_APPROVAL/production_approval.json",
+      "producer": "NPUB-30",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "gate05_interior_approval",
+      "path": "05_PRODUCTION/11_APPROVAL/gate05_interior_approval.json",
+      "producer": "NPUB-26",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "gate06_cover_approval",
+      "path": "05_PRODUCTION/11_APPROVAL/gate06_cover_approval.json",
+      "producer": "NPUB-29",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "metadata_master",
+      "path": "06_METADATA/00_MASTER/metadata_master.json",
+      "producer": "NPUB-31",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "metadata_manifest",
+      "path": "06_METADATA/00_MASTER/metadata_manifest.json",
+      "producer": "NPUB-31",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "metadata_lock",
+      "path": "06_METADATA/00_MASTER/metadata_lock.json",
+      "producer": "NPUB-31",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "positioning_brief",
+      "path": "06_METADATA/01_POSITIONING/positioning_brief.md",
+      "producer": "NPUB-32",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "audience_profile",
+      "path": "06_METADATA/01_POSITIONING/audience_profile.json",
+      "producer": "NPUB-32",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "market_position",
+      "path": "06_METADATA/01_POSITIONING/market_position.json",
+      "producer": "NPUB-32",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "classification_master",
+      "path": "06_METADATA/02_CLASSIFICATION/classification_master.json",
+      "producer": "NPUB-33",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "bisac_strategy",
+      "path": "06_METADATA/02_CLASSIFICATION/bisac_strategy.json",
+      "producer": "NPUB-33",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "thema_strategy",
+      "path": "06_METADATA/02_CLASSIFICATION/thema_strategy.json",
+      "producer": "NPUB-33",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "amazon_category_strategy",
+      "path": "06_METADATA/02_CLASSIFICATION/amazon_category_strategy.json",
+      "producer": "NPUB-33",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "keyword_strategy",
+      "path": "06_METADATA/03_KEYWORDS/keyword_strategy.json",
+      "producer": "NPUB-34",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "channel_keyword_map",
+      "path": "06_METADATA/03_KEYWORDS/channel_keyword_map.json",
+      "producer": "NPUB-34",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "retail_descriptions",
+      "path": "06_METADATA/04_DESCRIPTIONS/retail_descriptions.json",
+      "producer": "NPUB-35",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "back_cover_copy",
+      "path": "06_METADATA/04_DESCRIPTIONS/back_cover_copy.md",
+      "producer": "NPUB-35",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "author_bios",
+      "path": "06_METADATA/05_AUTHOR/author_bios.json",
+      "producer": "NPUB-36",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "contributor_metadata",
+      "path": "06_METADATA/05_AUTHOR/contributor_metadata.json",
+      "producer": "NPUB-36",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "pricing_model",
+      "path": "06_METADATA/06_PRICING/pricing_model.json",
+      "producer": "NPUB-37",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "royalty_scenarios",
+      "path": "06_METADATA/06_PRICING/royalty_scenarios.json",
+      "producer": "NPUB-37",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "pricing_approval",
+      "path": "06_METADATA/06_PRICING/pricing_approval.json",
+      "producer": "NPUB-37",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "wholesale_strategy",
+      "path": "06_METADATA/07_WHOLESALE/wholesale_strategy.json",
+      "producer": "NPUB-38",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "returns_model",
+      "path": "06_METADATA/07_WHOLESALE/returns_model.json",
+      "producer": "NPUB-38",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "return_stress_test",
+      "path": "06_METADATA/07_WHOLESALE/return_stress_test.json",
+      "producer": "NPUB-38",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "territory_strategy",
+      "path": "06_METADATA/08_TERRITORIES/territory_strategy.json",
+      "producer": "NPUB-39",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "rights_distribution_matrix",
+      "path": "06_METADATA/08_TERRITORIES/rights_distribution_matrix.json",
+      "producer": "NPUB-39",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "publication_strategy",
+      "path": "06_METADATA/09_RELEASE/publication_strategy.json",
+      "producer": "NPUB-40",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "release_calendar",
+      "path": "06_METADATA/09_RELEASE/release_calendar.json",
+      "producer": "NPUB-40",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "preorder_strategy",
+      "path": "06_METADATA/09_RELEASE/preorder_strategy.json",
+      "producer": "NPUB-40",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "kdp_metadata_map",
+      "path": "06_METADATA/10_CHANNEL_MAPS/kdp_metadata_map.json",
+      "producer": "NPUB-40",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "ingram_metadata_map",
+      "path": "06_METADATA/10_CHANNEL_MAPS/ingram_metadata_map.json",
+      "producer": "NPUB-40",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "pnm_metadata_map",
+      "path": "06_METADATA/10_CHANNEL_MAPS/pnm_metadata_map.json",
+      "producer": "NPUB-40",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "metadata_parity_report",
+      "path": "06_METADATA/10_CHANNEL_MAPS/metadata_parity_report.json",
+      "producer": "NPUB-40",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "commercial_approval",
+      "path": "06_METADATA/11_APPROVAL/commercial_approval.json",
+      "producer": "NPUB-40",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase4_completion_report",
+      "path": "06_METADATA/11_APPROVAL/phase4_completion_report.md",
+      "producer": "NPUB-40",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "kdp_rules_snapshot",
+      "path": "07_KDP/00_RULES/kdp_rules_snapshot.json",
+      "producer": "NPUB-41",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "kdp_capability_matrix",
+      "path": "07_KDP/00_RULES/kdp_capability_matrix.json",
+      "producer": "NPUB-41",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "kdp_rule_changes",
+      "path": "07_KDP/00_RULES/kdp_rule_changes.json",
+      "producer": "NPUB-41",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "kdp_account_readiness",
+      "path": "07_KDP/01_ACCOUNT/kdp_account_readiness.json",
+      "producer": "NPUB-42",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "kindle_metadata",
+      "path": "07_KDP/02_KINDLE/kindle_metadata.json",
+      "producer": "NPUB-43",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "kindle_submission_manifest",
+      "path": "07_KDP/02_KINDLE/kindle_submission_manifest.json",
+      "producer": "NPUB-43",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "kindle_preview_report",
+      "path": "07_KDP/02_KINDLE/kindle_preview_report.json",
+      "producer": "NPUB-43",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "content_origin_record",
+      "path": "07_KDP/02_KINDLE/content_origin_record.json",
+      "producer": "NPUB-43",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "paperback_metadata",
+      "path": "07_KDP/03_PAPERBACK/paperback_metadata.json",
+      "producer": "NPUB-44",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "paperback_submission_manifest",
+      "path": "07_KDP/03_PAPERBACK/paperback_submission_manifest.json",
+      "producer": "NPUB-44",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "paperback_print_previewer_report",
+      "path": "07_KDP/03_PAPERBACK/print_previewer_report.json",
+      "producer": "NPUB-44",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "hardcover_metadata",
+      "path": "07_KDP/04_HARDCOVER/hardcover_metadata.json",
+      "producer": "NPUB-45",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "hardcover_submission_manifest",
+      "path": "07_KDP/04_HARDCOVER/hardcover_submission_manifest.json",
+      "producer": "NPUB-45",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "hardcover_print_previewer_report",
+      "path": "07_KDP/04_HARDCOVER/print_previewer_report.json",
+      "producer": "NPUB-45",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "kdp_select_decision",
+      "path": "07_KDP/05_SELECT/kdp_select_decision.json",
+      "producer": "NPUB-46",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "expanded_distribution_check",
+      "path": "07_KDP/06_EXPANDED_DISTRIBUTION/expanded_distribution_check.json",
+      "producer": "NPUB-47",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "kdp_proof_approval",
+      "path": "07_KDP/07_PROOFS/kdp_proof_approval.json",
+      "producer": "NPUB-48",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "kdp_submission_checklist",
+      "path": "07_KDP/08_SUBMISSION/kdp_submission_checklist.json",
+      "producer": "NPUB-48",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "kdp_publication_authorization",
+      "path": "07_KDP/08_SUBMISSION/publication_authorization.json",
+      "producer": "NPUB-48",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "kdp_submission_freeze",
+      "path": "07_KDP/08_SUBMISSION/kdp_submission_freeze.json",
+      "producer": "NPUB-48",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "amazon_listing_snapshot",
+      "path": "07_KDP/09_LIVE_QA/amazon_listing_snapshot.json",
+      "producer": "NPUB-49",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "amazon_listing_qa",
+      "path": "07_KDP/09_LIVE_QA/amazon_listing_qa.json",
+      "producer": "NPUB-49",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "format_linkage",
+      "path": "07_KDP/09_LIVE_QA/format_linkage.json",
+      "producer": "NPUB-49",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "kdp_completion",
+      "path": "07_KDP/10_COMPLETION/kdp_completion.json",
+      "producer": "NPUB-49",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase5_completion_report",
+      "path": "07_KDP/10_COMPLETION/phase5_completion_report.md",
+      "producer": "NPUB-49",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "ingram_rules_snapshot",
+      "path": "08_INGRAMSPARK/00_RULES/ingram_rules_snapshot.json",
+      "producer": "NPUB-50",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "ingram_account_readiness",
+      "path": "08_INGRAMSPARK/01_ACCOUNT/ingram_account_readiness.json",
+      "producer": "NPUB-50",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "ingram_title_metadata",
+      "path": "08_INGRAMSPARK/02_METADATA/ingram_title_metadata.json",
+      "producer": "NPUB-51",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "ingram_paperback_configuration",
+      "path": "08_INGRAMSPARK/03_PRINT_CONFIGURATION/paperback_configuration.json",
+      "producer": "NPUB-52",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "ingram_hardcover_configuration",
+      "path": "08_INGRAMSPARK/03_PRINT_CONFIGURATION/hardcover_configuration.json",
+      "producer": "NPUB-52",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "ingram_submission_manifest",
+      "path": "08_INGRAMSPARK/05_FILES/submission_manifest.json",
+      "producer": "NPUB-52",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "ingram_isbn_reconciliation",
+      "path": "08_INGRAMSPARK/04_ISBN/ingram_isbn_reconciliation.json",
+      "producer": "NPUB-53",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "kdp_ingram_coexistence",
+      "path": "08_INGRAMSPARK/04_ISBN/kdp_ingram_coexistence.json",
+      "producer": "NPUB-53",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "ingram_market_pricing",
+      "path": "08_INGRAMSPARK/06_PRICING/market_pricing.json",
+      "producer": "NPUB-54",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "ingram_return_policy",
+      "path": "08_INGRAMSPARK/07_RETURNS/return_policy.json",
+      "producer": "NPUB-55",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "ingram_eproof_approval",
+      "path": "08_INGRAMSPARK/08_EPROOF/eproof_approval.json",
+      "producer": "NPUB-56",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "ingram_physical_proof_approval",
+      "path": "08_INGRAMSPARK/09_PHYSICAL_PROOF/proof_approval.json",
+      "producer": "NPUB-56",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "ingram_distribution_authorization",
+      "path": "08_INGRAMSPARK/10_DISTRIBUTION/distribution_authorization.json",
+      "producer": "NPUB-55",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "ingram_distribution_status",
+      "path": "08_INGRAMSPARK/10_DISTRIBUTION/distribution_status.json",
+      "producer": "NPUB-56",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "retailer_listing_snapshot",
+      "path": "08_INGRAMSPARK/11_LIVE_QA/retailer_listing_snapshot.json",
+      "producer": "NPUB-56",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase6_completion_report",
+      "path": "08_INGRAMSPARK/12_COMPLETION/phase6_completion_report.md",
+      "producer": "NPUB-56",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "launch_strategy",
+      "path": "10_LAUNCH/00_STRATEGY/launch_strategy.json",
+      "producer": "NPUB-57",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "claims_registry",
+      "path": "10_LAUNCH/00_STRATEGY/claims_registry.json",
+      "producer": "NPUB-63",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "arc_manifest",
+      "path": "10_LAUNCH/01_ARC/arc_manifest.json",
+      "producer": "NPUB-57",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "arc_recipient_register",
+      "path": "10_LAUNCH/01_ARC/arc_recipient_register.json",
+      "producer": "NPUB-57",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "reviewer_database",
+      "path": "10_LAUNCH/02_REVIEWERS/reviewer_database.json",
+      "producer": "NPUB-58",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "reviewer_outreach",
+      "path": "10_LAUNCH/02_REVIEWERS/reviewer_outreach.json",
+      "producer": "NPUB-58",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "launch_team",
+      "path": "10_LAUNCH/03_LAUNCH_TEAM/launch_team.json",
+      "producer": "NPUB-59",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "author_central_profile",
+      "path": "10_LAUNCH/04_AUTHOR_CENTRAL/author_central_profile.json",
+      "producer": "NPUB-60",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "retailer_links",
+      "path": "10_LAUNCH/05_WEBSITE/retailer_links.json",
+      "producer": "NPUB-61",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "media_kit_manifest",
+      "path": "10_LAUNCH/06_MEDIA_KIT/media_kit_manifest.json",
+      "producer": "NPUB-62",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "content_manifest",
+      "path": "10_LAUNCH/07_CAMPAIGN_CONTENT/content_manifest.json",
+      "producer": "NPUB-63",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "launch_calendar",
+      "path": "10_LAUNCH/08_CALENDAR/launch_calendar.json",
+      "producer": "NPUB-64",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "launch_day_checklist",
+      "path": "10_LAUNCH/09_LAUNCH_DAY/launch_day_checklist.json",
+      "producer": "NPUB-65",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "launch_incident_log",
+      "path": "10_LAUNCH/09_LAUNCH_DAY/incident_log.json",
+      "producer": "NPUB-65",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "launch_authorization",
+      "path": "10_LAUNCH/11_APPROVAL/launch_authorization.json",
+      "producer": "NPUB-65",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "launch_metrics",
+      "path": "10_LAUNCH/10_ANALYTICS/launch_metrics.json",
+      "producer": "NPUB-66",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "optimization_log",
+      "path": "10_LAUNCH/10_ANALYTICS/optimization_log.json",
+      "producer": "NPUB-66",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase7_completion_report",
+      "path": "10_LAUNCH/11_APPROVAL/phase7_completion_report.md",
+      "producer": "NPUB-66",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "post_publication_state",
+      "path": "12_POST_PUBLICATION/00_STATE/post_publication_state.json",
+      "producer": "NPUB-76",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "normalized_sales",
+      "path": "12_POST_PUBLICATION/01_SALES/normalized_sales.json",
+      "producer": "NPUB-67",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "sales_ledger",
+      "path": "12_POST_PUBLICATION/01_SALES/sales_ledger.json",
+      "producer": "NPUB-67",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "royalty_ledger",
+      "path": "12_POST_PUBLICATION/02_ROYALTIES/royalty_ledger.json",
+      "producer": "NPUB-67",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "payment_register",
+      "path": "12_POST_PUBLICATION/02_ROYALTIES/payment_register.json",
+      "producer": "NPUB-67",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "financial_reconciliation",
+      "path": "12_POST_PUBLICATION/02_ROYALTIES/reconciliation.json",
+      "producer": "NPUB-67",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "select_status",
+      "path": "12_POST_PUBLICATION/03_KDP_SELECT/select_status.json",
+      "producer": "NPUB-68",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "select_term_history",
+      "path": "12_POST_PUBLICATION/03_KDP_SELECT/select_term_history.json",
+      "producer": "NPUB-68",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "pricing_history",
+      "path": "12_POST_PUBLICATION/04_OPTIMIZATION/pricing_history.json",
+      "producer": "NPUB-69",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "metadata_history",
+      "path": "12_POST_PUBLICATION/04_OPTIMIZATION/metadata_history.json",
+      "producer": "NPUB-69",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "errata_register",
+      "path": "12_POST_PUBLICATION/05_ERRATA/errata_register.json",
+      "producer": "NPUB-70",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "defect_register_postpub",
+      "path": "12_POST_PUBLICATION/05_ERRATA/defect_register.json",
+      "producer": "NPUB-70",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "edition_history",
+      "path": "12_POST_PUBLICATION/06_EDITION_CONTROL/edition_history.json",
+      "producer": "NPUB-71",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "supersession_register",
+      "path": "12_POST_PUBLICATION/06_EDITION_CONTROL/supersession_register.json",
+      "producer": "NPUB-71",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "returns_ledger",
+      "path": "12_POST_PUBLICATION/07_INGRAM_OPERATIONS/returns_ledger.json",
+      "producer": "NPUB-72",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "return_exposure",
+      "path": "12_POST_PUBLICATION/07_INGRAM_OPERATIONS/return_exposure.json",
+      "producer": "NPUB-72",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "feedback_register",
+      "path": "12_POST_PUBLICATION/08_READER_INTELLIGENCE/feedback_register.json",
+      "producer": "NPUB-73",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "legal_deposit_status",
+      "path": "12_POST_PUBLICATION/09_MALAYSIA_COMPLIANCE/legal_deposit_status.json",
+      "producer": "NPUB-74",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "rights_opportunities",
+      "path": "12_POST_PUBLICATION/10_RIGHTS_EXPANSION/rights_opportunities.json",
+      "producer": "NPUB-75",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "licensing_register",
+      "path": "12_POST_PUBLICATION/10_RIGHTS_EXPANSION/licensing_register.json",
+      "producer": "NPUB-75",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "publication_manifest",
+      "path": "12_POST_PUBLICATION/11_ARCHIVE/publication_manifest.json",
+      "producer": "NPUB-76",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "provenance_graph",
+      "path": "12_POST_PUBLICATION/11_ARCHIVE/provenance_graph.json",
+      "producer": "NPUB-76",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "recovery_manifest",
+      "path": "12_POST_PUBLICATION/11_ARCHIVE/recovery_manifest.json",
+      "producer": "NPUB-76",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "gate10_verification",
+      "path": "12_POST_PUBLICATION/12_GOVERNANCE/gate10_verification.json",
+      "producer": "NPUB-76",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase8_completion_report",
+      "path": "12_POST_PUBLICATION/12_GOVERNANCE/phase8_completion_report.md",
+      "producer": "NPUB-76",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase9_registry_validation",
+      "path": "validation/00_REGISTRY/static_validation.json",
+      "producer": "NPUB-77",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase9_schema_validation",
+      "path": "validation/01_SCHEMAS/schema_validation.json",
+      "producer": "NPUB-78",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase9_gate_tests",
+      "path": "validation/03_GATES/gate_tests.json",
+      "producer": "NPUB-79",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase9_deterministic_report",
+      "path": "validation/04_DETERMINISTIC/deterministic_test_report.json",
+      "producer": "NPUB-80",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase9_parity_report",
+      "path": "validation/05_PARITY/parity_report.json",
+      "producer": "NPUB-81",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase9_rule_tests",
+      "path": "validation/06_RULES/rule_freshness_tests.json",
+      "producer": "NPUB-82",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase9_fixture_manifest",
+      "path": "validation/07_FIXTURES/fixture_manifest.json",
+      "producer": "NPUB-83",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase9_attack_catalog",
+      "path": "validation/08_ADVERSARIAL/attack_catalog.json",
+      "producer": "NPUB-84",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase9_agent_parity",
+      "path": "validation/09_AGENT_PARITY/parity_report.json",
+      "producer": "NPUB-86",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase9_professional_review",
+      "path": "validation/10_PROFESSIONAL_REVIEW/professional_review_report.md",
+      "producer": "NPUB-85",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase9_defect_register",
+      "path": "validation/11_REMEDIATION/defect_register.json",
+      "producer": "NPUB-86",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase9_release_candidate",
+      "path": "validation/12_RELEASE/release_candidate.json",
+      "producer": "NPUB-86",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase9_release_manifest",
+      "path": "validation/12_RELEASE/release_manifest.json",
+      "producer": "NPUB-86",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase9_freeze_record",
+      "path": "validation/12_RELEASE/freeze_record.json",
+      "producer": "NPUB-86",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase10_pilot_project",
+      "path": "validation/13_PILOT/pilot_project.json",
+      "producer": "NPUB-87",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase10_evidence_matrix",
+      "path": "validation/13_PILOT/pilot_evidence_matrix.json",
+      "producer": "NPUB-89",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase10_real_parity",
+      "path": "validation/13_PILOT/real_pilot_parity_report.json",
+      "producer": "NPUB-95",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase10_v1_gate",
+      "path": "validation/13_PILOT/v1_release_gate.json",
+      "producer": "NPUB-96",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase10_v1_freeze",
+      "path": "validation/13_PILOT/v1_freeze_record.json",
+      "producer": "NPUB-96",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase10_handover",
+      "path": "validation/13_PILOT/final_handover_report.md",
+      "producer": "NPUB-96",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase10_pilot_decisions",
+      "path": "validation/13_PILOT/pilot_decision_register.json",
+      "producer": "NPUB-87",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase10_pilot_findings",
+      "path": "validation/13_PILOT/pilot_findings.json",
+      "producer": "NPUB-94",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase10_agent_certification",
+      "path": "validation/13_PILOT/agent_certification.json",
+      "producer": "NPUB-95",
+      "archive_required": true
+    },
+    {
+      "artefact_id": "phase10_final_release_manifest",
+      "path": "validation/13_PILOT/final_release_manifest.json",
+      "producer": "NPUB-96",
+      "archive_required": true
+    }
+  ]
+}

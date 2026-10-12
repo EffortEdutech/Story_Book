@@ -1,0 +1,13 @@
+rule_set: KDP_EBOOK_PRICING
+verified_at: 2026-10-10
+source: https://kdp.amazon.com/en_US/help/topic/G200634560
+rules:
+  amazon_com:
+    royalty_70:
+      minimum_usd: 2.99
+      maximum_usd: 12.99
+  royalty_options:
+    - 0.35
+    - 0.70
+  note: Other eligibility conditions and marketplace-specific bands apply.
+  refresh_before_live_use: true

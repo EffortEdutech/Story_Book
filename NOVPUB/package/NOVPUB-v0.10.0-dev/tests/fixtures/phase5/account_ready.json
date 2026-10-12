@@ -1,0 +1,17 @@
+{
+  "account": {
+    "exists": true,
+    "accessible": true
+  },
+  "identity": {
+    "status": "verified"
+  },
+  "tax": {
+    "status": "complete"
+  },
+  "payments": {
+    "status": "configured"
+  },
+  "restrictions": [],
+  "ready_for_submission": true
+}

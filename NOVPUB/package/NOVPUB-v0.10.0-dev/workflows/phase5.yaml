@@ -1,0 +1,24 @@
+phase: 5
+name: Amazon KDP Channel Adapter
+entry_state: COMMERCIAL_METADATA_APPROVED
+required_gates:
+  - GATE-05
+  - GATE-06
+  - GATE-07
+skills:
+  - NPUB-41
+  - NPUB-42
+  - NPUB-43
+  - NPUB-44
+  - NPUB-45
+  - NPUB-46
+  - NPUB-47
+  - NPUB-48
+  - NPUB-49
+gates:
+  - GATE-KDP-01
+exit_state: KDP_VERIFIED
+notes:
+  - GATE-08 may remain PENDING until all required KDP and Ingram physical proofs are actually approved.
+  - No live Publish action is implied by preparation of a validated package.
+  - Current KDP rules are adapter snapshots and must be refreshed before live execution.

@@ -1,0 +1,21 @@
+{
+  "title": "Pilot Novel",
+  "copyright_year": 2026,
+  "copyright_owner": "Author Name",
+  "publisher": "Example Publishing Enterprise",
+  "imprint": "Example Press",
+  "edition": null,
+  "isbn_entries": [
+    {
+      "edition_id": "ED-PB-001",
+      "isbn": "9780306406157"
+    },
+    {
+      "edition_id": "ED-HC-001",
+      "isbn": "9783161484100"
+    }
+  ],
+  "pdp_status": "pending",
+  "permission_credits": [],
+  "additional_notices": []
+}

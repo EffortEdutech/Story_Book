@@ -1,0 +1,25 @@
+rule_set: AMAZON_AUTHOR_CENTRAL
+verified_at: 2026-10-10
+source: https://kdp.amazon.com/en_US/help/topic/G200644310
+rules:
+  features:
+    - claim_books
+    - author_biography
+    - best_sellers_rank
+    - customer_reviews
+    - followers
+  directly_supported_marketplaces:
+    - Amazon.com
+    - Amazon.co.uk
+    - Amazon.de
+    - Amazon.fr
+    - Amazon.co.jp
+    - Amazon.com.br
+  inherited_profile_marketplaces:
+    - Amazon.in
+    - Amazon.it
+    - Amazon.es
+    - Amazon.com.au
+    - Amazon.ca
+    - Amazon.com.mx
+  refresh_before_live_use: true

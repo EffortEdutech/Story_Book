@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Channel Metadata Map",
+  "type": "object",
+  "properties": {
+    "channel": {
+      "type": "string"
+    },
+    "mappings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "canonical_field": {
+            "type": "string"
+          },
+          "channel_field": {
+            "type": "string"
+          },
+          "parity_class": {
+            "type": "string",
+            "enum": [
+              "MUST_MATCH",
+              "CAN_DIFFER_BY_CHANNEL",
+              "DERIVED",
+              "CHANNEL_ONLY"
+            ]
+          }
+        },
+        "required": [
+          "canonical_field",
+          "channel_field",
+          "parity_class"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 1
+    },
+    "approved": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "channel",
+    "mappings"
+  ]
+}

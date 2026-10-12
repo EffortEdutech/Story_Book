@@ -1,0 +1,14 @@
+{
+  "level": "K3",
+  "package_validated": true,
+  "real_evidence": [
+    "draft",
+    "preview",
+    "proof"
+  ],
+  "draft_validated": true,
+  "physical_proof_required": true,
+  "physical_proof_approved": true,
+  "proof_approved_by": "Publisher Owner",
+  "publication_authorized": false
+}

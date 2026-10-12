@@ -1,0 +1,12 @@
+rule_id: KDP-SELECT-LIFECYCLE-20261010
+source: https://kdp.amazon.com/en_US/help/topic/GD9PMU58BV24QFZ7
+last_verified: 2026-10-10
+require_live_refresh: true
+program: KDP Select
+term_days: 90
+auto_renew_default: true
+digital_exclusivity: true
+physical_formats_may_be_distributed_elsewhere: true
+sample_allowance_percent: 10
+notes:
+  - Before each renewal or wide-distribution migration, refresh the current official KDP Select rules.

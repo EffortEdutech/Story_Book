@@ -1,0 +1,26 @@
+{
+  "registry_owner": "Example Publishing Enterprise",
+  "country": "Malaysia",
+  "entries": [
+    {
+      "isbn13": "9780306406157",
+      "status": "assigned",
+      "edition_id": "ED-PB-001",
+      "title": "Pilot Novel",
+      "format": "paperback",
+      "source": "PNM allocation",
+      "evidence": "isbn-letter-pb.pdf",
+      "assigned_at": "2026-10-10"
+    },
+    {
+      "isbn13": "9783161484101",
+      "status": "assigned",
+      "edition_id": "ED-HC-001",
+      "title": "Pilot Novel",
+      "format": "hardcover",
+      "source": "PNM allocation",
+      "evidence": "isbn-letter-hc.pdf",
+      "assigned_at": "2026-10-10"
+    }
+  ]
+}

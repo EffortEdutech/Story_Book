@@ -1,0 +1,7 @@
+rule_set: KDP_PROOF_COPIES
+verified_at: 2026-10-10
+source: https://kdp.amazon.com/en_US/help/topic/GVEG4YA9G2T7N6DR
+rules:
+  max_proof_copies_per_request: 5
+  physical_proof_is_distinct_from_print_previewer: true
+  refresh_before_live_use: true

@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Positioning",
+  "type": "object",
+  "properties": {
+    "positioning_id": {
+      "type": "string"
+    },
+    "genre": {
+      "type": "string"
+    },
+    "subgenre": {
+      "type": "string"
+    },
+    "target_reader": {
+      "type": "string"
+    },
+    "secondary_reader": {
+      "type": "string"
+    },
+    "core_promise": {
+      "type": "string"
+    },
+    "themes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tone": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "setting": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "manuscript_basis": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "approved": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "positioning_id",
+    "genre",
+    "target_reader",
+    "core_promise",
+    "manuscript_basis",
+    "approved"
+  ]
+}

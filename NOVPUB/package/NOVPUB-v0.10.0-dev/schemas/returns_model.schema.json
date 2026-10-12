@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Returns Model",
+  "type": "object",
+  "properties": {
+    "returnability": {
+      "type": "string",
+      "enum": [
+        "NON_RETURNABLE",
+        "RETURNABLE_DELIVER",
+        "RETURNABLE_DESTROY",
+        "UNRESOLVED"
+      ]
+    },
+    "scenarios": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "return_rate": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "units_shipped": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "units_returned": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "estimated_loss": {
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "return_rate",
+          "units_shipped",
+          "units_returned",
+          "estimated_loss"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 1
+    },
+    "maximum_return_exposure": {
+      "type": "number",
+      "minimum": 0
+    },
+    "approved": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "returnability",
+    "scenarios",
+    "approved"
+  ]
+}

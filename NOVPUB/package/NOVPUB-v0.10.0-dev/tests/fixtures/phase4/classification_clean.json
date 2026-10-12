@@ -1,0 +1,28 @@
+{
+  "bisac": [
+    {
+      "code": "FIC014000",
+      "description": "FICTION / Historical / General",
+      "priority": 1,
+      "basis": "primary story genre",
+      "approved": true
+    }
+  ],
+  "thema": [
+    {
+      "code": "FV",
+      "description": "Historical fiction"
+    }
+  ],
+  "amazon_categories": [
+    {
+      "marketplace": "Amazon.com",
+      "category": "Fiction > Historical Fiction",
+      "basis": "primary story genre",
+      "approved": true
+    }
+  ],
+  "regional_subjects": [],
+  "approved": true,
+  "verified_at": "2026-10-10"
+}

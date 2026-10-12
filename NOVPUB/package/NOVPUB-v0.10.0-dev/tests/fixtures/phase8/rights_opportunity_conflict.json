@@ -1,0 +1,13 @@
+{
+  "opportunity_id": "RO2",
+  "type": "AUDIOBOOK",
+  "territory": "WORLD",
+  "language": "English",
+  "format": "Audiobook",
+  "rights_available": false,
+  "existing_exclusive_conflict": true,
+  "commercial_value": "TBD",
+  "required_partner": "Licensee",
+  "risk": "high",
+  "status": "BLOCKED"
+}

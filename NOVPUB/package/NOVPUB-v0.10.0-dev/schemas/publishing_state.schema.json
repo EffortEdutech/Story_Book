@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NOVPUB Publishing State",
+  "type": "object",
+  "required": [
+    "project_id",
+    "package_version",
+    "current_phase",
+    "current_state",
+    "gates",
+    "updated_at"
+  ],
+  "properties": {
+    "project_id": {
+      "type": "string"
+    },
+    "package_version": {
+      "type": "string"
+    },
+    "current_phase": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "current_state": {
+      "type": "string"
+    },
+    "gates": {
+      "type": "object",
+      "additionalProperties": {
+        "enum": [
+          "PENDING",
+          "PASS",
+          "FAIL",
+          "CONDITIONAL",
+          "NOT_APPLICABLE"
+        ]
+      }
+    },
+    "blocking_issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "human_decisions_required": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

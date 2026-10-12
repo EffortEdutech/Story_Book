@@ -1,0 +1,13 @@
+rule_set: KDP_PRINT_PRICING
+verified_at: 2026-10-10
+sources:
+  - https://kdp.amazon.com/en_US/help/topic/G201834330
+  - https://kdp.amazon.com/en_US/help/topic/G77F3WPD3KQLJTFS
+  - https://kdp.amazon.com/en_US/help/topic/G8BKPU9AGVZSF9QF
+rules:
+  amazon_com:
+    royalty_rate_at_or_below_9_98: 0.50
+    royalty_rate_at_or_above_9_99: 0.60
+  formula: (royalty_rate * tax_exclusive_list_price) - printing_cost
+  printing_cost_is_dynamic: true
+  refresh_before_live_use: true

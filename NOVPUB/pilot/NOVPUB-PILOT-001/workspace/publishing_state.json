@@ -1,0 +1,25 @@
+{
+  "project_id": "NOVPUB-PILOT-001",
+  "package_version": "0.10.0-dev",
+  "current_phase": 10,
+  "current_state": "PILOT_INITIALIZED",
+  "gates": {
+    "GATE-02": "PENDING",
+    "GATE-03": "PENDING",
+    "GATE-04": "PENDING",
+    "GATE-05": "PENDING",
+    "GATE-06": "PENDING",
+    "GATE-07": "PENDING",
+    "GATE-08": "PENDING",
+    "GATE-09": "PENDING",
+    "GATE-10": "PENDING",
+    "GATE-KDP-01": "PENDING",
+    "GATE-INGRAM-01": "PENDING",
+    "GATE-NOVPUB-RC1": "PASS",
+    "GATE-NOVPUB-V1": "PENDING",
+    "GATE-P10-01": "PASS"
+  },
+  "blocking_issues": [],
+  "human_decisions_required": [],
+  "updated_at": "2026-10-11T07:20:00+08:00"
+}

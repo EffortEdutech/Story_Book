@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "title": "NOVPUB Real Manuscript Baseline",
+  "properties": {
+    "filename": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{64}$"
+    },
+    "authoritative_source": {
+      "type": "boolean"
+    },
+    "completeness_checked": {
+      "type": "boolean"
+    },
+    "human_confirmed_source": {
+      "type": "boolean"
+    },
+    "confirmed_by": {
+      "type": "string"
+    },
+    "evidence_type": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "filename",
+    "format",
+    "sha256",
+    "authoritative_source",
+    "completeness_checked",
+    "human_confirmed_source",
+    "confirmed_by",
+    "evidence_type"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Post-publication Optimization",
+  "type": "object",
+  "properties": {
+    "experiment_id": {
+      "type": "string"
+    },
+    "field": {
+      "type": "string"
+    },
+    "baseline": {},
+    "proposed_change": {},
+    "hypothesis": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "string"
+    },
+    "end_date": {
+      "type": "string"
+    },
+    "success_metric": {
+      "type": "string"
+    },
+    "identity_critical": {
+      "type": "boolean"
+    },
+    "misleading": {
+      "type": "boolean"
+    },
+    "economics_recalculated": {
+      "type": "boolean"
+    },
+    "reversion_available": {
+      "type": "boolean"
+    },
+    "approved": {
+      "type": "boolean"
+    },
+    "approved_by": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "experiment_id",
+    "field",
+    "baseline",
+    "proposed_change",
+    "hypothesis",
+    "approved"
+  ]
+}

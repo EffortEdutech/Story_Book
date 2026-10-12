@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Fixture Manifest",
+  "type": "object",
+  "properties": {
+    "fixtures": {
+      "type": "array",
+      "items": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "title": "fixture",
+        "type": "object",
+        "properties": {
+          "fixture_id": {
+            "type": "string"
+          },
+          "phase": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "class": {
+            "type": "string",
+            "enum": [
+              "UNIT",
+              "PHASE",
+              "CROSS_PHASE",
+              "END_TO_END",
+              "NEGATIVE",
+              "BOUNDARY",
+              "RECOVERY"
+            ]
+          },
+          "description": {
+            "type": "string"
+          },
+          "expected": {},
+          "severity": {
+            "type": "string",
+            "enum": [
+              "CRITICAL",
+              "HIGH",
+              "MEDIUM",
+              "LOW"
+            ]
+          }
+        },
+        "required": [
+          "fixture_id",
+          "class",
+          "description",
+          "expected"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": [
+    "fixtures"
+  ],
+  "additionalProperties": true
+}

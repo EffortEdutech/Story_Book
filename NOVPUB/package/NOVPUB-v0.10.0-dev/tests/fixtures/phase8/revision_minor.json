@@ -1,0 +1,15 @@
+{
+  "revision_id": "REV1",
+  "requested_change": "Fix typo",
+  "textual_scope": "one word",
+  "production_scope": "interior",
+  "identity_scope": "none",
+  "rights_scope": "none",
+  "metadata_scope": "none",
+  "recommended_classification": "R1_MINOR_CORRECTION",
+  "new_isbn_review": false,
+  "reopen_phase1": false,
+  "reopen_phase2": false,
+  "human_decision": true,
+  "approved_by": "Publisher"
+}

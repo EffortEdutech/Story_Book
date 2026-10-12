@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-10",
+  "marketplace": "Amazon.com",
+  "edition_id": "ED-PB-001",
+  "asin": "B000TEST",
+  "isbn": "9780306406157",
+  "title": "Pilot Novel",
+  "author": "A. Author",
+  "price": 17.99,
+  "currency": "USD",
+  "publisher": "Pilot Press",
+  "availability": "available",
+  "cover_hash": "cover123",
+  "detail_page_reference": "test"
+}

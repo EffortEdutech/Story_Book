@@ -1,0 +1,346 @@
+{
+  "pilot_id": "NOVPUB-PILOT-001",
+  "title": "The Blue Silence",
+  "checked_at": "2026-10-11T05:41:00.937Z",
+  "manuscript_dir": "01_The_Blue_Silence/Manuscript",
+  "expected_chapters": "1-40 plus prologue",
+  "manuscript_docx_file_count": 41,
+  "detected_prologue_to_chapter8_bundle": null,
+  "individually_detected_chapters": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "covered_chapters": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "missing_chapters": [],
+  "completeness_status": "COMPLETE_CANDIDATE",
+  "baseline_recommendation": "Ready for human source confirmation and NOVPUB real-baseline validation.",
+  "files": [
+    {
+      "file_name": "THE_BLUE_SILENCE__Chapter_00_Prologue_The_Box.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE__Chapter_00_Prologue_The_Box.docx",
+      "size_bytes": 42875,
+      "sha256": "daeaf342125abfe0f8b1611b114d5013afadc96ef4d305fa728dfa35ac4535d2"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_01_The_Retirement.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_01_The_Retirement.docx",
+      "size_bytes": 45846,
+      "sha256": "be82c8b1af50e7c570ff8d5ba3c9742c330047b87bb216df15c0403984506d58"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_02_The_Boy_From_Merbau.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_02_The_Boy_From_Merbau.docx",
+      "size_bytes": 45775,
+      "sha256": "7460021470d54db5da7a8b8fccb4653c70cc0022f89c44ae90bc6c1bb502123a"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_03_The_First_Envelope.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_03_The_First_Envelope.docx",
+      "size_bytes": 45818,
+      "sha256": "5642bb6baebd3b65bf537d71e357e51421444bf8712e63f17ac0c264f472ab58"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_04_Room_17.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_04_Room_17.docx",
+      "size_bytes": 44602,
+      "sha256": "1d5357aa373ca84c736c3f2d42b869ce0b48b9e2dd8b3285d5f50649b6d70f61"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_05_The_Policeman_Who_Disappeared.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_05_The_Policeman_Who_Disappeared.docx",
+      "size_bytes": 44944,
+      "sha256": "5d815feef6644995605571cf0b941ccfb38d6da900cbe4aa1160421df8f5675c"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_06_The_Border.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_06_The_Border.docx",
+      "size_bytes": 46395,
+      "sha256": "4fbcbce9b856a9a0b7e2be8961c7391e1ded9b9180b1ef1ce128f141528fa1d8"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_07_The_Informant.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_07_The_Informant.docx",
+      "size_bytes": 48238,
+      "sha256": "316d93cb1be2a3a2d8319f63cf991c4eb6066f123d0c6fbfd35d05c36b9882f6"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_08_The_Night_Raid.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_08_The_Night_Raid.docx",
+      "size_bytes": 45853,
+      "sha256": "8ec51deaab062f9d9b4e57176112fe0db35506b8e2cece2627c28a469370c01b"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_09_The_Photograph.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_09_The_Photograph.docx",
+      "size_bytes": 44378,
+      "sha256": "a224fe83f64488424ffdb3e703b50d0ac7debb805ffdc7646b0d864f99a6fdca"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_10_The_Price_of_Silence.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_10_The_Price_of_Silence.docx",
+      "size_bytes": 45341,
+      "sha256": "875538f439bbb28bdf192e013ad1e1f86bf3e2830d4ca849bbf56e3c33695645"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_11_Special_Intelligence.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_11_Special_Intelligence.docx",
+      "size_bytes": 44332,
+      "sha256": "99e54db15a741973e157e404f974c654fa3a19be3c6018011909026db735575d"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_12_The_Invisible_War.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_12_The_Invisible_War.docx",
+      "size_bytes": 44301,
+      "sha256": "ee160119a8f0cf2838b973fc8c9612313fc66a24add117d2e5b49a07b3d2354c"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_13_ORION.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_13_ORION.docx",
+      "size_bytes": 44392,
+      "sha256": "5f7930be6ab41072a429e44ddabd0c023c269000cc39cd3c662892865b6bf346"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_14_Aisyah.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_14_Aisyah.docx",
+      "size_bytes": 43456,
+      "sha256": "b61494b27cf187f666d091032175de74fab947ea94771d5756449ec3404816f7"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_15_The_Accountant.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_15_The_Accountant.docx",
+      "size_bytes": 43461,
+      "sha256": "d8785593f306df7ebe4198103ac154e4ed8ac829beecb0662fa42d470044b702"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_16_Seven_Minutes.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_16_Seven_Minutes.docx",
+      "size_bytes": 43996,
+      "sha256": "97f182e3cbd5dd020855ed832a63403644ccead040256c696255801ba24e2e15"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_17_The_Dead_Witness.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_17_The_Dead_Witness.docx",
+      "size_bytes": 44345,
+      "sha256": "c777eb2ee80d06c3d09a489f2553b486149eacb3d41ed29a2be579a325f873e1"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_18_The_Second_Envelope.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_18_The_Second_Envelope.docx",
+      "size_bytes": 43726,
+      "sha256": "12f2a9ae67cc59c9de2c0329657e585919c25f841f6129572e12c57c289f9c91"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_19_The_Circle.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_19_The_Circle.docx",
+      "size_bytes": 43615,
+      "sha256": "90adca767558ba884bb96745fbaa0d5784b7b82503de8441427a5296aa3342df"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_20_Three_Policemen.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_20_Three_Policemen.docx",
+      "size_bytes": 44643,
+      "sha256": "59801bdbd2bc4dbd535f823a4db2e00a94f38850576b02caff4b72d8103d7998"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_21_The_Promotion.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_21_The_Promotion.docx",
+      "size_bytes": 43337,
+      "sha256": "59ca7fe85be82081e64abc9ce6aeb47b557173c7628bd0ef04929fe1b37f4d16"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_22_The_Leak.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_22_The_Leak.docx",
+      "size_bytes": 43820,
+      "sha256": "290c05b28c8a649c8d7f19862aee66a8b9357d3b25e9e66c29b18cdbc7209a32"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_23_Six_Names.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_23_Six_Names.docx",
+      "size_bytes": 42910,
+      "sha256": "957150a4973b4611ecb0be4f94af75ccd77536b0b6aee13b01ad0c298282ef3d"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_24_The_Missing_Phone.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_24_The_Missing_Phone.docx",
+      "size_bytes": 41978,
+      "sha256": "48b280b57b2056dfc43d8f26bd1fb27350ebdd8427227fa12627fd19b0e42d29"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_25_Aisyah_Investigates_Rahman.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_25_Aisyah_Investigates_Rahman.docx",
+      "size_bytes": 43889,
+      "sha256": "b25b812f58444e799ff840d064f81fa64d74018ba570f547d675ac2bdbef4009"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_26_The_Old_Case.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_26_The_Old_Case.docx",
+      "size_bytes": 38976,
+      "sha256": "f8d203c6d6b8ac7209869dacb03600273b3809cdf00e1c92ca31eb4ee14de3c7"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_27_The_Pattern.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_27_The_Pattern.docx",
+      "size_bytes": 39056,
+      "sha256": "e1fd3cf4c4e4bb5f0b911fec4374a5f1d0a190d954d45085e01e813a8608a93b"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_28_Farid.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_28_Farid.docx",
+      "size_bytes": 38982,
+      "sha256": "f113ba78e958b5b9049ee546c4387894a953ecfcf58a0cb71e68103e79b53c6a"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_29_The_Wrong_Enemy.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_29_The_Wrong_Enemy.docx",
+      "size_bytes": 39115,
+      "sha256": "d79184b3cfa1b609d055b16dd897b38bb63b4b96e962eb6017323f920441da6a"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_30_The_Archive.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_30_The_Archive.docx",
+      "size_bytes": 39241,
+      "sha256": "34ff2ced5cc8663c0eac39f05ef3df50d40bb25155ad46ee5fce7c38de103e4d"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_31_The_First_Name.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_31_The_First_Name.docx",
+      "size_bytes": 42622,
+      "sha256": "fe2d683691f14319d6c79cdb2100ec702caf66b4ef387d148310acf57f4c0e66"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_32_The_Father.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_32_The_Father.docx",
+      "size_bytes": 42090,
+      "sha256": "1ac94040549eed548d53dcb211f6569eee710103fadd5624cf1ca1c8744bbca0"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_33_The_Bargain.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_33_The_Bargain.docx",
+      "size_bytes": 41718,
+      "sha256": "1ec614099f5cbe356fd95023567b0920969126cd5252f7fefd9f508fb9d5fc4e"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_34_The_Betrayal.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_34_The_Betrayal.docx",
+      "size_bytes": 43015,
+      "sha256": "4e8d5f000807f0ed018a814457803e1a2363ee97deb203dbc3a5971a26c03999"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_35_The_List.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_35_The_List.docx",
+      "size_bytes": 43250,
+      "sha256": "6d976d9be5de029ed9dca59395d02b0970027d13c8934e02a6ebe955d1f62b6d"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_36_The_Missing_Name.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_36_The_Missing_Name.docx",
+      "size_bytes": 47783,
+      "sha256": "4fd06f35c1b3f57073c696a066e1d79af08d15597259e8b4d2c9abf11aa23511"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_37_The_Truth.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_37_The_Truth.docx",
+      "size_bytes": 49476,
+      "sha256": "62951364fc1a8d9963764f87bf7aa6920e4f58dd943df3f0fbe55df82fd88fab"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_38_The_Choice.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_38_The_Choice.docx",
+      "size_bytes": 39046,
+      "sha256": "1788d5834edfdd6ea2a9e85699247efa6ed9fa9dd385da2e3e1f03ed23982af4"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_39_The_Blue_Silence.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_39_The_Blue_Silence.docx",
+      "size_bytes": 49052,
+      "sha256": "e9a3e5df19ae1350f3c7942c778299bc5c2c9618192a4af0d944efe0ff23f80c"
+    },
+    {
+      "file_name": "THE_BLUE_SILENCE_Chapter_40_The_Man_in_the_Crowd.docx",
+      "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_40_The_Man_in_the_Crowd.docx",
+      "size_bytes": 47450,
+      "sha256": "992652dc54ed8a3e99d2c8f16f9a58c7d0c467ab1acd0acb8d05023a370949ce"
+    }
+  ]
+}

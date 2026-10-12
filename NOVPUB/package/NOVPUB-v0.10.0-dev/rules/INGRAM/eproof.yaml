@@ -1,0 +1,9 @@
+rule_set: INGRAM_EPROOF
+verified_at: 2026-10-10
+source: https://www.ingramspark.com/hubfs/downloads/user-guide.pdf
+rules:
+  eproof_after_file_processing: true
+  eproof_is_rasterized_pdf: true
+  physical_copy_recommended_after_eproof_and_before_distribution: true
+  eproof_does_not_equal_physical_proof: true
+  refresh_before_live_use: true

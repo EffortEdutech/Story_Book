@@ -1,0 +1,17 @@
+{
+  "controls": {
+    "sales_ledger": "INSTANTIATED",
+    "royalty_ledger": "INSTANTIATED",
+    "returns_register": "INSTANTIATED",
+    "errata_register": "INSTANTIATED",
+    "feedback_register": "INSTANTIATED",
+    "legal_deposit_status": "INSTANTIATED",
+    "publication_archive": "INSTANTIATED"
+  },
+  "legal_deposit": {
+    "status": "PENDING_REAL_DATA"
+  },
+  "gate_10": {
+    "status": "PENDING"
+  }
+}

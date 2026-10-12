@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "change_id",
+    "chapter",
+    "location",
+    "original",
+    "proposed",
+    "change_class",
+    "confidence",
+    "status"
+  ],
+  "properties": {
+    "change_id": {
+      "type": "string"
+    },
+    "chapter": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "original": {
+      "type": "string"
+    },
+    "proposed": {
+      "type": "string"
+    },
+    "change_class": {
+      "enum": [
+        "mechanical_correction",
+        "consistency_correction",
+        "clarity_suggestion",
+        "style_suggestion",
+        "continuity_issue",
+        "factual_issue",
+        "author_decision_required"
+      ]
+    },
+    "reason": {
+      "type": "string"
+    },
+    "style_rule": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "auto_applied": {
+      "type": "boolean"
+    },
+    "author_approval_required": {
+      "type": "boolean"
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "accepted",
+        "rejected",
+        "modified",
+        "deferred",
+        "superseded",
+        "unresolved"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

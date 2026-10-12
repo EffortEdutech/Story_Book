@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Launch Strategy",
+  "type": "object",
+  "properties": {
+    "launch_type": {
+      "type": "string",
+      "enum": [
+        "SOFT_LAUNCH",
+        "COORDINATED_LAUNCH",
+        "PREORDER_LAUNCH",
+        "HYBRID"
+      ]
+    },
+    "primary_goal": {
+      "type": "string"
+    },
+    "secondary_goals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "primary_audience": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "primary_channels": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "marketing_budget": {
+      "type": "number",
+      "minimum": 0
+    },
+    "review_strategy": {
+      "type": "string"
+    },
+    "media_strategy": {
+      "type": "string"
+    },
+    "bookseller_strategy": {
+      "type": "string"
+    },
+    "library_strategy": {
+      "type": "string"
+    },
+    "success_metrics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "approved": {
+      "type": "boolean"
+    },
+    "approved_by": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "launch_type",
+    "primary_goal",
+    "primary_audience",
+    "primary_channels",
+    "approved"
+  ]
+}

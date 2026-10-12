@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ingram Submission Manifest",
+  "type": "object",
+  "properties": {
+    "submission_id": {
+      "type": "string"
+    },
+    "edition_id": {
+      "type": "string"
+    },
+    "isbn": {
+      "type": "string"
+    },
+    "metadata_version": {
+      "type": "string"
+    },
+    "interior_hash": {
+      "type": "string"
+    },
+    "cover_hash": {
+      "type": "string"
+    },
+    "manufacturing_profile": {
+      "type": "string"
+    },
+    "rule_snapshot_id": {
+      "type": "string"
+    },
+    "submitted_at": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "submission_id",
+    "edition_id",
+    "isbn",
+    "metadata_version",
+    "interior_hash",
+    "cover_hash",
+    "manufacturing_profile",
+    "rule_snapshot_id"
+  ]
+}

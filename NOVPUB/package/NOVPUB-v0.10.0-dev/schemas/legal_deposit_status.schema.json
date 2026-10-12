@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Malaysia Legal Deposit Status",
+  "type": "object",
+  "properties": {
+    "material": {
+      "type": "string"
+    },
+    "edition_id": {
+      "type": "string"
+    },
+    "material_type": {
+      "type": "string",
+      "enum": [
+        "PRINTED",
+        "NON_PRINTED"
+      ]
+    },
+    "publication_date": {
+      "type": "string"
+    },
+    "copies_or_units_required": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "deadline": {
+      "type": "string"
+    },
+    "submission_method": {
+      "type": "string"
+    },
+    "submitted": {
+      "type": "boolean"
+    },
+    "submission_date": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "acknowledged": {
+      "type": "boolean"
+    },
+    "closed": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "DUE",
+        "DUE_SOON",
+        "PREPARED",
+        "SUBMITTED",
+        "DELIVERED",
+        "ACKNOWLEDGED",
+        "OVERDUE",
+        "CLOSED"
+      ]
+    },
+    "rule_snapshot_verified_at": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "material",
+    "edition_id",
+    "material_type",
+    "publication_date",
+    "copies_or_units_required",
+    "deadline",
+    "status"
+  ]
+}

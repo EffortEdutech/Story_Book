@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "title": "NOVPUB Real Pilot Agent Parity",
+  "properties": {
+    "codex_run": {
+      "type": "object"
+    },
+    "claude_run": {
+      "type": "object"
+    },
+    "comparisons": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "codex_run",
+    "claude_run",
+    "comparisons"
+  ]
+}

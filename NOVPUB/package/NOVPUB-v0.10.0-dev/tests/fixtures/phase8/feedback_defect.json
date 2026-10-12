@@ -1,0 +1,11 @@
+{
+  "feedback_id": "F2",
+  "source": "Reader email",
+  "date": "2026-10-10",
+  "edition_id": "ED-PB",
+  "feedback_type": "PRODUCTION_DEFECT",
+  "summary": "Missing chapter",
+  "verified": true,
+  "independent_report_count": 3,
+  "action_required": true
+}

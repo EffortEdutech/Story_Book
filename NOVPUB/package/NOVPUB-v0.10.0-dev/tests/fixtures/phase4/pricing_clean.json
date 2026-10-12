@@ -1,0 +1,29 @@
+{
+  "pricing_version": "PRICE-v1",
+  "editions": [
+    {
+      "edition_id": "ED-PB-001",
+      "channel": "KDP",
+      "market": "US",
+      "currency": "USD",
+      "list_price": 15.0,
+      "printing_cost": 5.0,
+      "royalty_rate": 0.6,
+      "wholesale_discount": 0,
+      "estimated_compensation": 4.0
+    },
+    {
+      "edition_id": "ED-PB-001",
+      "channel": "INGRAM",
+      "market": "US",
+      "currency": "USD",
+      "list_price": 15.0,
+      "printing_cost": 5.0,
+      "royalty_rate": 0,
+      "wholesale_discount": 0.55,
+      "estimated_compensation": 1.75
+    }
+  ],
+  "approved": true,
+  "rule_snapshot": "2026-10-10"
+}

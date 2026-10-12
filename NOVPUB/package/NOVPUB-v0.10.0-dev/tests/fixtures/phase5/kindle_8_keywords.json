@@ -1,0 +1,31 @@
+{
+  "edition_id": "ED-KIN-001",
+  "format": "kindle",
+  "language": "en",
+  "title": "Pilot Novel",
+  "author": "A. Author",
+  "description": "A novel description.",
+  "keywords": [
+    "k0",
+    "k1",
+    "k2",
+    "k3",
+    "k4",
+    "k5",
+    "k6",
+    "k7"
+  ],
+  "categories": [
+    "Fiction / Historical"
+  ],
+  "publishing_rights": "copyright",
+  "territories": [
+    "WORLD"
+  ],
+  "primary_marketplace": "Amazon.com",
+  "pricing": {
+    "currency": "USD",
+    "list_price": 4.99
+  },
+  "approved": true
+}

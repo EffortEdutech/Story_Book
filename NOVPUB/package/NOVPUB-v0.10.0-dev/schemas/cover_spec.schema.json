@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cover Specification",
+  "type": "object",
+  "properties": {
+    "edition_id": {
+      "type": "string"
+    },
+    "channel": {
+      "type": "string"
+    },
+    "trim_width_in": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "trim_height_in": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "page_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "binding": {
+      "type": "string"
+    },
+    "template_source": {
+      "type": "string"
+    },
+    "template_generated_at": {
+      "type": "string"
+    },
+    "pagination_lock_id": {
+      "type": "string"
+    },
+    "isbn": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "edition_id",
+    "channel",
+    "trim_width_in",
+    "trim_height_in",
+    "page_count",
+    "binding",
+    "template_source",
+    "template_generated_at",
+    "pagination_lock_id"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "book_id": "BOOK-1",
+  "launch_date": "2026-11-10",
+  "soft_launch_complete": true,
+  "channels_verified": true,
+  "proof_status": "PASS",
+  "website_status": "READY",
+  "author_central_status": "VERIFIED",
+  "media_kit_status": "READY",
+  "campaign_assets_status": "READY",
+  "review_policy_status": "COMPLIANT",
+  "incident_process_status": "READY",
+  "gate_09": "PASS",
+  "authorized": true,
+  "authorized_by": "publisher",
+  "authorized_at": "2026-11-09T12:00:00+08:00"
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "imprint_id",
+    "imprint_name",
+    "parent_publisher_id",
+    "status"
+  ],
+  "properties": {
+    "imprint_id": {
+      "type": "string"
+    },
+    "imprint_name": {
+      "type": "string"
+    },
+    "parent_publisher_id": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "approved",
+        "retired"
+      ]
+    },
+    "logo": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Proof Plan",
+  "type": "object",
+  "properties": {
+    "proofs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "edition_id",
+          "channel",
+          "proof_required",
+          "proof_status"
+        ],
+        "properties": {
+          "edition_id": {
+            "type": "string"
+          },
+          "channel": {
+            "type": "string"
+          },
+          "proof_required": {
+            "type": "boolean"
+          },
+          "proof_status": {
+            "enum": [
+              "planned",
+              "ordered",
+              "received",
+              "under_review",
+              "correction_required",
+              "reordered",
+              "approved",
+              "rejected",
+              "not_applicable"
+            ]
+          },
+          "human_approved": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "proofs"
+  ]
+}

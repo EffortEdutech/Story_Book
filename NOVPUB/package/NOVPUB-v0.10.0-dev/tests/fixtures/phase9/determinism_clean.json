@@ -1,0 +1,18 @@
+{
+  "runs": [
+    {
+      "run_id": "1",
+      "engine": "isbn",
+      "input_hash": "a",
+      "output_hash": "b",
+      "agent": "Codex"
+    },
+    {
+      "run_id": "2",
+      "engine": "isbn",
+      "input_hash": "a",
+      "output_hash": "b",
+      "agent": "Claude"
+    }
+  ]
+}

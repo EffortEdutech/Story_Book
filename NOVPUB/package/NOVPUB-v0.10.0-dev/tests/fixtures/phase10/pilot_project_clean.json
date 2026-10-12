@@ -1,0 +1,11 @@
+{
+  "project_id": "NOVPUB-PILOT-001",
+  "project_type": "professional_real_novel_pilot",
+  "source": {
+    "real_manuscript": true
+  },
+  "novpub": {
+    "candidate_version": "NOVPUB-v1.0.0-RC"
+  },
+  "pilot_status": "INITIALIZED"
+}

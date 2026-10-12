@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Determinism Run",
+  "type": "object",
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "engine": {
+      "type": "string"
+    },
+    "input_hash": {
+      "type": "string"
+    },
+    "output_hash": {
+      "type": "string"
+    },
+    "agent": {
+      "type": "string"
+    },
+    "passed": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "run_id",
+    "engine",
+    "input_hash",
+    "output_hash"
+  ],
+  "additionalProperties": true
+}

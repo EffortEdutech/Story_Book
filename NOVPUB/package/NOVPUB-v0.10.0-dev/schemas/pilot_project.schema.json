@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "title": "NOVPUB Real Pilot Project",
+  "properties": {
+    "project_id": {
+      "type": "string"
+    },
+    "project_type": {
+      "const": "professional_real_novel_pilot"
+    },
+    "source": {
+      "type": "object"
+    },
+    "novpub": {
+      "type": "object"
+    },
+    "pilot_status": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "project_id",
+    "project_type",
+    "source",
+    "novpub",
+    "pilot_status"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Registry Validation",
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "FAIL"
+      ]
+    },
+    "errors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "checked_at": {
+      "type": "string"
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "required": [
+    "status",
+    "errors"
+  ],
+  "additionalProperties": true
+}

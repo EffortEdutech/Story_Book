@@ -1,0 +1,2 @@
+defect_id,pilot_id,phase,gate,severity,status,summary,root_cause,owner,opened_date,closed_date,regression_evidence_path,approval_path
+

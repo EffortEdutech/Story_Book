@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Retailer Listing Snapshot",
+  "type": "object",
+  "properties": {
+    "checked_at": {
+      "type": "string"
+    },
+    "retailer": {
+      "type": "string"
+    },
+    "edition_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "isbn": {
+      "type": "string"
+    },
+    "publisher": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number",
+      "minimum": 0
+    },
+    "currency": {
+      "type": "string"
+    },
+    "cover_hash": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "AVAILABLE",
+        "ORDERABLE",
+        "TEMPORARILY_UNAVAILABLE",
+        "OUT_OF_STOCK_DISPLAY",
+        "NOT_LISTED_YET",
+        "INCORRECT_LISTING",
+        "UNKNOWN"
+      ]
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "checked_at",
+    "retailer",
+    "edition_id",
+    "title",
+    "author",
+    "isbn",
+    "status"
+  ]
+}

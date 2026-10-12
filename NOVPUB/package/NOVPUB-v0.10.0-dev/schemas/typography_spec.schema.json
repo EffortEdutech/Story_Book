@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Typography Specification",
+  "type": "object",
+  "properties": {
+    "spec_id": {
+      "type": "string"
+    },
+    "body_font_id": {
+      "type": "string"
+    },
+    "body_size_pt": {
+      "type": "number",
+      "minimum": 7
+    },
+    "leading_pt": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "chapter_title_font_id": {
+      "type": "string"
+    },
+    "scene_break_style": {
+      "type": "string"
+    },
+    "approved": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "spec_id",
+    "body_font_id",
+    "body_size_pt",
+    "leading_pt",
+    "approved"
+  ]
+}

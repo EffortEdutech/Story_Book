@@ -1,0 +1,15 @@
+{
+  "revision_id": "REV2",
+  "requested_change": "New ending",
+  "textual_scope": "major",
+  "production_scope": "all",
+  "identity_scope": "edition",
+  "rights_scope": "review",
+  "metadata_scope": "all",
+  "recommended_classification": "R3_NEW_EDITION",
+  "new_isbn_review": false,
+  "reopen_phase1": false,
+  "reopen_phase2": true,
+  "human_decision": true,
+  "approved_by": "Publisher"
+}

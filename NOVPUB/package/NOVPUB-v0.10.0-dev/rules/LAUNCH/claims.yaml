@@ -1,0 +1,9 @@
+rule_set: NOVPUB_MARKETING_CLAIMS
+verified_at: 2026-10-10
+rules:
+  public_claim_requires_evidence: true
+  permanent_bestseller_claim_from_temporary_rank_forbidden: true
+  rank_is_not_sales_volume: true
+  distribution_availability_is_not_store_stocking: true
+  direct_manuscript_quote_requires_exact_source_match: true
+  review_quote_requires_source_and_context: true

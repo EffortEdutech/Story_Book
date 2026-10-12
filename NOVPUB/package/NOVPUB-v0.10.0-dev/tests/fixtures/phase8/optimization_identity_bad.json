@@ -1,0 +1,13 @@
+{
+  "experiment_id": "OPT2",
+  "field": "title",
+  "baseline": "A",
+  "proposed_change": "B",
+  "hypothesis": "More clicks",
+  "identity_critical": true,
+  "misleading": false,
+  "economics_recalculated": true,
+  "reversion_available": true,
+  "approved": true,
+  "approved_by": "Publisher"
+}

@@ -1,0 +1,10 @@
+{
+  "fixture_id": "CF-001",
+  "codex_result": "PASS",
+  "claude_result": "FAIL",
+  "deterministic": true,
+  "equivalent": false,
+  "material_difference": true,
+  "severity": "CRITICAL",
+  "resolution": ""
+}

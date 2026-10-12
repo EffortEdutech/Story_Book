@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "work_id",
+    "editions"
+  ],
+  "properties": {
+    "work_id": {
+      "type": "string"
+    },
+    "editions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "edition_id",
+          "format",
+          "language",
+          "publisher",
+          "imprint",
+          "isbn_required",
+          "publication_status"
+        ],
+        "properties": {
+          "edition_id": {
+            "type": "string"
+          },
+          "format": {
+            "enum": [
+              "kindle",
+              "epub",
+              "paperback",
+              "hardcover",
+              "large_print",
+              "other"
+            ]
+          },
+          "binding": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "language": {
+            "type": "string"
+          },
+          "content_version": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "publisher": {
+            "type": "string"
+          },
+          "imprint": {
+            "type": "string"
+          },
+          "territory": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "isbn_required": {
+            "type": "boolean"
+          },
+          "isbn": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "publication_status": {
+            "enum": [
+              "planned",
+              "active",
+              "published",
+              "withdrawn"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

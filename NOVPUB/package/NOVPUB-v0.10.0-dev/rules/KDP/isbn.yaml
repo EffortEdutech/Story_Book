@@ -1,0 +1,12 @@
+rule_set: KDP_ISBN
+verified_at: 2026-10-10
+source: https://kdp.amazon.com/en_US/help/topic/G201834170
+rules:
+  ebook_isbn_required: false
+  paperback_isbn_required: true
+  hardcover_isbn_required: true
+  separate_isbn_per_print_format: true
+  free_kdp_isbn_external_use_allowed: false
+  own_isbn_imprint_must_match_agency_record: true
+  imprint_matching_is_case_sensitive: true
+  refresh_before_live_use: true

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "rule_id",
+    "authority",
+    "law_or_policy",
+    "verified_at",
+    "source_reference"
+  ],
+  "properties": {
+    "rule_id": {
+      "type": "string"
+    },
+    "authority": {
+      "type": "string"
+    },
+    "law_or_policy": {
+      "type": "string"
+    },
+    "rule_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "effective_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "verified_at": {
+      "type": "string"
+    },
+    "source_reference": {
+      "type": "string"
+    },
+    "supersedes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

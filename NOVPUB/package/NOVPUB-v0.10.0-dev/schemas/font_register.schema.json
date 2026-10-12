@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Font Register",
+  "type": "object",
+  "properties": {
+    "fonts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "font_id",
+          "family",
+          "license_status",
+          "embedding_allowed",
+          "print_allowed",
+          "ebook_allowed"
+        ],
+        "properties": {
+          "font_id": {
+            "type": "string"
+          },
+          "family": {
+            "type": "string"
+          },
+          "license_status": {
+            "enum": [
+              "verified",
+              "review_required",
+              "prohibited"
+            ]
+          },
+          "embedding_allowed": {
+            "type": "boolean"
+          },
+          "print_allowed": {
+            "type": "boolean"
+          },
+          "ebook_allowed": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "fonts"
+  ]
+}

@@ -1,0 +1,11 @@
+rule_set: KDP_SCHEDULED_PRINT_RELEASE
+verified_at: 2026-10-10
+source: https://kdp.amazon.com/en_US/help/topic/GDTMGBCWHAY35NK4
+rules:
+  print_only: true
+  preorder: false
+  minimum_days_ahead: 5
+  maximum_days_ahead: 90
+  release_time: 00:00 GMT
+  final_lock_days_before_release: 5
+  refresh_before_live_use: true

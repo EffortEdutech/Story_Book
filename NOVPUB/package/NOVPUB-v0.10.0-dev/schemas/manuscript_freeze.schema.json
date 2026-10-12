@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "skill",
+    "freeze_id",
+    "source_file",
+    "frozen_file",
+    "source_hash",
+    "frozen_hash",
+    "freeze_timestamp",
+    "status"
+  ],
+  "properties": {
+    "skill": {
+      "const": "NPUB-02"
+    },
+    "freeze_id": {
+      "type": "string"
+    },
+    "source_file": {
+      "type": "string"
+    },
+    "frozen_file": {
+      "type": "string"
+    },
+    "source_hash": {
+      "type": "string",
+      "pattern": "^[a-fA-F0-9]{64}$"
+    },
+    "frozen_hash": {
+      "type": "string",
+      "pattern": "^[a-fA-F0-9]{64}$"
+    },
+    "word_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "chapter_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "freeze_timestamp": {
+      "type": "string"
+    },
+    "status": {
+      "const": "frozen"
+    }
+  },
+  "additionalProperties": true
+}

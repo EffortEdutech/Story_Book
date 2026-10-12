@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Licensing Record",
+  "type": "object",
+  "properties": {
+    "license_id": {
+      "type": "string"
+    },
+    "right": {
+      "type": "string"
+    },
+    "licensee": {
+      "type": "string"
+    },
+    "territory": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "term_start": {
+      "type": "string"
+    },
+    "term_end": {
+      "type": "string"
+    },
+    "exclusivity": {
+      "type": "string",
+      "enum": [
+        "EXCLUSIVE",
+        "NON_EXCLUSIVE"
+      ]
+    },
+    "advance": {
+      "type": "number"
+    },
+    "royalty": {
+      "type": "number"
+    },
+    "reporting": {
+      "type": "string"
+    },
+    "renewal": {
+      "type": "string"
+    },
+    "contract_reference": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "license_id",
+    "right",
+    "licensee",
+    "territory",
+    "term_start",
+    "term_end",
+    "exclusivity"
+  ]
+}

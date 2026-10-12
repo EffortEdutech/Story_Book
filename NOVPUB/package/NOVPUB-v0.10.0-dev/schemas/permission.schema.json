@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "permission_id",
+    "content_id",
+    "permission_status"
+  ],
+  "properties": {
+    "permission_id": {
+      "type": "string"
+    },
+    "content_id": {
+      "type": "string"
+    },
+    "rights_holder": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "rights_requested": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "territories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "formats": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "permission_status": {
+      "enum": [
+        "pending",
+        "obtained",
+        "not_required_verified",
+        "denied",
+        "expired"
+      ]
+    },
+    "evidence_file": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "credit_requirement": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "expiry": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

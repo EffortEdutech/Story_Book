@@ -1,0 +1,15 @@
+{
+  "book_id": "BOOK-1",
+  "launch_date": "2026-11-10",
+  "soft_launch_complete": false,
+  "channels_verified": false,
+  "proof_status": "PENDING",
+  "website_status": "BLOCKED",
+  "author_central_status": "IN_PROGRESS",
+  "media_kit_status": "BLOCKED",
+  "campaign_assets_status": "BLOCKED",
+  "review_policy_status": "UNKNOWN",
+  "incident_process_status": "BLOCKED",
+  "gate_09": "PENDING",
+  "authorized": false
+}

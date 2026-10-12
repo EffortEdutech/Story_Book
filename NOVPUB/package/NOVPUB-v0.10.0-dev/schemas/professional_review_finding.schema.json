@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Professional Review Finding",
+  "type": "object",
+  "properties": {
+    "finding_id": {
+      "type": "string"
+    },
+    "reviewer_role": {
+      "type": "string"
+    },
+    "reviewer_is_human": {
+      "type": "boolean"
+    },
+    "severity": {
+      "type": "string",
+      "enum": [
+        "CRITICAL",
+        "MAJOR",
+        "MODERATE",
+        "MINOR",
+        "OBSERVATION"
+      ]
+    },
+    "classification": {
+      "type": "string",
+      "enum": [
+        "DEFECT",
+        "METHOD_GAP",
+        "CONTROL_GAP",
+        "DOCUMENTATION_GAP",
+        "RULE_GAP",
+        "USABILITY_ISSUE",
+        "ENHANCEMENT"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "OPEN",
+        "REMEDIATED",
+        "CLOSED",
+        "DEFERRED",
+        "ACCEPTED_RISK"
+      ]
+    }
+  },
+  "required": [
+    "finding_id",
+    "reviewer_role",
+    "reviewer_is_human",
+    "severity",
+    "classification",
+    "description",
+    "status"
+  ],
+  "additionalProperties": true
+}

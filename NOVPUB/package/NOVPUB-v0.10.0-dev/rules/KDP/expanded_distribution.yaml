@@ -1,0 +1,9 @@
+rule_set: KDP_EXPANDED_DISTRIBUTION
+verified_at: 2026-10-10
+source: https://kdp.amazon.com/en_US/help/topic/GQTT4W3T5AYK7L45
+rules:
+  paperback_eligible: true
+  hardcover_eligible: false
+  isbn_must_not_be_submitted_through_another_distribution_service: true
+  enrollment_does_not_guarantee_bookstore_ordering: true
+  refresh_before_live_use: true

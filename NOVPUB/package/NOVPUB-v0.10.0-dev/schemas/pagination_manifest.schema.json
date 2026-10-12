@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pagination Manifest",
+  "type": "object",
+  "properties": {
+    "lock_id": {
+      "type": "string"
+    },
+    "edition_id": {
+      "type": "string"
+    },
+    "page_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "trim_width_in": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "trim_height_in": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "interior_hash": {
+      "type": "string",
+      "pattern": "^[a-fA-F0-9]{64}$"
+    },
+    "locked": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "lock_id",
+    "edition_id",
+    "page_count",
+    "trim_width_in",
+    "trim_height_in",
+    "interior_hash",
+    "locked"
+  ]
+}

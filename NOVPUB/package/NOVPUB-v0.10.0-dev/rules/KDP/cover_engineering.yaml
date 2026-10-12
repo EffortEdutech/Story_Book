@@ -1,0 +1,12 @@
+rule_set: KDP_COVER_ENGINEERING
+verified_at: 2026-10-10
+source: https://kdp.amazon.com/en_US/help/topic/G201953020
+cover_template_source: KDP Cover Calculator / Template
+minimum_image_dpi: 300
+fonts_embedded: true
+transparency_flattened: true
+crop_marks_removed: true
+file_security_removed: true
+spine_text_rule:
+  current_manual_cover_min_pages: 80
+  refresh_before_live_use: true

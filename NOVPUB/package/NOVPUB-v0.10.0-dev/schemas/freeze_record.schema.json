@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Freeze Record",
+  "type": "object",
+  "properties": {
+    "freeze_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "gate": {
+      "type": "string"
+    },
+    "gate_result": {
+      "type": "string"
+    },
+    "approved_by": {
+      "type": "string"
+    },
+    "package_hash": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "freeze_id",
+    "version",
+    "created_at",
+    "gate",
+    "gate_result"
+  ],
+  "additionalProperties": true
+}

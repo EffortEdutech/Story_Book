@@ -1,0 +1,12 @@
+{
+  "record_id": "IR1",
+  "period": "2026-09",
+  "edition_id": "ED-PB",
+  "market": "US",
+  "units_returned": 2,
+  "wholesale_value": 18,
+  "shipping_handling": 6,
+  "total_cost": 24,
+  "source": "ingram-report.csv",
+  "reconciled": true
+}

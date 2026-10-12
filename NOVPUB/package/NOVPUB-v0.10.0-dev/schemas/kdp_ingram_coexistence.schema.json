@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KDP Ingram Coexistence",
+  "type": "object",
+  "properties": {
+    "edition_id": {
+      "type": "string"
+    },
+    "isbn": {
+      "type": "string"
+    },
+    "kdp_direct": {
+      "type": "boolean"
+    },
+    "kdp_expanded_distribution": {
+      "type": "boolean"
+    },
+    "ingram_distribution": {
+      "type": "boolean"
+    },
+    "same_publisher_owned_isbn": {
+      "type": "boolean"
+    },
+    "historical_kdp_expanded_distribution": {
+      "type": "boolean"
+    },
+    "compatible": {
+      "type": "boolean"
+    },
+    "required_action": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "edition_id",
+    "kdp_direct",
+    "kdp_expanded_distribution",
+    "ingram_distribution",
+    "same_publisher_owned_isbn",
+    "compatible"
+  ]
+}

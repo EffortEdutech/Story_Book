@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cover QA",
+  "type": "object",
+  "properties": {
+    "edition_id": {
+      "type": "string"
+    },
+    "channel": {
+      "type": "string"
+    },
+    "identity_checks": {
+      "type": "object"
+    },
+    "technical_checks": {
+      "type": "object"
+    },
+    "visual_qa": {
+      "enum": [
+        "PENDING",
+        "PASS",
+        "FAIL"
+      ]
+    },
+    "errors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "passed": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "edition_id",
+    "channel",
+    "identity_checks",
+    "technical_checks",
+    "visual_qa",
+    "errors",
+    "passed"
+  ]
+}

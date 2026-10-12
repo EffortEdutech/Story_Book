@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ingram Market Pricing",
+  "type": "object",
+  "properties": {
+    "edition_id": {
+      "type": "string"
+    },
+    "markets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "market": {
+            "type": "string"
+          },
+          "currency": {
+            "type": "string"
+          },
+          "list_price": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "wholesale_discount": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "print_cost": {
+            "type": "number",
+            "minimum": 0
+          },
+          "estimated_publisher_compensation": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "market",
+          "currency",
+          "list_price",
+          "wholesale_discount",
+          "print_cost",
+          "estimated_publisher_compensation"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 1
+    },
+    "rule_snapshot": {
+      "type": "string"
+    },
+    "approved": {
+      "type": "boolean"
+    },
+    "approved_by": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "edition_id",
+    "markets",
+    "approved"
+  ]
+}

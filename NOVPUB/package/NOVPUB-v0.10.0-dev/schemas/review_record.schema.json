@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Review Record",
+  "type": "object",
+  "properties": {
+    "review_id": {
+      "type": "string"
+    },
+    "reviewer_id": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "review_type": {
+      "type": "string",
+      "enum": [
+        "CUSTOMER",
+        "EDITORIAL",
+        "MEDIA",
+        "ARC_FEEDBACK",
+        "OTHER"
+      ]
+    },
+    "quote": {
+      "type": "string"
+    },
+    "exact_quote_verified": {
+      "type": "boolean"
+    },
+    "context_preserved": {
+      "type": "boolean"
+    },
+    "permission_status": {
+      "type": "string"
+    },
+    "marketing_use_approved": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "review_id",
+    "platform",
+    "source",
+    "review_type",
+    "marketing_use_approved"
+  ]
+}

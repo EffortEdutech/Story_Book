@@ -1,0 +1,9 @@
+{
+  "metric": "sales from bestseller rank",
+  "value": 1,
+  "period": "2026-11-10",
+  "source": "Amazon rank",
+  "retrieved_at": "2026-11-11T08:00:00+08:00",
+  "confidence": "observed",
+  "metric_class": "RANK"
+}

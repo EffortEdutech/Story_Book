@@ -1,0 +1,23 @@
+phase: 4
+name: Metadata & Commercial Strategy
+entry_state: PRODUCTION_ASSETS_APPROVED
+required_gates:
+  - GATE-05
+  - GATE-06
+skills:
+  - NPUB-31
+  - NPUB-32
+  - NPUB-33
+  - NPUB-34
+  - NPUB-35
+  - NPUB-36
+  - NPUB-37
+  - NPUB-38
+  - NPUB-39
+  - NPUB-40
+gates:
+  - GATE-07
+exit_state: COMMERCIAL_METADATA_APPROVED
+notes:
+  - Current KDP/Ingram pricing, category and wholesale rules must be refreshed before live use.
+  - GATE-08 remains pending until physical proofs are actually approved.

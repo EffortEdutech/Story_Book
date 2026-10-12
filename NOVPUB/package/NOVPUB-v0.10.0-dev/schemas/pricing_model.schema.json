@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pricing Model",
+  "type": "object",
+  "properties": {
+    "pricing_version": {
+      "type": "string"
+    },
+    "editions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "edition_id": {
+            "type": "string"
+          },
+          "channel": {
+            "type": "string"
+          },
+          "market": {
+            "type": "string"
+          },
+          "currency": {
+            "type": "string"
+          },
+          "list_price": {
+            "type": "number",
+            "minimum": 0
+          },
+          "printing_cost": {
+            "type": "number",
+            "minimum": 0
+          },
+          "royalty_rate": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "wholesale_discount": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "estimated_compensation": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "edition_id",
+          "channel",
+          "market",
+          "currency",
+          "list_price"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 1
+    },
+    "approved": {
+      "type": "boolean"
+    },
+    "rule_snapshot": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "pricing_version",
+    "editions",
+    "approved"
+  ]
+}

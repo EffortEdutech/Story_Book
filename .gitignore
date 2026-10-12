@@ -1,0 +1,15 @@
+# Generated caches
+__pycache__/
+*.py[cod]
+
+# Local render/output scratch
+.codex_render/
+
+# Duplicate downloaded archive; canonical copy is under NOVPUB/source_archives/
+NOVPUB/NOVPUB-Implementation-Batch-10.zip
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+~$*
+

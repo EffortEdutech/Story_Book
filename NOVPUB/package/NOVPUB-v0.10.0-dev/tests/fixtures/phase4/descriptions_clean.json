@@ -1,0 +1,13 @@
+{
+  "descriptions": [
+    {
+      "description_id": "DESC-RET-001",
+      "type": "retailer",
+      "text": "A character-driven historical novel about belonging and family legacy.",
+      "spoiler_level": "light",
+      "approved": true,
+      "claims": []
+    }
+  ],
+  "approved": true
+}

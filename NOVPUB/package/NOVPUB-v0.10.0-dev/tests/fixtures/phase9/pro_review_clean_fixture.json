@@ -1,0 +1,17 @@
+{
+  "review_status": "COMPLETE",
+  "human_review_evidence": [
+    "reviewer-signoff"
+  ],
+  "findings": [
+    {
+      "finding_id": "PR-1",
+      "reviewer_role": "Publishing specialist",
+      "reviewer_is_human": true,
+      "severity": "MINOR",
+      "classification": "DOCUMENTATION_GAP",
+      "description": "minor",
+      "status": "CLOSED"
+    }
+  ]
+}

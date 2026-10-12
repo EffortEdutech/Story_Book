@@ -1,0 +1,18 @@
+{
+  "manuscript": {
+    "classification": "ai_assisted",
+    "evidence": [
+      "author confirms human-created manuscript with AI editing assistance"
+    ]
+  },
+  "cover": {
+    "classification": "human_created",
+    "evidence": [
+      "licensed/designed cover"
+    ]
+  },
+  "illustrations": [],
+  "kdp_disclosure_required": false,
+  "confirmed_by": "Publisher",
+  "confirmed_at": "2026-10-10T00:00:00+08:00"
+}

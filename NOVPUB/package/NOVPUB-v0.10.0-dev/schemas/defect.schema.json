@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Production Defect",
+  "type": "object",
+  "properties": {
+    "defect_id": {
+      "type": "string"
+    },
+    "edition_id": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "verified": {
+      "type": "boolean"
+    },
+    "severity": {
+      "type": "string",
+      "enum": [
+        "CRITICAL",
+        "MAJOR",
+        "MODERATE",
+        "MINOR"
+      ]
+    },
+    "multiple_copy_check": {
+      "type": "boolean"
+    },
+    "source_file_check": {
+      "type": "boolean"
+    },
+    "provider_specific": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "defect_id",
+    "edition_id",
+    "category",
+    "verified",
+    "severity",
+    "status"
+  ]
+}

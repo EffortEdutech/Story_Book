@@ -1,0 +1,19 @@
+{
+  "pilot_id": "NOVPUB-PILOT-001",
+  "title": "The Blue Silence",
+  "filename": "THE_BLUE_SILENCE_MANUSCRIPT_V1.0_Prologue_Chapter_1.docx",
+  "format": "docx",
+  "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_MANUSCRIPT_V1.0_Prologue_Chapter_1.docx",
+  "sha256": "accde6a8d1e8cfab780793d0eff13e2009cb7693be9bb7165e2df0f7c9a20145",
+  "authoritative_source": true,
+  "completeness_checked": false,
+  "partial_export_detected": true,
+  "human_confirmed_source": true,
+  "confirmed_by": "User",
+  "evidence_type": "REAL_FILE",
+  "baseline_status": "CANDIDATE_BLOCKED_INCOMPLETE_MANUSCRIPT",
+  "blocking_reason": "Current manuscript folder now contains substantially more real manuscript files, but chapters 26, 27, 28, 29, 30, and 38 are missing. NOVPUB Phase 10 requires the actual completed novel manuscript before GATE-P10-01 can pass.",
+  "supporting_inventory": "01_SOURCE/the_blue_silence_source_inventory.json",
+  "completeness_report": "01_SOURCE/the_blue_silence_manuscript_completeness.json",
+  "created_at": "2026-10-11T06:43:36+08:00"
+}

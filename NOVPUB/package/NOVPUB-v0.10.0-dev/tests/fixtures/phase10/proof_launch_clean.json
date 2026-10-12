@@ -1,0 +1,15 @@
+{
+  "gate_08": {
+    "status": "PASS",
+    "evidence_type": "PHYSICAL_PROOF",
+    "approved_by": "Publisher Owner"
+  },
+  "gate_09": {
+    "status": "PASS",
+    "evidence": [
+      "launch pack"
+    ],
+    "approved_by": "Publisher Owner"
+  },
+  "launch_dry_run": true
+}

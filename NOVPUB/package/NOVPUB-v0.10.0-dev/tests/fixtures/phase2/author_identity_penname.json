@@ -1,0 +1,15 @@
+{
+  "legal_identity": {
+    "name": "Private Legal Name",
+    "evidence_reference": "ID-REF",
+    "exposure_policy": "restricted"
+  },
+  "author_identity": {
+    "display_name": "Pen Name",
+    "pen_name": true
+  },
+  "platform_identity": {},
+  "copyright_credit": {
+    "name": "Pen Name"
+  }
+}

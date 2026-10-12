@@ -1,0 +1,14 @@
+rule_id: MY-PNM-LEGAL-DEPOSIT-20261010
+source: https://www.pnm.gov.my/pnm/resources/pdf%20file/DasarPembangunanKoleksiPNM.pdf
+last_verified: 2026-10-10
+require_live_refresh: true
+statute: Akta Penyerahan Bahan Perpustakaan 1986 (Akta 331)
+printed_material:
+  copies: 5
+  deadline_months_after_publication: 1
+non_printed_material:
+  units: 2
+  deadline_years_after_publication: 1
+notes:
+  - Refresh PNM submission instructions and any amended schedule before live deposit execution.
+  - Do not mark compliance closed without submission evidence.

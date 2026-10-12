@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "jurisdiction",
+    "authority",
+    "law",
+    "publication_triggered",
+    "obligations",
+    "rule_verified_at",
+    "source_snapshot"
+  ],
+  "properties": {
+    "jurisdiction": {
+      "const": "Malaysia"
+    },
+    "authority": {
+      "type": "string"
+    },
+    "law": {
+      "type": "string"
+    },
+    "publication_triggered": {
+      "type": "boolean"
+    },
+    "obligations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "material_type",
+          "quantity",
+          "deadline_rule",
+          "status"
+        ],
+        "properties": {
+          "material_type": {
+            "type": "string"
+          },
+          "quantity": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "deadline_rule": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "not_triggered",
+              "scheduled",
+              "prepared",
+              "submitted",
+              "acknowledged",
+              "overdue",
+              "exception_review"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "rule_verified_at": {
+      "type": "string"
+    },
+    "source_snapshot": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

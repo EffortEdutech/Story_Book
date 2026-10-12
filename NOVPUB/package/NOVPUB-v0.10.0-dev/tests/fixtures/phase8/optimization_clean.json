@@ -1,0 +1,15 @@
+{
+  "experiment_id": "OPT1",
+  "field": "description",
+  "baseline": "old",
+  "proposed_change": "new",
+  "hypothesis": "Improve qualified clicks",
+  "start_date": "2026-10-10",
+  "success_metric": "CTR",
+  "identity_critical": false,
+  "misleading": false,
+  "economics_recalculated": true,
+  "reversion_available": true,
+  "approved": true,
+  "approved_by": "Publisher"
+}

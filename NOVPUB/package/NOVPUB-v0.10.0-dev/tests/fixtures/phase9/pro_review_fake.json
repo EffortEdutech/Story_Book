@@ -1,0 +1,15 @@
+{
+  "review_status": "COMPLETE",
+  "human_review_evidence": [],
+  "findings": [
+    {
+      "finding_id": "PR-1",
+      "reviewer_role": "AI",
+      "reviewer_is_human": false,
+      "severity": "CRITICAL",
+      "classification": "CONTROL_GAP",
+      "description": "fake review",
+      "status": "OPEN"
+    }
+  ]
+}

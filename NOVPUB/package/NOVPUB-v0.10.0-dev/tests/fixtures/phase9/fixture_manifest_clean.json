@@ -1,0 +1,92 @@
+{
+  "fixtures": [
+    {
+      "fixture_id": "P9-FIX-001",
+      "phase": 9,
+      "class": "UNIT",
+      "description": "Clean registry integrity",
+      "expected": "PASS",
+      "severity": "HIGH"
+    },
+    {
+      "fixture_id": "P9-FIX-002",
+      "phase": 9,
+      "class": "NEGATIVE",
+      "description": "Gate PASS without evidence",
+      "expected": "GATEVAL-002",
+      "severity": "CRITICAL"
+    },
+    {
+      "fixture_id": "P9-FIX-003",
+      "phase": 9,
+      "class": "NEGATIVE",
+      "description": "AI self-approval of human gate",
+      "expected": "GATEVAL-003",
+      "severity": "CRITICAL"
+    },
+    {
+      "fixture_id": "P9-FIX-004",
+      "phase": 9,
+      "class": "BOUNDARY",
+      "description": "Deterministic run mismatch",
+      "expected": "DET-001",
+      "severity": "CRITICAL"
+    },
+    {
+      "fixture_id": "P9-FIX-005",
+      "phase": 9,
+      "class": "CROSS_PHASE",
+      "description": "ISBN/title MUST_MATCH drift",
+      "expected": "PARITY failure",
+      "severity": "CRITICAL"
+    },
+    {
+      "fixture_id": "P9-FIX-006",
+      "phase": 9,
+      "class": "NEGATIVE",
+      "description": "Stale platform rule",
+      "expected": "RULE-001",
+      "severity": "HIGH"
+    },
+    {
+      "fixture_id": "P9-FIX-007",
+      "phase": 9,
+      "class": "END_TO_END",
+      "description": "Complete ADV-001..ADV-160 catalog",
+      "expected": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "fixture_id": "P9-FIX-008",
+      "phase": 9,
+      "class": "CROSS_PHASE",
+      "description": "Deterministic Codex/Claude divergence",
+      "expected": "AGENT-001",
+      "severity": "CRITICAL"
+    },
+    {
+      "fixture_id": "P9-FIX-009",
+      "phase": 9,
+      "class": "NEGATIVE",
+      "description": "Synthetic reviewer attempts professional certification",
+      "expected": "PRO-002",
+      "severity": "CRITICAL"
+    },
+    {
+      "fixture_id": "P9-FIX-010",
+      "phase": 9,
+      "class": "NEGATIVE",
+      "description": "RC approval without real professional review",
+      "expected": "FAIL",
+      "severity": "CRITICAL"
+    },
+    {
+      "fixture_id": "P9-FIX-011",
+      "phase": 9,
+      "class": "RECOVERY",
+      "description": "Closed defect lacks regression coverage",
+      "expected": "DEFECT-REG",
+      "severity": "HIGH"
+    }
+  ]
+}

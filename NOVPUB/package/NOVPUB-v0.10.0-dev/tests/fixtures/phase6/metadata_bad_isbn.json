@@ -1,0 +1,35 @@
+{
+  "edition_id": "ED-PB",
+  "format": "paperback",
+  "title": "Pilot Novel",
+  "subtitle": "",
+  "series": "",
+  "edition": "1",
+  "author": "A. Author",
+  "contributors": [],
+  "publisher": "Pilot Press",
+  "imprint": "Pilot Press",
+  "isbn": "9780306406158",
+  "language": "en",
+  "description": "A controlled pilot description.",
+  "subjects": {
+    "BISAC": [
+      "FIC000000"
+    ],
+    "Thema": [
+      "F"
+    ]
+  },
+  "keywords": [
+    "historical fiction",
+    "family secret"
+  ],
+  "audience": "adult",
+  "publication_date": "2026-12-01",
+  "on_sale_date": "2026-12-01",
+  "markets": [
+    "US",
+    "UK"
+  ],
+  "approved": true
+}

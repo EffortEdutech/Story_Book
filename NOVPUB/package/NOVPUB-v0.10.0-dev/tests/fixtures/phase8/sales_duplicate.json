@@ -1,0 +1,26 @@
+{
+  "records": [
+    {
+      "record_id": "S1",
+      "channel": "KDP",
+      "edition_id": "ED-K",
+      "currency": "USD",
+      "period": "2026-09",
+      "units": 10,
+      "transaction_class": "SALE",
+      "source_reference": "kdp-sep.csv",
+      "source_hash": "abc"
+    },
+    {
+      "record_id": "S1",
+      "channel": "KDP",
+      "edition_id": "ED-K",
+      "currency": "USD",
+      "period": "2026-09",
+      "units": 10,
+      "transaction_class": "SALE",
+      "source_reference": "kdp-sep.csv",
+      "source_hash": "abc"
+    }
+  ]
+}

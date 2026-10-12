@@ -1,0 +1,24 @@
+phase: 8
+name: Post-Publication & Edition Management
+entry_state: PUBLICLY_LAUNCHED
+required_gates:
+  - GATE-09
+skills:
+  - NPUB-67
+  - NPUB-68
+  - NPUB-69
+  - NPUB-70
+  - NPUB-71
+  - NPUB-72
+  - NPUB-73
+  - NPUB-74
+  - NPUB-75
+  - NPUB-76
+gates:
+  - GATE-10
+exit_state: PUBLICATION_GOVERNED
+notes:
+  - Post-publication retailer/channel data never silently overwrites NOVPUB source-of-truth records.
+  - Historical platform rules must be retained when reconciling historical transactions.
+  - Corrections, material revisions, new editions and new formats must remain distinguishable.
+  - Malaysian legal-deposit closure requires real submission evidence and a current rule snapshot.

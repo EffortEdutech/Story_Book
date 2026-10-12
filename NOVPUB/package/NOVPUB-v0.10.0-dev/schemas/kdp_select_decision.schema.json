@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KDP Select Decision",
+  "type": "object",
+  "properties": {
+    "decision": {
+      "type": "string",
+      "enum": [
+        "SELECT",
+        "WIDE",
+        "DEFER"
+      ]
+    },
+    "auto_renew": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "wide_ebook_distribution": {
+      "type": "boolean"
+    },
+    "term_start": {
+      "type": "string"
+    },
+    "term_end": {
+      "type": "string"
+    },
+    "approved_by": {
+      "type": "string"
+    },
+    "approved_at": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "decision",
+    "auto_renew",
+    "wide_ebook_distribution",
+    "approved_by"
+  ]
+}

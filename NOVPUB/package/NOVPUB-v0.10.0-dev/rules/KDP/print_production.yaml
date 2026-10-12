@@ -1,0 +1,25 @@
+rule_set: KDP_PRINT_PRODUCTION
+verified_at: 2026-10-10
+source: https://kdp.amazon.com/en_US/help/topic/G201857950
+rules:
+  single_page_interior: true
+  embedded_fonts: true
+  minimum_image_dpi: 300
+  cover_pdf_single_continuous_image: true
+  cover_bleed_in: 0.125
+  cover_safe_min_in: 0.25
+  interior_bleed_outer_top_bottom_in: 0.125
+  prohibited_submission_elements:
+    - crop_marks
+    - trim_marks
+    - comments
+    - annotations
+    - placeholder_text
+    - file_security
+  dynamic_values:
+    - supported_trim_sizes
+    - page_count_limits
+    - gutter_by_page_count
+    - paper_options
+    - hardcover_capabilities
+  refresh_before_live_use: true

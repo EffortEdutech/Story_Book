@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Marketing Asset",
+  "type": "object",
+  "properties": {
+    "asset_id": {
+      "type": "string"
+    },
+    "campaign": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "content_type": {
+      "type": "string"
+    },
+    "text_version": {
+      "type": "string"
+    },
+    "visual_asset": {
+      "type": "string"
+    },
+    "source_claims": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "manuscript_quotes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "quote": {
+            "type": "string"
+          },
+          "source_hash": {
+            "type": "string"
+          },
+          "exact_match": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "quote",
+          "source_hash",
+          "exact_match"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "spoiler_level": {
+      "type": "string"
+    },
+    "publication_window": {
+      "type": "string"
+    },
+    "review_call_to_action": {
+      "type": "string"
+    },
+    "approved": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "asset_id",
+    "content_type",
+    "source_claims",
+    "spoiler_level",
+    "approved"
+  ]
+}

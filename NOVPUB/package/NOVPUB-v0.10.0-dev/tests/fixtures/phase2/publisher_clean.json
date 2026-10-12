@@ -1,0 +1,10 @@
+{
+  "publisher_id": "PUB-001",
+  "legal_name": "Example Publishing Enterprise",
+  "country": "Malaysia",
+  "publisher_type": "enterprise",
+  "address_source": "private-record",
+  "contact_source": "private-record",
+  "isbn_registrant_name": "Example Publishing Enterprise",
+  "approved": true
+}

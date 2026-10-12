@@ -1,0 +1,9 @@
+{
+  "spec_id": "TYPE-001",
+  "body_font_id": "BODY",
+  "body_size_pt": 10.5,
+  "leading_pt": 14.0,
+  "chapter_title_font_id": "HEAD",
+  "scene_break_style": "ornament",
+  "approved": true
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Launch Team",
+  "type": "object",
+  "properties": {
+    "members": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "member_id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "relationship": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          },
+          "activities": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "review_conflict_status": {
+            "type": "string"
+          },
+          "amazon_review_eligible": {
+            "type": "boolean"
+          },
+          "paid": {
+            "type": "boolean"
+          },
+          "disclosure_required": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "member_id",
+          "name",
+          "relationship",
+          "role",
+          "review_conflict_status",
+          "amazon_review_eligible"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 1
+    },
+    "approved": {
+      "type": "boolean"
+    },
+    "approved_by": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "members",
+    "approved"
+  ]
+}

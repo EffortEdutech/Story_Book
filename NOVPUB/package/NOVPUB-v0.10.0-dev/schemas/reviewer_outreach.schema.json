@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reviewer Outreach",
+  "type": "object",
+  "properties": {
+    "outreach_id": {
+      "type": "string"
+    },
+    "reviewer_id": {
+      "type": "string"
+    },
+    "contact_date": {
+      "type": "string"
+    },
+    "message_version": {
+      "type": "string"
+    },
+    "arc_offered": {
+      "type": "boolean"
+    },
+    "review_requested": {
+      "type": "boolean"
+    },
+    "review_optional": {
+      "type": "boolean"
+    },
+    "compensation": {
+      "type": "number",
+      "minimum": 0
+    },
+    "positive_review_requested": {
+      "type": "boolean"
+    },
+    "star_rating_requested": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "future_benefit_conditioned_on_review": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "string"
+    },
+    "followup_date": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "outreach_id",
+    "reviewer_id",
+    "review_optional",
+    "compensation",
+    "positive_review_requested",
+    "future_benefit_conditioned_on_review"
+  ]
+}

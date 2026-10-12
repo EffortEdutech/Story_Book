@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Retailer Link Registry",
+  "type": "object",
+  "properties": {
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "retailer": {
+            "type": "string"
+          },
+          "marketplace": {
+            "type": "string"
+          },
+          "format": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "accessible": {
+            "type": "boolean"
+          },
+          "correct_book": {
+            "type": "boolean"
+          },
+          "correct_format": {
+            "type": "boolean"
+          },
+          "affiliate_parameter_approved": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "retailer",
+          "format",
+          "url",
+          "accessible",
+          "correct_book",
+          "correct_format"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 1
+    },
+    "validated_at": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "links",
+    "validated_at"
+  ]
+}

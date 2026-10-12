@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ingram Distribution Authorization",
+  "type": "object",
+  "properties": {
+    "edition_id": {
+      "type": "string"
+    },
+    "gate08_status": {
+      "type": "string"
+    },
+    "markets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "wholesale_discount": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "returns_status": {
+      "type": "string"
+    },
+    "pricing_version": {
+      "type": "string"
+    },
+    "risk_model_version": {
+      "type": "string"
+    },
+    "on_sale_date": {
+      "type": "string"
+    },
+    "authorized": {
+      "type": "boolean"
+    },
+    "authorized_by": {
+      "type": "string"
+    },
+    "authorized_at": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "edition_id",
+    "gate08_status",
+    "markets",
+    "wholesale_discount",
+    "returns_status",
+    "authorized"
+  ]
+}

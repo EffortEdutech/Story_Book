@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cross Phase Parity Result",
+  "type": "object",
+  "properties": {
+    "field": {
+      "type": "string"
+    },
+    "authority": {
+      "type": "string"
+    },
+    "expected": {},
+    "actual": {},
+    "parity_class": {
+      "type": "string",
+      "enum": [
+        "MUST_MATCH",
+        "CAN_DIFFER_BY_CHANNEL",
+        "DERIVED",
+        "CHANNEL_ONLY"
+      ]
+    },
+    "pass": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "field",
+    "parity_class",
+    "pass"
+  ],
+  "additionalProperties": true
+}

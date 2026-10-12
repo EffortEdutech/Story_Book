@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARC Manifest",
+  "type": "object",
+  "properties": {
+    "arc_id": {
+      "type": "string"
+    },
+    "book_id": {
+      "type": "string"
+    },
+    "source_manuscript_version": {
+      "type": "string"
+    },
+    "production_version": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string",
+      "enum": [
+        "PDF",
+        "EPUB",
+        "PRINT",
+        "OTHER"
+      ]
+    },
+    "watermark": {
+      "type": "boolean"
+    },
+    "not_for_resale": {
+      "type": "boolean"
+    },
+    "advance_copy_label": {
+      "type": "boolean"
+    },
+    "known_differences_from_final": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "review_required": {
+      "type": "boolean"
+    },
+    "review_incentive": {
+      "type": "boolean"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "approved": {
+      "type": "boolean"
+    },
+    "approved_by": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "arc_id",
+    "source_manuscript_version",
+    "format",
+    "review_required",
+    "approved"
+  ]
+}

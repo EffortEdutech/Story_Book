@@ -1,0 +1,12 @@
+{
+  "findings": [
+    {
+      "pilot_finding_id": "PF-001",
+      "severity": "MAJOR",
+      "release_blocking": true,
+      "status": "REMEDIATED",
+      "root_cause": "fixture root cause",
+      "regression_test": "tests/unit/test_phase10.py::test_findings_clean"
+    }
+  ]
+}

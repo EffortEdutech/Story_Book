@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "skill",
+    "status",
+    "primary_source",
+    "source_format",
+    "word_count",
+    "chapter_count_detected"
+  ],
+  "properties": {
+    "skill": {
+      "const": "NPUB-01"
+    },
+    "status": {
+      "enum": [
+        "complete",
+        "blocked",
+        "needs_decision"
+      ]
+    },
+    "working_title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "author": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "primary_source": {
+      "type": "string"
+    },
+    "source_format": {
+      "type": "string"
+    },
+    "word_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "chapter_count_detected": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "front_matter": {
+      "type": "array"
+    },
+    "back_matter": {
+      "type": "array"
+    },
+    "embedded_assets": {
+      "type": "array"
+    },
+    "warnings": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": true
+}

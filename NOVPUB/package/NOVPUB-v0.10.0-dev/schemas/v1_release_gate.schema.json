@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "title": "NOVPUB v1 Release Gate",
+  "properties": {
+    "requirements": {
+      "type": "object"
+    },
+    "gate_result": {
+      "enum": [
+        "PENDING",
+        "PASS",
+        "FAIL",
+        "CONDITIONAL"
+      ]
+    },
+    "professional_human_review": {
+      "enum": [
+        "PENDING",
+        "COMPLETE"
+      ]
+    },
+    "real_pilot_status": {
+      "enum": [
+        "PENDING",
+        "PASSED",
+        "FAILED",
+        "REMEDIATION_REQUIRED"
+      ]
+    },
+    "codex_certified": {
+      "type": "boolean"
+    },
+    "claude_certified": {
+      "type": "boolean"
+    },
+    "human_release_approval": {
+      "type": "boolean"
+    },
+    "approved_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "requirements",
+    "gate_result",
+    "professional_human_review",
+    "real_pilot_status",
+    "codex_certified",
+    "claude_certified",
+    "human_release_approval"
+  ]
+}

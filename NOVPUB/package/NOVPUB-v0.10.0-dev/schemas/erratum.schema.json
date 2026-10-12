@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Erratum",
+  "type": "object",
+  "properties": {
+    "erratum_id": {
+      "type": "string"
+    },
+    "edition_id": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "reported_text_or_issue": {
+      "type": "string"
+    },
+    "correct_text_or_resolution": {
+      "type": "string"
+    },
+    "severity": {
+      "type": "string",
+      "enum": [
+        "TYPOGRAPHIC_MINOR",
+        "MEANING_AFFECTING",
+        "CONTINUITY",
+        "FACTUAL",
+        "LAYOUT",
+        "MISSING_CONTENT",
+        "DUPLICATED_CONTENT",
+        "PRINT_DEFECT",
+        "COVER_DEFECT",
+        "METADATA",
+        "LEGAL"
+      ]
+    },
+    "source": {
+      "type": "string"
+    },
+    "verified": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "REPORTED",
+        "VERIFIED",
+        "APPROVED",
+        "CORRECTED",
+        "RELEASED",
+        "REJECTED"
+      ]
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "erratum_id",
+    "edition_id",
+    "severity",
+    "verified",
+    "status"
+  ]
+}

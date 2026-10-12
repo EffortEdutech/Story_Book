@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "phrase": "Malaysian historical fiction",
+      "dimension": "genre_setting",
+      "manuscript_basis": "setting and genre",
+      "relevance": 1.0,
+      "approved": true
+    },
+    {
+      "phrase": "family legacy novel",
+      "dimension": "theme",
+      "manuscript_basis": "central theme",
+      "relevance": 0.9,
+      "approved": true
+    }
+  ],
+  "channel_map": {
+    "kdp": [
+      "Malaysian historical fiction",
+      "family legacy novel"
+    ],
+    "ingram": [
+      "Malaysian historical fiction",
+      "family legacy novel"
+    ],
+    "website": [
+      "Malaysian historical fiction"
+    ]
+  },
+  "approved": true
+}

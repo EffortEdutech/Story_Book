@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "title": "NOVPUB Final Release Manifest",
+  "properties": {
+    "package": {
+      "const": "NOVPUB"
+    },
+    "version": {
+      "type": "string"
+    },
+    "pilot_project": {
+      "type": "string"
+    },
+    "release_status": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "package",
+    "version",
+    "pilot_project",
+    "release_status"
+  ]
+}

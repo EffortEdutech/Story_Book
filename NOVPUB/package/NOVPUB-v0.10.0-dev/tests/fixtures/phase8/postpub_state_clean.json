@@ -1,0 +1,16 @@
+{
+  "project_id": "P1",
+  "active_editions": [
+    "ED-K",
+    "ED-PB"
+  ],
+  "channel_status": {
+    "kdp": "VERIFIED",
+    "ingram": "VERIFIED"
+  },
+  "financial_status": "ACTIVE",
+  "compliance_status": "CONTROLLED",
+  "archive_status": "VERIFIED",
+  "gate_10": "PENDING",
+  "updated_at": "2026-10-10T00:00:00Z"
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "finding_id",
+    "location",
+    "type",
+    "severity",
+    "evidence",
+    "status"
+  ],
+  "properties": {
+    "finding_id": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "severity": {
+      "enum": [
+        "info",
+        "warning",
+        "major",
+        "blocking"
+      ]
+    },
+    "evidence": {
+      "type": "string"
+    },
+    "recommendation": {
+      "type": "string"
+    },
+    "requires_author_decision": {
+      "type": "boolean"
+    },
+    "status": {
+      "enum": [
+        "open",
+        "resolved",
+        "accepted",
+        "superseded"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

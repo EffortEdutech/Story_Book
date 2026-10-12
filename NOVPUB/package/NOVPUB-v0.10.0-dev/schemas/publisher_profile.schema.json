@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "publisher_id",
+    "legal_name",
+    "country",
+    "isbn_registrant_name",
+    "approved"
+  ],
+  "properties": {
+    "publisher_id": {
+      "type": "string"
+    },
+    "legal_name": {
+      "type": "string"
+    },
+    "trading_name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "country": {
+      "type": "string"
+    },
+    "publisher_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "address_source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "contact_source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "isbn_registrant_name": {
+      "type": "string"
+    },
+    "approved": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true
+}

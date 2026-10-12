@@ -1,0 +1,33 @@
+{
+  "pilot_id": "NOVPUB-PILOT-001",
+  "package_baseline": "NOVPUB v0.10.0-dev",
+  "target_release": "NOVPUB v1.0.0",
+  "status": "REAL_BASELINE_VALIDATED",
+  "title": "The Blue Silence",
+  "source_project_path": "01_The_Blue_Silence",
+  "current_manuscript_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_MANUSCRIPT_V1.0_Prologue_Chapter_1.docx",
+  "current_manuscript_status": "COMPLETE_CHAPTER_FILE_SET_VALIDATED",
+  "real_baseline_path": "workspace/01_SOURCE/the_blue_silence_real_baseline.json",
+  "real_baseline_sha256": "5193c06f1730c2312cd3e42e1407532d9f41b2af655b89537ea68b94258afc6d",
+  "evidence_policy": {
+    "real_manuscript_required": true,
+    "fixture_evidence_allowed_for_real_gates": false,
+    "simulated_evidence_allowed_for_real_gates": false,
+    "synthetic_evidence_allowed_for_real_gates": false,
+    "ai_may_execute_checks": true,
+    "ai_may_approve_release": false,
+    "ai_may_approve_physical_proof": false
+  },
+  "folders": {
+    "manifest": "manifest/",
+    "manuscript": "manuscript/",
+    "provenance": "provenance/",
+    "kdp": "kdp/",
+    "ingram": "ingram/",
+    "proofs": "proofs/",
+    "defects": "defects/",
+    "certification": "certification/",
+    "approvals": "approvals/"
+  }
+}
+

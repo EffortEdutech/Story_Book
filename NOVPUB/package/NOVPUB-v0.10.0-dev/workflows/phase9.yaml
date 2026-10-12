@@ -1,0 +1,24 @@
+phase: 9
+name: Validation, Fixtures, Adversarial Testing & Professional Review
+entry_state: PUBLICATION_GOVERNED
+required_gates:
+  - GATE-10
+skills:
+  - NPUB-77
+  - NPUB-78
+  - NPUB-79
+  - NPUB-80
+  - NPUB-81
+  - NPUB-82
+  - NPUB-83
+  - NPUB-84
+  - NPUB-85
+  - NPUB-86
+gates:
+  - GATE-NOVPUB-RC1
+exit_state: NOVPUB_V1_RC_APPROVED
+notes:
+  - Core feature expansion is frozen during Phase 9.
+  - Synthetic fixtures may validate the review machinery but may not impersonate a real professional reviewer.
+  - Any unresolved CRITICAL or release-blocking MAJOR finding blocks RC approval.
+  - Phase 10 remains the real-novel professional pilot before final v1.0.0 production release.

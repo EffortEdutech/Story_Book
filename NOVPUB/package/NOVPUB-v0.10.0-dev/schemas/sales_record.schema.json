@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sales Record",
+  "type": "object",
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "channel": {
+      "type": "string"
+    },
+    "edition_id": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string"
+    },
+    "territory": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 3
+    },
+    "period": {
+      "type": "string"
+    },
+    "units": {
+      "type": "number"
+    },
+    "gross_amount": {
+      "type": "number"
+    },
+    "returns": {
+      "type": "number"
+    },
+    "royalty_or_compensation": {
+      "type": "number"
+    },
+    "transaction_class": {
+      "type": "string",
+      "enum": [
+        "ORDER",
+        "SALE",
+        "SHIPMENT",
+        "RETURN",
+        "CANCELLED_ORDER",
+        "ROYALTY_ELIGIBLE",
+        "KU_READ",
+        "AUTHOR_COPY",
+        "PROOF_COPY",
+        "FREE_PROMOTION"
+      ]
+    },
+    "source_reference": {
+      "type": "string"
+    },
+    "source_hash": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "record_id",
+    "channel",
+    "edition_id",
+    "currency",
+    "period",
+    "units",
+    "transaction_class",
+    "source_reference"
+  ]
+}

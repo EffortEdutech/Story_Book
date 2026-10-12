@@ -1,0 +1,9 @@
+rule_set: INGRAM_COVER_TEMPLATE
+verified_at: 2026-10-10
+source: https://myaccount.ingramspark.com/Portal/Tools/CoverTemplateGenerator
+rules:
+  isbn_required: true
+  trim_required: true
+  book_type_required: true
+  regenerate_on_page_count_or_manufacturing_change: true
+  refresh_before_live_use: true

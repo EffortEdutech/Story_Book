@@ -1,0 +1,26 @@
+phase: 7
+name: Launch & Marketing Layer
+entry_state: WIDE_DISTRIBUTION_VERIFIED_OR_CHANNEL_READY
+required_gates:
+  - GATE-05
+  - GATE-06
+  - GATE-07
+  - GATE-08
+skills:
+  - NPUB-57
+  - NPUB-58
+  - NPUB-59
+  - NPUB-60
+  - NPUB-61
+  - NPUB-62
+  - NPUB-63
+  - NPUB-64
+  - NPUB-65
+  - NPUB-66
+gates:
+  - GATE-09
+exit_state: PUBLICLY_LAUNCHED
+notes:
+  - Soft-launch QA may precede the public campaign so live retailer data and links can be verified.
+  - ARC/reviewer activity must preserve reviewer independence and current Amazon Community Guidelines.
+  - Public marketing claims must be evidence-backed; rank is not sales volume and temporary rank does not automatically create a permanent bestseller claim.

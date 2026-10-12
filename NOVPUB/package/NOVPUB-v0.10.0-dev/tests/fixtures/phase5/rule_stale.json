@@ -1,0 +1,12 @@
+{
+  "snapshot_id": "KDP-2026-10-10",
+  "verified_at": "2026-01-01",
+  "sources": [
+    "https://kdp.amazon.com/en_US/help/"
+  ],
+  "rules": {
+    "keywords_max": 7,
+    "categories_max": 3
+  },
+  "refresh_before_live_use": true
+}

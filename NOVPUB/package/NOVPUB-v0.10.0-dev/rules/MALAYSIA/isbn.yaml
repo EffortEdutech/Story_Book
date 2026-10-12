@@ -1,0 +1,14 @@
+rule_id: MY-ISBN-BASELINE-2026-10-10
+authority: Perpustakaan Negara Malaysia
+live_refresh_required: true
+verified_at: 2026-10-10
+sources:
+  - https://www.pnm.gov.my/pnm/resources/UploadFile/Penerbit/PANDUAN_PERMOHONAN_PKP.pdf
+  - https://www.pnm.gov.my/pnm/resources/pdf%20file/panduan_sdk2021.pdf
+baseline:
+  service: ISBN/eISBN through PNM publisher services / Depository System
+  never_generate_identifier_locally: true
+  application_evidence_required: true
+notes:
+  - Current live application fields and documents must be refreshed before submission.
+  - Current Depository System instructions take precedence over legacy/manual guidance when verified.

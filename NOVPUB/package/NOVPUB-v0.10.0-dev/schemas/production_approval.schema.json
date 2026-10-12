@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Production Approval",
+  "type": "object",
+  "properties": {
+    "gate_05": {
+      "enum": [
+        "PENDING",
+        "PASS",
+        "FAIL",
+        "CONDITIONAL"
+      ]
+    },
+    "gate_06": {
+      "enum": [
+        "PENDING",
+        "PASS",
+        "FAIL",
+        "CONDITIONAL"
+      ]
+    },
+    "gate_08": {
+      "enum": [
+        "PENDING",
+        "PASS",
+        "FAIL",
+        "CONDITIONAL"
+      ]
+    },
+    "approved_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "approved_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "gate_05",
+    "gate_06",
+    "gate_08"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Adversarial Attack Catalog",
+  "type": "object",
+  "properties": {
+    "attacks": {
+      "type": "array",
+      "items": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "title": "attack",
+        "type": "object",
+        "properties": {
+          "attack_id": {
+            "type": "string"
+          },
+          "phase": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "category": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "expected_control": {
+            "type": "string"
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "CRITICAL",
+              "HIGH",
+              "MEDIUM",
+              "LOW"
+            ]
+          }
+        },
+        "required": [
+          "attack_id",
+          "category",
+          "description",
+          "expected_control",
+          "severity"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": [
+    "attacks"
+  ],
+  "additionalProperties": true
+}

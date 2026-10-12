@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Keyword Strategy",
+  "type": "object",
+  "properties": {
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "phrase": {
+            "type": "string"
+          },
+          "dimension": {
+            "type": "string"
+          },
+          "manuscript_basis": {
+            "type": "string"
+          },
+          "relevance": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "approved": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "phrase",
+          "manuscript_basis",
+          "approved"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 1
+    },
+    "channel_map": {
+      "type": "object",
+      "properties": {
+        "kdp": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "ingram": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "website": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [],
+      "additionalProperties": true
+    },
+    "approved": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "candidates",
+    "channel_map",
+    "approved"
+  ]
+}

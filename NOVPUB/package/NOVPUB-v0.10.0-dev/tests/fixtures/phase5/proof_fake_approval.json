@@ -1,0 +1,12 @@
+{
+  "proof_id": "KDP-PROOF-PB-001",
+  "edition_id": "ED-PB-001",
+  "format": "paperback",
+  "requested": true,
+  "quantity": 1,
+  "received": false,
+  "inspected": false,
+  "blocking_findings": [],
+  "approval": "PENDING",
+  "approved_by": ""
+}

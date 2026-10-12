@@ -1,0 +1,12 @@
+{
+  "fonts": [
+    {
+      "font_id": "BODY",
+      "family": "Mystery Font",
+      "license_status": "review_required",
+      "embedding_allowed": false,
+      "print_allowed": false,
+      "ebook_allowed": false
+    }
+  ]
+}

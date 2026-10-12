@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "assignment_id",
+    "isbn",
+    "edition_id",
+    "title",
+    "format",
+    "publisher",
+    "assigned_by",
+    "assigned_at",
+    "evidence",
+    "approval"
+  ],
+  "properties": {
+    "assignment_id": {
+      "type": "string"
+    },
+    "isbn": {
+      "type": "string"
+    },
+    "edition_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string"
+    },
+    "publisher": {
+      "type": "string"
+    },
+    "assigned_by": {
+      "type": "string"
+    },
+    "assigned_at": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "string"
+    },
+    "approval": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true
+}
