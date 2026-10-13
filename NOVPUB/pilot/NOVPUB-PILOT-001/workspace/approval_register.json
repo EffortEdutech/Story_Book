@@ -1,3 +1,26 @@
 {
-  "approvals": []
+  "approvals": [
+    {
+      "gate": "GATE-P10-01",
+      "decision": "PASS",
+      "approved_by": "eff",
+      "role": "Author / owner",
+      "date": "2026-10-13",
+      "scope": "Manuscript baseline set SHA-256 1cd2bbd65bad4b3caacd76514576860f52347c2ed81f85b08c0523828cb24400 at commit 7d962d7",
+      "evidence_type": "SIGNED_DECISION",
+      "evidence": "Owner instruction in session 2026-10-13 14:17 MYT: sign off and now PASS",
+      "ai_approver": false
+    },
+    {
+      "gate": "GATE-NOVPUB-RC1",
+      "decision": "PASS",
+      "approved_by": "eff",
+      "role": "Author / owner and release approver",
+      "date": "2026-10-13",
+      "scope": "Release candidate NOVPUB v1.0.0-RC1 (package v0.10.0-dev)",
+      "evidence_type": "SIGNED_DECISION",
+      "evidence": "Owner instruction in session 2026-10-13 14:17 MYT: sign off and now PASS",
+      "ai_approver": false
+    }
+  ]
 }

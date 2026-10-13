@@ -1,6 +1,6 @@
 # Gate: GATE-NOVPUB-RC1
 
-Status: `PENDING`
+Status: `PASS`
 
 ## Purpose
 
@@ -26,3 +26,12 @@ Release-candidate approval after real professional review and certification.
 - AI systems cannot be the human approver.
 - Approval must include reviewer name, role, date, scope, decision, and signature/approval evidence.
 
+## Sign-off
+
+- Decision: `PASS`
+- Reviewer: eff
+- Role: Author / owner and release approver
+- Date: 2026-10-13
+- Scope: release candidate `NOVPUB v1.0.0-RC1` (package `v0.10.0-dev`); record `NOVPUB/pilot/NOVPUB-PILOT-001/workspace/validation/12_RELEASE/release_candidate_current.json`
+- Approval evidence: owner instruction in session (see `approval_register.json`)
+- AI approver: none

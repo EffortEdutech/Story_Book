@@ -4,7 +4,7 @@
   "filename": "The Blue Silence manuscript chapter-file set",
   "format": "docx-set",
   "source_path": "01_The_Blue_Silence/Manuscript",
-  "sha256": "d0449e278f5c5b86759bf7b8fa9e3552498b03b6184feda66d086f881591d669",
+  "sha256": "1cd2bbd65bad4b3caacd76514576860f52347c2ed81f85b08c0523828cb24400",
   "sha256_method": "SHA-256 over ordered '<source_path> TAB <file_sha256>' records for all manuscript DOCX files",
   "authoritative_source": true,
   "completeness_checked": true,
@@ -12,7 +12,7 @@
   "human_confirmed_source": true,
   "confirmed_by": "eff",
   "evidence_type": "REAL_FILE",
-  "baseline_status": "REFROZEN_AFTER_AUDIT_FIXES_READY_FOR_GATE_P10_01",
+  "baseline_status": "FROZEN_FINAL_GATE_P10_01_SIGNED_OFF",
   "completeness_report": "01_SOURCE/the_blue_silence_manuscript_completeness.json",
   "file_count": 41,
   "files": [
@@ -25,8 +25,8 @@
     {
       "file_name": "THE_BLUE_SILENCE_Chapter_01_The_Retirement.docx",
       "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_01_The_Retirement.docx",
-      "size_bytes": 45869,
-      "sha256": "f81f7a7e9bc859b5f7015552fddc3ee542e04c87bdc1737cb1bb2befc3a52b13"
+      "size_bytes": 45870,
+      "sha256": "b3e47753b79215800345ac3303f431ae0e8950474ab3abbdc8cf224657b29764"
     },
     {
       "file_name": "THE_BLUE_SILENCE_Chapter_02_The_Boy_From_Merbau.docx",
@@ -98,7 +98,7 @@
       "file_name": "THE_BLUE_SILENCE_Chapter_13_ORION.docx",
       "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_13_ORION.docx",
       "size_bytes": 46060,
-      "sha256": "2249ad4f8d19bfedd1b3b58144678e1b4e117f3d19af979c574935ef4ce23810"
+      "sha256": "4e87d7c99692070b12dfc3cc2032a5edc3dd95952b87723a89f7936d42cc7d1f"
     },
     {
       "file_name": "THE_BLUE_SILENCE_Chapter_14_Aisyah.docx",
@@ -115,8 +115,8 @@
     {
       "file_name": "THE_BLUE_SILENCE_Chapter_16_Seven_Minutes.docx",
       "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_16_Seven_Minutes.docx",
-      "size_bytes": 43994,
-      "sha256": "1241fe5d1332122c55d3042a8d3591639244b7d076cfc61c004ca9139a9bb69d"
+      "size_bytes": 44099,
+      "sha256": "ea5c6867bd08641af9262fac7f3446aad674a376c2dc78992f09d617767b00f6"
     },
     {
       "file_name": "THE_BLUE_SILENCE_Chapter_17_The_Dead_Witness.docx",
@@ -224,7 +224,7 @@
       "file_name": "THE_BLUE_SILENCE_Chapter_34_The_Betrayal.docx",
       "source_path": "01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_Chapter_34_The_Betrayal.docx",
       "size_bytes": 43016,
-      "sha256": "5f6b742b652ea4262181b05053a1282661b378c5978236430b2e10bc8b37d4a8"
+      "sha256": "146517ff5413c44a51eda3a3b493ffcba3cd1a5ae147d10daa29d3d405d9b396"
     },
     {
       "file_name": "THE_BLUE_SILENCE_Chapter_35_The_List.docx",
@@ -264,9 +264,9 @@
     }
   ],
   "created_at": "2026-10-11T05:41:07.970Z",
-  "refrozen_at": "2026-10-13T04:50:00.000Z",
-  "frozen_from_commit": "f2e6626704db2c485e76ca3575c3ab109c6ad640",
-  "supersedes_sha256": "8e522a86af4321a6f7b88ab5529b92b47717573fb81fa24422b285ea9de20984",
-  "confirmation_basis": "Owner instructed 'go' on the re-freeze plan in session 2026-10-13 12:45 MYT after manuscript fixes were merged to main at f2e6626",
-  "changed_files_since_previous_baseline": 37
+  "refrozen_at": "2026-10-13T06:30:00.000Z",
+  "frozen_from_commit": "7d962d773e7d3af8fbf23e34376471fb9f8731b1",
+  "supersedes_sha256": "d0449e278f5c5b86759bf7b8fa9e3552498b03b6184feda66d086f881591d669",
+  "confirmation_basis": "Owner sign-off in session 2026-10-13 14:17 MYT (GATE-P10-01 and GATE-NOVPUB-RC1 signed off as PASS); manuscript final at 7d962d7",
+  "changed_files_since_previous_baseline": 4
 }

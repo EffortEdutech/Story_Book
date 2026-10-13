@@ -2,13 +2,13 @@
   "pilot_id": "NOVPUB-PILOT-001",
   "package_baseline": "NOVPUB v0.10.0-dev",
   "target_release": "NOVPUB v1.0.0",
-  "status": "REAL_BASELINE_VALIDATED",
+  "status": "REAL_BASELINE_FROZEN_GATE_P10_01_PASS",
   "title": "The Blue Silence",
   "source_project_path": "01_The_Blue_Silence",
   "current_manuscript_path": "01_The_Blue_Silence/Manuscript",
   "current_manuscript_status": "COMPLETE_CHAPTER_FILE_SET_VALIDATED",
   "real_baseline_path": "workspace/01_SOURCE/the_blue_silence_real_baseline.json",
-  "real_baseline_sha256": "d0449e278f5c5b86759bf7b8fa9e3552498b03b6184feda66d086f881591d669",
+  "real_baseline_sha256": "1cd2bbd65bad4b3caacd76514576860f52347c2ed81f85b08c0523828cb24400",
   "evidence_policy": {
     "real_manuscript_required": true,
     "fixture_evidence_allowed_for_real_gates": false,
@@ -30,4 +30,3 @@
     "approvals": "approvals/"
   }
 }
-

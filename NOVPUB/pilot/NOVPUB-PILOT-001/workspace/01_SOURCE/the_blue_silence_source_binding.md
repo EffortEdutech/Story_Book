@@ -16,20 +16,20 @@ Current manuscript set (41 chapter files, Prologue + Chapters 1-40):
 01_The_Blue_Silence/Manuscript/
 ```
 
-Baseline set SHA-256 (re-frozen from `f2e6626`):
+Baseline set SHA-256 (final freeze from `7d962d7`):
 
 ```text
-d0449e278f5c5b86759bf7b8fa9e3552498b03b6184feda66d086f881591d669
+1cd2bbd65bad4b3caacd76514576860f52347c2ed81f85b08c0523828cb24400
 ```
 
 Current baseline status:
 
 ```text
-PASS (re-frozen after audit fixes; see the_blue_silence_manuscript_freeze_record.md)
+PASS (final freeze, signed off; see the_blue_silence_manuscript_freeze_record.md)
 ```
 
 Note: the older single-file path `THE_BLUE_SILENCE_MANUSCRIPT_V1.0_Prologue_Chapter_1.docx` is no longer the manuscript source. The chapter-file set is.
 
 Next required action:
 
-Pass `GATE-P10-01` with human confirmation, then continue the real Phase 10 pilot evidence matrix.
+`GATE-P10-01` is signed off. Continue the real Phase 10 pilot evidence matrix (Phase 1-4 pilot, NPUB-89).
