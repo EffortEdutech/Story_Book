@@ -26,36 +26,53 @@
     },
     "GATE-03": {
       "name": "Rights Clearance",
-      "status": "PENDING",
+      "status": "CONDITIONAL",
       "evidence": [
         "../../../../../01_The_Blue_Silence/06_THE_BLUE_SILENCE_Fiction_Disclaimer_V1.0.docx",
         "01_SOURCE/the_blue_silence_real_baseline.json",
         "02_INTAKE/phase1_4_intake_2026-10-13.json"
       ],
       "human_required": true,
-      "approved_by": "",
-      "blocking_reason": "Evidence recorded: pen name Darya Malak, original work, no third-party material declared, legal name held offline. Waiting for explicit owner approval of GATE-03."
+      "approved_by": "eff",
+      "blocking_reason": "Trial-run pass only. Conditions must close before V1.",
+      "approved_on": "2026-10-13",
+      "trial_run": true,
+      "conditions": [
+        "Malaysian lawyer review of police portrayal (optional, recommended before V1)",
+        "Confirm no third-party material remains (owner declared none)"
+      ]
     },
     "GATE-04": {
       "name": "Publisher, Edition & ISBN Approval",
-      "status": "PENDING",
+      "status": "CONDITIONAL",
       "evidence": [
         "02_INTAKE/phase1_4_intake_2026-10-13.json",
         "03_PRODUCTION/copyright_page_draft.md"
       ],
       "human_required": true,
-      "approved_by": "",
-      "blocking_reason": "Company (NHL Global Solution), imprint (Darya Malak) and edition recorded. Still missing: ISBN assignment and a decision on who is printed as copyright holder."
+      "approved_by": "eff",
+      "blocking_reason": "Trial-run pass only. ISBNs are placeholders. Copyright holder decided: pen name.",
+      "approved_on": "2026-10-13",
+      "trial_run": true,
+      "conditions": [
+        "Obtain real ISBNs (paperback and ebook) and replace the placeholders on the copyright page",
+        "Confirm imprint / publisher details with the ISBN agency (PNM) if required",
+        "Confirm printed copyright holder (currently pen name Darya Malak)"
+      ]
     },
     "GATE-05": {
       "name": "Interior & Digital Production Approval",
       "status": "PENDING",
       "evidence": [
-        "02_INTAKE/phase1_4_intake_2026-10-13.json"
+        "02_INTAKE/phase1_4_intake_2026-10-13.json",
+        "04_BUILD_TRIAL/THE_BLUE_SILENCE_interior_5.5x8.5_TRIAL.pdf",
+        "04_BUILD_TRIAL/THE_BLUE_SILENCE_TRIAL.epub",
+        "04_BUILD_TRIAL/build_manifest.json",
+        "04_BUILD_TRIAL/preflight_report.md"
       ],
       "human_required": true,
       "approved_by": "",
-      "blocking_reason": "Specs recorded (5.5 x 8.5 in, cream, EPUB 3). Interior PDF, EPUB and preflight files are not built yet, and the Bismillah front-matter decision is open."
+      "blocking_reason": "Files built and automated preflight passed (see 04_BUILD_TRIAL/preflight_report.md). Waiting for the owner to review the proof and say approve GATE-05."
     },
     "GATE-06": {
       "name": "Cover Production Approval",
@@ -66,22 +83,31 @@
       ],
       "human_required": true,
       "approved_by": "",
-      "blocking_reason": "Cover brief drafted. No cover files, cover QA or owner approval yet. AI-assisted route needs disclosure on upload."
+      "blocking_reason": "No cover files yet. Cover brief drafted. AI-content rules check passed first by the owner (open condition). Needs cover art, cover QA and owner approval. Page count is known now (614), so the spine can be calculated."
     },
     "GATE-07": {
       "name": "Metadata & Commercial Approval",
-      "status": "PENDING",
+      "status": "CONDITIONAL",
       "evidence": [
         "02_INTAKE/phase1_4_intake_2026-10-13.json",
         "03_PRODUCTION/metadata_package_draft.json",
         "03_PRODUCTION/back_cover_blurb_draft.md"
       ],
       "human_required": true,
-      "approved_by": "",
-      "blocking_reason": "Title, categories, keywords, territories and blurb draft recorded. Prices and publication date are blank, and category codes are not yet verified against retailer lists."
+      "approved_by": "eff",
+      "blocking_reason": "Trial-run pass only. Prices, publication date and category codes still open.",
+      "approved_on": "2026-10-13",
+      "trial_run": true,
+      "conditions": [
+        "Set ebook and paperback prices and a publication date",
+        "Verify BISAC / retailer category codes against current KDP and IngramSpark lists",
+        "Check current KDP and IngramSpark AI-generated content disclosure rules before cover art is uploaded",
+        "Owner approves final blurb"
+      ]
     }
   },
-  "gate_result": "PENDING_REAL_EVIDENCE",
-  "summary": "GATE-02 passed by owner approval on 2026-10-13. GATE-03 to GATE-07 have intake evidence recorded and are waiting on the open items in the blocker register.",
-  "updated_at": "2026-10-13T07:00:00+08:00"
+  "gate_result": "TRIAL_RUN_PARTIAL",
+  "summary": "First trial run, not final. GATE-02 PASS. GATE-03, GATE-04, GATE-07 CONDITIONAL by owner instruction on 2026-10-13. GATE-05 built, awaiting owner review. GATE-06 not started. validate-phase1-4-pilot still fails by design.",
+  "updated_at": "2026-10-13T16:00:00+08:00",
+  "trial_run": true
 }

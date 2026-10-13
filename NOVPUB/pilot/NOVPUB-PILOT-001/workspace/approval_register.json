@@ -1,6 +1,28 @@
 {
   "approvals": [
     {
+      "gate": "GATE-P10-01",
+      "decision": "PASS",
+      "approved_by": "eff",
+      "role": "Author / owner",
+      "date": "2026-10-13",
+      "scope": "Manuscript baseline set SHA-256 1cd2bbd65bad4b3caacd76514576860f52347c2ed81f85b08c0523828cb24400 at commit 7d962d7",
+      "evidence_type": "SIGNED_DECISION",
+      "evidence": "Owner instruction in session 2026-10-13 14:17 MYT: sign off and now PASS",
+      "ai_approver": false
+    },
+    {
+      "gate": "GATE-NOVPUB-RC1",
+      "decision": "PASS",
+      "approved_by": "eff",
+      "role": "Author / owner and release approver",
+      "date": "2026-10-13",
+      "scope": "Release candidate NOVPUB v1.0.0-RC1 (package v0.10.0-dev)",
+      "evidence_type": "SIGNED_DECISION",
+      "evidence": "Owner instruction in session 2026-10-13 14:17 MYT: sign off and now PASS",
+      "ai_approver": false
+    },
+    {
       "gate": "GATE-02",
       "decision": "PASS",
       "approved_by": "eff",
@@ -9,6 +31,39 @@
       "scope": "Editorial approval of manuscript set 1cd2bbd65bad4b3caacd76514576860f52347c2ed81f85b08c0523828cb24400",
       "evidence_type": "SIGNED_DECISION",
       "evidence": "Intake form field manuscript_approved = yes (02_INTAKE/phase1_4_intake_2026-10-13.json)",
+      "ai_approver": false
+    },
+    {
+      "gate": "GATE-03",
+      "decision": "CONDITIONAL",
+      "approved_by": "eff",
+      "role": "Author / owner",
+      "date": "2026-10-13",
+      "scope": "Trial run only. Not a PASS. Conditions: Malaysian lawyer review of police portrayal (optional, recommended before V1); Confirm no third-party material remains (owner declared none)",
+      "evidence_type": "SIGNED_DECISION",
+      "evidence": "Owner instruction in session 2026-10-13: \"Treat this as a first trial run and not final.\" Items passed first: GATE-03, prices and publication date, imprint, cover AI rules, ISBNs left as placeholder.",
+      "ai_approver": false
+    },
+    {
+      "gate": "GATE-04",
+      "decision": "CONDITIONAL",
+      "approved_by": "eff",
+      "role": "Author / owner",
+      "date": "2026-10-13",
+      "scope": "Trial run only. Not a PASS. Conditions: Obtain real ISBNs (paperback and ebook) and replace the placeholders on the copyright page; Confirm imprint / publisher details with the ISBN agency (PNM) if required; Confirm printed copyright holder (currently pen name Darya Malak)",
+      "evidence_type": "SIGNED_DECISION",
+      "evidence": "Owner instruction in session 2026-10-13: \"Treat this as a first trial run and not final.\" Items passed first: GATE-03, prices and publication date, imprint, cover AI rules, ISBNs left as placeholder.",
+      "ai_approver": false
+    },
+    {
+      "gate": "GATE-07",
+      "decision": "CONDITIONAL",
+      "approved_by": "eff",
+      "role": "Author / owner",
+      "date": "2026-10-13",
+      "scope": "Trial run only. Not a PASS. Conditions: Set ebook and paperback prices and a publication date; Verify BISAC / retailer category codes against current KDP and IngramSpark lists; Check current KDP and IngramSpark AI-generated content disclosure rules before cover art is uploaded; Owner approves final blurb",
+      "evidence_type": "SIGNED_DECISION",
+      "evidence": "Owner instruction in session 2026-10-13: \"Treat this as a first trial run and not final.\" Items passed first: GATE-03, prices and publication date, imprint, cover AI rules, ISBNs left as placeholder.",
       "ai_approver": false
     }
   ]

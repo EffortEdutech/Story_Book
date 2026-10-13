@@ -1,0 +1,28 @@
+{
+  "pilot_id": "NOVPUB-PILOT-001",
+  "built_on": "2026-10-13",
+  "trial_build": true,
+  "ai_approver": false,
+  "source": {
+    "manuscript_set_sha256": "1cd2bbd65bad4b3caacd76514576860f52347c2ed81f85b08c0523828cb24400",
+    "frozen_from_commit": "7d962d7",
+    "file_count": 41,
+    "verified_by": "recomputed SHA-256 of all 41 docx files against the baseline before build"
+  },
+  "outputs": [
+    {
+      "file": "THE_BLUE_SILENCE_interior_5.5x8.5_TRIAL.pdf",
+      "sha256": "d6ab13af8992d615217e8b66ab915eaf058edfdad4f7e53070dc97daa64e0ecf",
+      "bytes": 993110,
+      "format": "PDF, 5.5 x 8.5 in, no bleed",
+      "pages": 614
+    },
+    {
+      "file": "THE_BLUE_SILENCE_TRIAL.epub",
+      "sha256": "826e1b952eb349e120e757b31a18fb81bc9b8909320206318dcd4ea2026724a0",
+      "bytes": 284953,
+      "format": "EPUB 3.3"
+    }
+  ],
+  "build_scripts": "build_scripts/ (parse.py -> model.py -> epub.py, pdf.py). Run parse.py on the Manuscript folder first. Needs python-docx, reportlab, pyphen, pypdf and Caladea fonts. The PDF embeds a creation date, so its hash changes on every rebuild."
+}

@@ -20,7 +20,7 @@
     "GATE-04": {
       "company": "NHL Global Solution",
       "imprint": "Darya Malak",
-      "copyright_holder": "Author (legal name)",
+      "copyright_holder": "Pen name (Darya Malak)",
       "copyright_year": 2026,
       "isbn_source": "Perpustakaan Negara Malaysia (PNM)",
       "isbn_assigned": false,
@@ -32,7 +32,7 @@
       "paper": "Cream",
       "file_builder": "Claude builds EPUB and print PDF from the frozen chapters",
       "ebook_format": "EPUB 3",
-      "front_matter": "Title page; copyright page; fiction disclaimer; contents. (Bismillah line to be confirmed, see open items)",
+      "front_matter": "Half title; title page; copyright page; fiction disclaimer; contents. No Bismillah, no dedication.",
       "dedication": null
     },
     "GATE-06": {
@@ -77,5 +77,16 @@
       "language_plan": "English first; Malay edition (working title DIAM YANG BIRU) as later backlist item (NPUB-75)"
     }
   },
-  "ai_approver": false
+  "ai_approver": false,
+  "trial_run_decisions": {
+    "received": "2026-10-13",
+    "statement": "Treat this as a first trial run and not final.",
+    "copyright_holder": "pen name",
+    "bismillah": "not needed",
+    "isbns": "leave as placeholder",
+    "prices_and_publication_date": "pass first",
+    "imprint": "pass first",
+    "cover_ai_rules": "pass first",
+    "GATE-03": "pass first"
+  }
 }

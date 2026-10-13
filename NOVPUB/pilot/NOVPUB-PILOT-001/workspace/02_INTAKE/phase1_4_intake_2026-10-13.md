@@ -63,3 +63,17 @@ Source: owner-completed intake form. Evidence type: `SIGNED_DECISION`. No AI app
 - Police-portrayal legal review: not yet done (optional, GATE-03).
 - Cover: AI-assisted art chosen. Check KDP and IngramSpark current AI-content rules and disclose on upload (GATE-06).
 - Imprint is the same as the pen name (Darya Malak). Fine, but confirm PNM accepts it as publisher name with NHL Global Solution as the company behind it (GATE-04).
+
+## Trial-run decisions (2026-10-13, same day, later message)
+
+Owner statement: "Treat this as a first trial run and not final."
+
+- Copyright holder: pen name (Darya Malak).
+- Bismillah: not needed. Removed from the front matter.
+- ISBNs: leave as placeholder.
+- Prices and publication date: pass first.
+- Imprint: pass first.
+- Cover (AI-content rules): pass first.
+- GATE-03: pass first.
+
+These are recorded as CONDITIONAL, not PASS. See `validation/13_PILOT/v1_conditions_to_close.md`.
