@@ -76,6 +76,17 @@
       "evidence_type": "SIGNED_DECISION",
       "evidence": "Owner message in session 2026-10-13: \"approve GATE-05; 614 pages at 5.5 x 8.5 in; i dont have EPUB\"",
       "ai_approver": false
+    },
+    {
+      "gate": "GATE-06",
+      "decision": "CONDITIONAL",
+      "approved_by": "eff",
+      "role": "Author / owner",
+      "date": "2026-10-13",
+      "scope": "Trial cover files (ebook cover and print wrap, built from CoverFront_v4.jpg) approved for the trial run. Not a PASS. Conditions: Cover art is AI-generated at low resolution (about 159 ppi at print size): upscale or regenerate before V1; Record the AI tool name and the exact prompt in 05_COVER_TRIAL/cover_provenance.md; verify current KDP and IngramSpark AI-disclosure rules before upload; Rebuild the wrap with the final ISBN barcode and the spine width from the KDP and IngramSpark calculators (1.535 in is owner-confirmed, not yet checked against a calculator); Check the ebook cover top edge for a faint seam, and the extinguisher labels at full size; Physical proof copy (GATE-08) to check printed colours",
+      "evidence_type": "SIGNED_DECISION",
+      "evidence": "Owner message in session 2026-10-13: \"cover approved\"",
+      "ai_approver": false
     }
   ]
 }
