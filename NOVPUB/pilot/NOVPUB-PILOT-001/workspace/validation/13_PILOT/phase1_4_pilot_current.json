@@ -83,14 +83,28 @@
     },
     "GATE-06": {
       "name": "Cover Production Approval",
-      "status": "PENDING",
+      "status": "CONDITIONAL",
       "evidence": [
         "02_INTAKE/phase1_4_intake_2026-10-13.json",
-        "03_PRODUCTION/cover_brief.md"
+        "03_PRODUCTION/cover_brief.md",
+        "03_PRODUCTION/cover_spec_draft.md",
+        "05_COVER_TRIAL/cover_provenance.md",
+        "05_COVER_TRIAL/cover_qa.md",
+        "05_COVER_TRIAL/THE_BLUE_SILENCE_ebook_cover_1600x2560_TRIAL.jpg",
+        "05_COVER_TRIAL/THE_BLUE_SILENCE_print_cover_wrap_TRIAL.pdf"
       ],
       "human_required": true,
-      "approved_by": "",
-      "blocking_reason": "No cover files yet. Cover brief drafted. AI-content rules check passed first by the owner (open condition). Needs cover art, cover QA and owner approval. Page count is known now (614), so the spine can be calculated."
+      "approved_by": "eff",
+      "blocking_reason": "Owner approved the trial cover files on 2026-10-13 (\"cover approved\"). Recorded CONDITIONAL, not PASS, because of the conditions listed.",
+      "approved_on": "2026-10-13",
+      "trial_run": true,
+      "conditions": [
+        "Cover art is AI-generated at low resolution (about 159 ppi at print size): upscale or regenerate before V1",
+        "Record the AI tool name and the exact prompt in 05_COVER_TRIAL/cover_provenance.md; verify current KDP and IngramSpark AI-disclosure rules before upload",
+        "Rebuild the wrap with the final ISBN barcode and the spine width from the KDP and IngramSpark calculators (1.535 in is owner-confirmed, not yet checked against a calculator)",
+        "Check the ebook cover top edge for a faint seam, and the extinguisher labels at full size",
+        "Physical proof copy (GATE-08) to check printed colours"
+      ]
     },
     "GATE-07": {
       "name": "Metadata & Commercial Approval",
@@ -115,6 +129,6 @@
   },
   "gate_result": "TRIAL_RUN_PARTIAL",
   "summary": "First trial run, not final. GATE-02 PASS. GATE-03, 04, 05, 07 CONDITIONAL by owner instruction on 2026-10-13. GATE-06 not started. validate-phase1-4-pilot still fails by design.",
-  "updated_at": "2026-10-13T16:00:00+08:00",
+  "updated_at": "2026-10-13T23:40:00+08:00",
   "trial_run": true
 }
