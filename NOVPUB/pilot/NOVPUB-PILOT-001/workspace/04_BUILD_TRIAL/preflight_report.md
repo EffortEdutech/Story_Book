@@ -1,6 +1,6 @@
 # Interior trial build: preflight report
 
-Date: 2026-10-13. Status: **BUILT, automated checks passed. Not approved.** GATE-05 stays PENDING until the owner reviews the proof.
+Date: 2026-10-13. Status: **BUILT, automated checks passed.** Owner approved the print PDF and the 614-page layout on 2026-10-13. GATE-05 is CONDITIONAL: the EPUB has not been read by a human yet.
 
 ## What was built
 
@@ -42,5 +42,5 @@ Date: 2026-10-13. Status: **BUILT, automated checks passed. Not approved.** GATE
 - No physical proof exists. GATE-08 is far off.
 - Margin rule: I used 0.80 in inside. KDP's published minimum for 501-700 pages is 0.75 in (from memory, verify on KDP's page).
 - Cream paper spine estimate: 614 pages x 0.0025 in = 1.535 in. Verify with the KDP cover calculator before making the cover.
-- Page count is high (614) because the book has many one-line paragraphs. It raises the print cost and spine width. Options: smaller type, or 6 x 9 in trim. This is an owner decision.
+- Page count is high (614) because the book has many one-line paragraphs. The owner accepted 614 pages at 5.5 x 8.5 in on 2026-10-13.
 - The "TRIAL BUILD" line is on the copyright page of both files and must be removed for V1.

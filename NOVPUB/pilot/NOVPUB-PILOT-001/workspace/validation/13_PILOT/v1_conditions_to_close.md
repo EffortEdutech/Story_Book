@@ -8,7 +8,7 @@ Created 2026-10-13. This is a first trial run, not final. GATE-NOVPUB-V1 stays P
 2. Prices and publication date. (GATE-07)
 3. Imprint line and publisher details, if the ISBN agency requires them. (GATE-04)
 4. Final printed copyright holder (currently the pen name). (GATE-04)
-5. Say "approve GATE-05" after reading the proof. (GATE-05)
+5. Read the EPUB in a reader app, then confirm GATE-05 PASS. (GATE-05; PDF and 614-page layout already approved)
 6. Approve the final blurb. (GATE-07)
 
 ## Checks nobody has done yet
