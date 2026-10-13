@@ -87,6 +87,8 @@
     "prices_and_publication_date": "pass first",
     "imprint": "pass first",
     "cover_ai_rules": "pass first",
-    "GATE-03": "pass first"
+    "GATE-03": "pass first",
+    "GATE-05": "approve (PDF); EPUB not reviewed, no EPUB reader",
+    "page_count_and_trim": "614 pages at 5.5 x 8.5 in accepted"
   }
 }

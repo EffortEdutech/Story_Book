@@ -77,3 +77,8 @@ Owner statement: "Treat this as a first trial run and not final."
 - GATE-03: pass first.
 
 These are recorded as CONDITIONAL, not PASS. See `validation/13_PILOT/v1_conditions_to_close.md`.
+
+## GATE-05 and page count (2026-10-13, later message)
+
+- Approve GATE-05. Recorded as CONDITIONAL because the owner has not read the EPUB.
+- 614 pages at 5.5 x 8.5 in: accepted.

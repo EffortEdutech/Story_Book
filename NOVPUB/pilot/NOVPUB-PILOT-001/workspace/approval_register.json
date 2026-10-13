@@ -65,6 +65,17 @@
       "evidence_type": "SIGNED_DECISION",
       "evidence": "Owner instruction in session 2026-10-13: \"Treat this as a first trial run and not final.\" Items passed first: GATE-03, prices and publication date, imprint, cover AI rules, ISBNs left as placeholder.",
       "ai_approver": false
+    },
+    {
+      "gate": "GATE-05",
+      "decision": "CONDITIONAL",
+      "approved_by": "eff",
+      "role": "Author / owner",
+      "date": "2026-10-13",
+      "scope": "Print PDF and layout (614 pages, 5.5 x 8.5 in) approved for the trial run. EPUB not reviewed: owner has no EPUB reader. Conditions: Human reading QA of the EPUB (owner has no EPUB reader yet; NOVPUB validator reports reading_qa PENDING); Remove the TRIAL BUILD line from both files and rebuild before V1; Re-check the interior after ISBNs are added to the copyright page",
+      "evidence_type": "SIGNED_DECISION",
+      "evidence": "Owner message in session 2026-10-13: \"approve GATE-05; 614 pages at 5.5 x 8.5 in; i dont have EPUB\"",
+      "ai_approver": false
     }
   ]
 }

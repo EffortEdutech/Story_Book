@@ -62,7 +62,7 @@
     },
     "GATE-05": {
       "name": "Interior & Digital Production Approval",
-      "status": "PENDING",
+      "status": "CONDITIONAL",
       "evidence": [
         "02_INTAKE/phase1_4_intake_2026-10-13.json",
         "04_BUILD_TRIAL/THE_BLUE_SILENCE_interior_5.5x8.5_TRIAL.pdf",
@@ -71,8 +71,15 @@
         "04_BUILD_TRIAL/preflight_report.md"
       ],
       "human_required": true,
-      "approved_by": "",
-      "blocking_reason": "Files built and automated preflight passed (see 04_BUILD_TRIAL/preflight_report.md). Waiting for the owner to review the proof and say approve GATE-05."
+      "approved_by": "eff",
+      "blocking_reason": "Owner approved the print PDF and the 614-page, 5.5 x 8.5 in layout on 2026-10-13. EPUB not yet read by a human, so recorded CONDITIONAL, not PASS.",
+      "approved_on": "2026-10-13",
+      "trial_run": true,
+      "conditions": [
+        "Human reading QA of the EPUB (owner has no EPUB reader yet; NOVPUB validator reports reading_qa PENDING)",
+        "Remove the TRIAL BUILD line from both files and rebuild before V1",
+        "Re-check the interior after ISBNs are added to the copyright page"
+      ]
     },
     "GATE-06": {
       "name": "Cover Production Approval",
@@ -107,7 +114,7 @@
     }
   },
   "gate_result": "TRIAL_RUN_PARTIAL",
-  "summary": "First trial run, not final. GATE-02 PASS. GATE-03, GATE-04, GATE-07 CONDITIONAL by owner instruction on 2026-10-13. GATE-05 built, awaiting owner review. GATE-06 not started. validate-phase1-4-pilot still fails by design.",
+  "summary": "First trial run, not final. GATE-02 PASS. GATE-03, 04, 05, 07 CONDITIONAL by owner instruction on 2026-10-13. GATE-06 not started. validate-phase1-4-pilot still fails by design.",
   "updated_at": "2026-10-13T16:00:00+08:00",
   "trial_run": true
 }
