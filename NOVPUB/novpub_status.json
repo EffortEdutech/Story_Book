@@ -18,7 +18,7 @@
       "allows_ai_as_approver": false
     },
     "GATE-P10-01": {
-      "status": "PENDING",
+      "status": "PASS",
       "requires_real_manuscript": true,
       "allows_fixture_evidence": false
     },
@@ -38,20 +38,23 @@
     "current_manuscript_path": "01_The_Blue_Silence/Manuscript",
     "real_manuscript_baseline": "PASS",
     "real_baseline_path": "NOVPUB/pilot/NOVPUB-PILOT-001/workspace/01_SOURCE/the_blue_silence_real_baseline.json",
-    "real_baseline_sha256": "d0449e278f5c5b86759bf7b8fa9e3552498b03b6184feda66d086f881591d669",
+    "real_baseline_sha256": "1cd2bbd65bad4b3caacd76514576860f52347c2ed81f85b08c0523828cb24400",
     "phase9_package_validation": "PASS",
     "phase9_tests": "27/27 PASS",
     "rc_gate_status": "PASS",
     "rc_approval_record": "NOVPUB/pilot/NOVPUB-PILOT-001/workspace/validation/12_RELEASE/release_candidate_current.json",
     "phase10_evidence_matrix": "PASS",
     "phase10_evidence_matrix_path": "NOVPUB/pilot/NOVPUB-PILOT-001/workspace/validation/13_PILOT/pilot_evidence_matrix.json",
-    "phase1_4_pilot_gates": "GATE-02 PASS; GATE-03..07 PENDING_REAL_EVIDENCE",
+    "phase1_4_pilot_gates": "GATE-02 PASS; GATE-03, GATE-04, GATE-07 CONDITIONAL (trial run); GATE-05 PENDING (built, awaiting owner proof review); GATE-06 PENDING",
     "phase1_4_pilot_record": "NOVPUB/pilot/NOVPUB-PILOT-001/workspace/validation/13_PILOT/phase1_4_pilot_current.json",
     "manuscript_completeness_report": "NOVPUB/pilot/NOVPUB-PILOT-001/workspace/01_SOURCE/the_blue_silence_manuscript_completeness.json",
     "physical_proof_approval": "NOT_STARTED",
     "codex_real_pilot_run": "NOT_STARTED",
     "claude_real_pilot_run": "NOT_STARTED",
     "final_human_approval": "NOT_STARTED",
-    "phase1_4_intake": "RECEIVED 2026-10-13"
+    "frozen_from_commit": "7d962d773e7d3af8fbf23e34376471fb9f8731b1",
+    "phase1_4_intake": "RECEIVED 2026-10-13",
+    "trial_run": "FIRST TRIAL RUN, NOT FINAL. GATE-NOVPUB-V1 stays PENDING until conditions in validation/13_PILOT/v1_conditions_to_close.md are closed.",
+    "interior_trial_build": "BUILT 2026-10-13 (EPUB 3 + 5.5x8.5in print PDF), see workspace/04_BUILD_TRIAL/"
   }
 }
