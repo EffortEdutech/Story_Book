@@ -10,23 +10,26 @@ Current source folder:
 01_The_Blue_Silence/
 ```
 
-Current manuscript file:
+Current manuscript set (41 chapter files, Prologue + Chapters 1-40):
 
 ```text
-01_The_Blue_Silence/Manuscript/THE_BLUE_SILENCE_MANUSCRIPT_V1.0_Prologue_Chapter_1.docx
+01_The_Blue_Silence/Manuscript/
+```
+
+Baseline set SHA-256 (re-frozen from `f2e6626`):
+
+```text
+d0449e278f5c5b86759bf7b8fa9e3552498b03b6184feda66d086f881591d669
 ```
 
 Current baseline status:
 
 ```text
-PASS
+PASS (re-frozen after audit fixes; see the_blue_silence_manuscript_freeze_record.md)
 ```
 
-Reason:
-
-The registered manuscript folder now covers chapters `1` through `40`. The real baseline file `the_blue_silence_real_baseline.json` passes NOVPUB `validate-real-baseline`.
+Note: the older single-file path `THE_BLUE_SILENCE_MANUSCRIPT_V1.0_Prologue_Chapter_1.docx` is no longer the manuscript source. The chapter-file set is.
 
 Next required action:
 
-Proceed to Phase 9 professional review / `GATE-NOVPUB-RC1`, then continue the real Phase 10 pilot evidence matrix.
-
+Pass `GATE-P10-01` with human confirmation, then continue the real Phase 10 pilot evidence matrix.
