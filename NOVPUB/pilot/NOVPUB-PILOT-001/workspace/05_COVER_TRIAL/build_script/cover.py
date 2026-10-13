@@ -1,6 +1,6 @@
 import numpy as np
 from PIL import Image,ImageDraw,ImageFont,ImageFilter
-SRC='/mnt/user-data/uploads/01_The_Blue_Silence/Publish/CoverFront_v3.jpg'
+SRC='/mnt/user-data/uploads/01_The_Blue_Silence/Publish/CoverFront_v4.jpg'
 TITLE=['THE BLUE','SILENCE']; AUTHOR='DARYA MALAK'
 TAG1='Everyone knows the police protect the law.'; TAG2='Nobody asks who protects the police from themselves.'
 BLURB=["For thirty-five years, Dato’ Rahman Aziz has believed that criminals are the enemy and that an honest man is enough to make the truth win.",
@@ -12,6 +12,25 @@ SANSR='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf'
 SERIF='/usr/share/fonts/truetype/crosextra/Caladea-Regular.ttf'; SERIFI='/usr/share/fonts/truetype/crosextra/Caladea-Italic.ttf'
 ICE=(232,241,248)
 src=Image.open(SRC).convert('RGB')
+def _extend(im,ratio=1.6,top_share=0.56):
+    """v4 is 3:4. Add dark ceiling above and dark floor below (mirrored, blurred, faded) to reach ratio."""
+    w,h=im.size; H=int(round(w*ratio)); extra=H-h
+    if extra<=0: return im
+    t=int(extra*top_share); b=extra-t
+    a=np.asarray(im).astype(np.float32)
+    top=a[:t][::-1]; bot=a[h-b:][::-1]
+    def soft(x,fade_from_edge_first):
+        y=Image.fromarray(np.clip(x,0,255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(14))
+        y=np.asarray(y).astype(np.float32); n=len(y)
+        f=np.linspace(1.0,0.45,n) if fade_from_edge_first else np.linspace(0.45,1.0,n)
+        return y*f[:,None,None]
+    top=soft(top,True)[::-1][::-1] if False else soft(top,True)
+    bot=soft(bot,True)
+    # top block: row 0 is the outermost; make it darkest -> fade measured from image edge
+    top=top[::-1]*1.0
+    out=np.concatenate([top,a,bot],axis=0)
+    return Image.fromarray(np.clip(out,0,255).astype(np.uint8))
+src=_extend(src)
 def cover_art(w,h):
     """crop src to w:h ratio (centered) then upscale"""
     sw,sh=src.size; r=w/h

@@ -95,7 +95,7 @@
       ],
       "human_required": true,
       "approved_by": "",
-      "blocking_reason": "Trial covers built (ebook and print wrap). Not approved. Open: spine width unverified, low source resolution, AI tool and prompt not recorded, barcode and ISBNs missing, owner approval."
+      "blocking_reason": "Trial covers rebuilt from v4. Not approved. Open: low source resolution (about 159 ppi), AI tool and prompt not recorded, barcode and ISBNs missing, owner approval of the cover files."
     },
     "GATE-07": {
       "name": "Metadata & Commercial Approval",
@@ -120,6 +120,6 @@
   },
   "gate_result": "TRIAL_RUN_PARTIAL",
   "summary": "First trial run, not final. GATE-02 PASS. GATE-03, 04, 05, 07 CONDITIONAL by owner instruction on 2026-10-13. GATE-06 not started. validate-phase1-4-pilot still fails by design.",
-  "updated_at": "2026-10-13T23:00:00+08:00",
+  "updated_at": "2026-10-13T23:30:00+08:00",
   "trial_run": true
 }
