@@ -86,11 +86,16 @@
       "status": "PENDING",
       "evidence": [
         "02_INTAKE/phase1_4_intake_2026-10-13.json",
-        "03_PRODUCTION/cover_brief.md"
+        "03_PRODUCTION/cover_brief.md",
+        "03_PRODUCTION/cover_spec_draft.md",
+        "05_COVER_TRIAL/cover_provenance.md",
+        "05_COVER_TRIAL/cover_qa.md",
+        "05_COVER_TRIAL/THE_BLUE_SILENCE_ebook_cover_1600x2560_TRIAL.jpg",
+        "05_COVER_TRIAL/THE_BLUE_SILENCE_print_cover_wrap_TRIAL.pdf"
       ],
       "human_required": true,
       "approved_by": "",
-      "blocking_reason": "No cover files yet. Cover brief drafted. AI-content rules check passed first by the owner (open condition). Needs cover art, cover QA and owner approval. Page count is known now (614), so the spine can be calculated."
+      "blocking_reason": "Trial covers built (ebook and print wrap). Not approved. Open: spine width unverified, low source resolution, AI tool and prompt not recorded, barcode and ISBNs missing, owner approval."
     },
     "GATE-07": {
       "name": "Metadata & Commercial Approval",
@@ -115,6 +120,6 @@
   },
   "gate_result": "TRIAL_RUN_PARTIAL",
   "summary": "First trial run, not final. GATE-02 PASS. GATE-03, 04, 05, 07 CONDITIONAL by owner instruction on 2026-10-13. GATE-06 not started. validate-phase1-4-pilot still fails by design.",
-  "updated_at": "2026-10-13T16:00:00+08:00",
+  "updated_at": "2026-10-13T23:00:00+08:00",
   "trial_run": true
 }
