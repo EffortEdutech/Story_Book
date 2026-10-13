@@ -1,0 +1,48 @@
+{
+  "title": "The Blue Silence",
+  "subtitle": "A Novel",
+  "author": "Darya Malak",
+  "imprint": "Darya Malak",
+  "publisher_company": "NHL Global Solution",
+  "language": "English",
+  "edition": "First edition",
+  "series": null,
+  "categories": [
+    "Fiction / Thrillers / Crime",
+    "Fiction / Mystery & Detective / Police Procedural",
+    "Fiction / Thrillers / Suspense"
+  ],
+  "category_codes": "TO VERIFY against KDP and IngramSpark lists",
+  "keywords": [
+    "Malaysian crime thriller",
+    "police corruption novel",
+    "Southeast Asia thriller",
+    "internal affairs investigation",
+    "conspiracy thriller",
+    "Malaysia police fiction",
+    "institutional corruption"
+  ],
+  "territories": "Worldwide",
+  "audience": "Adult",
+  "formats": [
+    "EPUB 3",
+    "Paperback 5.5 x 8.5 in, cream"
+  ],
+  "channels": [
+    "Amazon KDP",
+    "IngramSpark"
+  ],
+  "price_ebook_usd": null,
+  "price_paperback_usd": null,
+  "publication_date": null,
+  "preorder": false,
+  "isbn": {
+    "ebook": null,
+    "paperback_kdp": null,
+    "paperback_ingram": null,
+    "note": "One ISBN per format and per edition. Do not reuse a platform-supplied ISBN across channels."
+  },
+  "ai_content_disclosure": "Cover art AI-assisted; disclose per platform rules",
+  "description_draft": "03_PRODUCTION/back_cover_blurb_draft.md",
+  "status": "DRAFT"
+}

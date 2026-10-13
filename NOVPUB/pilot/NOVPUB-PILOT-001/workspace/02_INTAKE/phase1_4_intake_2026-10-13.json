@@ -1,0 +1,81 @@
+{
+  "pilot_id": "NOVPUB-PILOT-001",
+  "title": "The Blue Silence",
+  "received": "2026-10-13",
+  "source": "Owner-completed intake form, pasted in session",
+  "evidence_type": "SIGNED_DECISION",
+  "manuscript_set_sha256": "1cd2bbd65bad4b3caacd76514576860f52347c2ed81f85b08c0523828cb24400",
+  "frozen_from_commit": "7d962d7",
+  "answers": {
+    "GATE-02": {
+      "manuscript_approved": true,
+      "editors": null
+    },
+    "GATE-03": {
+      "pen_name": "Darya Malak",
+      "legal_name_kept_off_repo": true,
+      "third_party_material": "none declared",
+      "police_portrayal_review": "Not yet reviewed"
+    },
+    "GATE-04": {
+      "company": "NHL Global Solution",
+      "imprint": "Darya Malak",
+      "copyright_holder": "Author (legal name)",
+      "copyright_year": 2026,
+      "isbn_source": "Perpustakaan Negara Malaysia (PNM)",
+      "isbn_assigned": false,
+      "isbns": null,
+      "edition": "First edition, English"
+    },
+    "GATE-05": {
+      "trim": "5.5 x 8.5 in",
+      "paper": "Cream",
+      "file_builder": "Claude builds EPUB and print PDF from the frozen chapters",
+      "ebook_format": "EPUB 3",
+      "front_matter": "Title page; copyright page; fiction disclaimer; contents. (Bismillah line to be confirmed, see open items)",
+      "dedication": null
+    },
+    "GATE-06": {
+      "cover_route": "AI-assisted art, disclosed on upload",
+      "tagline": "Everyone knows the police protect the law. Nobody asks who protects the police from themselves.",
+      "cover_idea": "Deep blue palette. One institutional corridor or building, no gun, no blood. Large title, pen name small. Reads as a Malaysian crime thriller at thumbnail size.",
+      "blurb": "Claude drafts, author approves"
+    },
+    "GATE-07": {
+      "title": "The Blue Silence",
+      "subtitle": "A Novel",
+      "categories": [
+        "Fiction / Thrillers / Crime",
+        "Fiction / Mystery & Detective / Police Procedural",
+        "Fiction / Thrillers / Suspense"
+      ],
+      "keywords": [
+        "Malaysian crime thriller",
+        "police corruption novel",
+        "Southeast Asia thriller",
+        "internal affairs investigation",
+        "conspiracy thriller",
+        "Malaysia police fiction",
+        "institutional corruption"
+      ],
+      "ebook_price_usd": null,
+      "paperback_price_usd": null,
+      "territories": "Worldwide",
+      "publication_date": null,
+      "audience": "Adult",
+      "preorder": "No pre-order"
+    },
+    "scope": {
+      "channels": [
+        "Amazon KDP",
+        "IngramSpark"
+      ],
+      "formats": [
+        "ebook (EPUB 3)",
+        "paperback"
+      ],
+      "language_plan": "English first; Malay edition (working title DIAM YANG BIRU) as later backlist item (NPUB-75)"
+    }
+  },
+  "ai_approver": false
+}

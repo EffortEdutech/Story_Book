@@ -6,7 +6,7 @@
   "gates": {
     "GATE-02": {
       "name": "Editorial Approval",
-      "status": "PENDING",
+      "status": "PASS",
       "evidence": [
         "01_SOURCE/the_blue_silence_real_baseline.json",
         "01_SOURCE/the_blue_silence_source_inventory.json",
@@ -15,57 +15,73 @@
         "../../../../../01_The_Blue_Silence/02_THE_BLUE_SILENCE_Character_Bible_V1.0.docx",
         "../../../../../01_The_Blue_Silence/03_THE_BLUE_SILENCE_World_and_Police_Criminal_Ecosystem_Bible_V1.0.docx",
         "../../../../../01_The_Blue_Silence/04_THE_BLUE_SILENCE_Master_Timeline_and_Hidden_Conspiracy_Bible_V1.0.docx",
-        "../../../../../01_The_Blue_Silence/05_THE_BLUE_SILENCE_40_Chapter_Detailed_Story_Treatment_V1.0.docx"
+        "../../../../../01_The_Blue_Silence/05_THE_BLUE_SILENCE_40_Chapter_Detailed_Story_Treatment_V1.0.docx",
+        "02_INTAKE/phase1_4_intake_2026-10-13.json",
+        "01_SOURCE/the_blue_silence_manuscript_freeze_record.json"
       ],
       "human_required": true,
-      "approved_by": "",
-      "blocking_reason": "Full editorial approval has not yet been explicitly given for the completed manuscript baseline."
+      "approved_by": "eff",
+      "blocking_reason": "",
+      "approved_on": "2026-10-13"
     },
     "GATE-03": {
       "name": "Rights Clearance",
       "status": "PENDING",
       "evidence": [
         "../../../../../01_The_Blue_Silence/06_THE_BLUE_SILENCE_Fiction_Disclaimer_V1.0.docx",
-        "01_SOURCE/the_blue_silence_real_baseline.json"
+        "01_SOURCE/the_blue_silence_real_baseline.json",
+        "02_INTAKE/phase1_4_intake_2026-10-13.json"
       ],
       "human_required": true,
       "approved_by": "",
-      "blocking_reason": "Rights/ownership, third-party content, permissions, author identity, and publication identity audit evidence has not yet been completed."
+      "blocking_reason": "Evidence recorded: pen name Darya Malak, original work, no third-party material declared, legal name held offline. Waiting for explicit owner approval of GATE-03."
     },
     "GATE-04": {
       "name": "Publisher, Edition & ISBN Approval",
       "status": "PENDING",
-      "evidence": [],
+      "evidence": [
+        "02_INTAKE/phase1_4_intake_2026-10-13.json",
+        "03_PRODUCTION/copyright_page_draft.md"
+      ],
       "human_required": true,
       "approved_by": "",
-      "blocking_reason": "No ISBN assignment, edition architecture approval, imprint/publisher profile, copyright-page data, or Malaysia PNM publication identity evidence found."
+      "blocking_reason": "Company (NHL Global Solution), imprint (Darya Malak) and edition recorded. Still missing: ISBN assignment and a decision on who is printed as copyright holder."
     },
     "GATE-05": {
       "name": "Interior & Digital Production Approval",
       "status": "PENDING",
-      "evidence": [],
+      "evidence": [
+        "02_INTAKE/phase1_4_intake_2026-10-13.json"
+      ],
       "human_required": true,
       "approved_by": "",
-      "blocking_reason": "No trim, typography, typeset interior, PDF preflight, EPUB validation, or production approval evidence found."
+      "blocking_reason": "Specs recorded (5.5 x 8.5 in, cream, EPUB 3). Interior PDF, EPUB and preflight files are not built yet, and the Bismillah front-matter decision is open."
     },
     "GATE-06": {
       "name": "Cover Production Approval",
       "status": "PENDING",
-      "evidence": [],
+      "evidence": [
+        "02_INTAKE/phase1_4_intake_2026-10-13.json",
+        "03_PRODUCTION/cover_brief.md"
+      ],
       "human_required": true,
       "approved_by": "",
-      "blocking_reason": "No cover brief, cover specification, cover files, cover QA, or human cover approval evidence found."
+      "blocking_reason": "Cover brief drafted. No cover files, cover QA or owner approval yet. AI-assisted route needs disclosure on upload."
     },
     "GATE-07": {
       "name": "Metadata & Commercial Approval",
       "status": "PENDING",
-      "evidence": [],
+      "evidence": [
+        "02_INTAKE/phase1_4_intake_2026-10-13.json",
+        "03_PRODUCTION/metadata_package_draft.json",
+        "03_PRODUCTION/back_cover_blurb_draft.md"
+      ],
       "human_required": true,
       "approved_by": "",
-      "blocking_reason": "No commercial metadata package, positioning, category/classification, keywords, descriptions, pricing, territories, or channel metadata maps found."
+      "blocking_reason": "Title, categories, keywords, territories and blurb draft recorded. Prices and publication date are blank, and category codes are not yet verified against retailer lists."
     }
   },
   "gate_result": "PENDING_REAL_EVIDENCE",
-  "summary": "Phase 1-4 pilot record created from current project evidence. GATE-02 has manuscript/development evidence available for review; GATE-03 through GATE-07 require additional real rights, ISBN, production, cover, and metadata artifacts before passing."
+  "summary": "GATE-02 passed by owner approval on 2026-10-13. GATE-03 to GATE-07 have intake evidence recorded and are waiting on the open items in the blocker register.",
+  "updated_at": "2026-10-13T07:00:00+08:00"
 }
-
