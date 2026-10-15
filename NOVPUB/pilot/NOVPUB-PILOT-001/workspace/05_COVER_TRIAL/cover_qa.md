@@ -13,8 +13,8 @@ Status: **BUILT. Not approved.** GATE-06 stays PENDING until the owner approves 
 ## Open problems (do not approve until these are settled)
 
 1. **Spine width 1.535 in:** confirmed by the owner on 2026-10-13. Re-check on the KDP calculator and IngramSpark template before V1.
-2. **Low source resolution:** the v4 art is 896 px wide across a 5.625 in front, about 159 ppi. KDP and IngramSpark may warn about low resolution. The owner chose to keep it for the trial. For V1, upscale with a proper AI upscaler or regenerate at 1650 x 2550 px or larger.
-2b. **Extended ceiling and floor:** v4 is 3:4, so about 20% of the height is synthetic dark extension (mirrored and blurred). A faint seam can be seen in the ebook cover near the top. Check it.
+2. **Low source resolution:** the source art is 1006 px wide across a 5.625 in front, about 179 ppi. KDP and IngramSpark may warn about low resolution. The owner chose to keep it for the trial. For V1, upscale with a proper AI upscaler or regenerate at 1650 x 2550 px or larger.
+2b. **No synthetic extension** is used any more: the new art already has the print-front shape. The earlier faint seam is gone.
 2c. **Author name on the front** crosses the first ceiling light. It is readable but busy. Move it if you prefer.
 3. **Barcode:** the white box is a placeholder. KDP can add its own barcode. IngramSpark needs the ISBN barcode.
 4. **ISBNs missing:** the copyright page still has placeholders.

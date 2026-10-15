@@ -99,7 +99,7 @@
       "approved_on": "2026-10-13",
       "trial_run": true,
       "conditions": [
-        "Cover art is AI-generated at low resolution (about 159 ppi at print size): upscale or regenerate before V1",
+        "Cover art is AI-generated at low resolution (1006 px wide, about 179 ppi at print size): upscale or regenerate to about 1688 x 2625 px before V1",
         "Record the AI tool name and the exact prompt in 05_COVER_TRIAL/cover_provenance.md; verify current KDP and IngramSpark AI-disclosure rules before upload",
         "Rebuild the wrap with the final ISBN barcode and the spine width from the KDP and IngramSpark calculators (1.535 in is owner-confirmed, not yet checked against a calculator)",
         "Check the ebook cover top edge for a faint seam, and the extinguisher labels at full size",
@@ -129,6 +129,6 @@
   },
   "gate_result": "TRIAL_RUN_PARTIAL",
   "summary": "First trial run, not final. GATE-02 PASS. GATE-03, 04, 05, 07 CONDITIONAL by owner instruction on 2026-10-13. GATE-06 not started. validate-phase1-4-pilot still fails by design.",
-  "updated_at": "2026-10-13T23:40:00+08:00",
+  "updated_at": "2026-10-15T16:30:00+08:00",
   "trial_run": true
 }

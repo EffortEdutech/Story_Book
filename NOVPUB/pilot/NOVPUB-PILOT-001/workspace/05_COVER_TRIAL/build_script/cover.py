@@ -1,6 +1,6 @@
 import numpy as np
 from PIL import Image,ImageDraw,ImageFont,ImageFilter
-SRC='/mnt/user-data/uploads/01_The_Blue_Silence/Publish/CoverFront_v4.jpg'
+SRC='/mnt/user-data/uploads/01_The_Blue_Silence/Publish/CoverFront_300DPI_v2.png'
 TITLE=['THE BLUE','SILENCE']; AUTHOR='DARYA MALAK'
 TAG1='Everyone knows the police protect the law.'; TAG2='Nobody asks who protects the police from themselves.'
 BLURB=["For thirty-five years, Dato’ Rahman Aziz has believed that criminals are the enemy and that an honest man is enough to make the truth win.",
@@ -30,7 +30,7 @@ def _extend(im,ratio=1.6,top_share=0.56):
     top=top[::-1]*1.0
     out=np.concatenate([top,a,bot],axis=0)
     return Image.fromarray(np.clip(out,0,255).astype(np.uint8))
-src=_extend(src)
+# v2 is already 1.5547 (front panel shape); no synthetic extension needed
 def cover_art(w,h):
     """crop src to w:h ratio (centered) then upscale"""
     sw,sh=src.size; r=w/h
